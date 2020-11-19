@@ -20,4 +20,12 @@ background-color:#F2F2F2;
 nav { 
     text-decoration: overline;
 }
-.footer 
+.footercolumn
+{
+    column-count: 3;
+}
+
+.footercolumn
+{
+    background-color: #F2F2F2;
+}
