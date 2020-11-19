@@ -1,7 +1,23 @@
- section, article {
+
+html { 
+
+    font-family: raleway;
+}
+
+ .hebergementmarseille
+  {
 background-color:#F2F2F2;
 
 }
+
+.lespluspopulaires 
+{
+    background-color:#F2F2F2;
+    
+    }
+
+
 nav { 
     text-decoration: overline;
 }
+.footer 
