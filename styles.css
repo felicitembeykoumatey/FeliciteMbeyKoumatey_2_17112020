@@ -41,12 +41,11 @@ nav {
 .trouvezvotrehebergementdereve{
     font-weight: bold;
 } 
-.search {
-    color : blue; 
+.search{
+   background-color: #0065FC; 
 } 
 
 .search{
     border-radius: 50px;
-    height: 50px;
-    width: 50px;
-} 
+    padding: 30px 20px 20px ;
+}
