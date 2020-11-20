@@ -30,13 +30,12 @@ nav {
 
 }
 
-.footercolum {
+.maintitle{
     font-weight: bold;
 
 } 
-.trouvezvotrehebergementdereve{
-    font-weight: bold;
 
-}    
- .fasfa-child { color : blue; font-size: 30px; } 
-}  
+} 
+.bluestar {
+    color : blue; 
+} 
