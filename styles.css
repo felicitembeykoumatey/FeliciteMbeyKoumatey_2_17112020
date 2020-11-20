@@ -26,7 +26,7 @@ nav {
 }
 
 .footercolumn{ 
-    column-count 3 ;
+    column-count 3;
 
 }
 
@@ -37,4 +37,6 @@ nav {
 .trouvezvotrehebergementdereve{
     font-weight: bold;
 
-} 
+}    
+ .fasfa-child { color : blue; font-size: 30px; } 
+}  
