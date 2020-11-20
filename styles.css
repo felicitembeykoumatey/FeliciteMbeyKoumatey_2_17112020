@@ -21,20 +21,25 @@ nav {
     text-decoration: overline;
 
 }
-{
-    background-color: #F2F2F2;
-}
 
 .footercolumn{ 
     column-count 3;
 
 }
 
-.maintitle{
+   
+.element1{
+
     font-weight: bold;
 
 } 
+  .element2{
 
+    font-weight: bold;
+
+} 
+.trouvezvotrehebergementdereve{
+    font-weight: bold;
 } 
 .bluestar {
     color : blue; 
