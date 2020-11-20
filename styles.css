@@ -19,13 +19,22 @@ background-color:#F2F2F2;
 
 nav { 
     text-decoration: overline;
-}
-.footercolumn
-{
-    column-count: 3;
-}
 
-.footercolumn
+}
 {
     background-color: #F2F2F2;
 }
+
+.footercolumn{ 
+    column-count 3 ;
+
+}
+
+.footercolum {
+    font-weight: bold;
+
+} 
+.trouvezvotrehebergementdereve{
+    font-weight: bold;
+
+} 

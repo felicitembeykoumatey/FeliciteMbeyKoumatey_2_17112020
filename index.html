@@ -12,8 +12,11 @@
 
  <body>
         <header>
-        <img src="img/logo/Reservia.SVG" alt="Reservia"/>   
-                                                  <nav>
+      <section class="containerheader"> 
+             <article id="logo">
+               <img src="img/logo/Reservia.SVG" alt="Reservia">   
+             </article>
+                                                  <nav class="headernav">
                                                           <ul>
                                                                  <li><a href="#">Hébergements</a></li>
                                                                  <li><a href="#">Activités</a></li> 
@@ -21,29 +24,51 @@
                                                           </ul>
                                                   </nav>
                                     <hgroup>
-                                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                                   <article class="Trouvezvotrehebergementdereve" id=Trouvezvotrehebergementdereve>
+                                   <h1>Trouvez votre hébergements de rêve</h1>
+                                   </article> 
                                     <h2>En plein centre ville ou en pleine nature</h2>
                                     </hgroup>
         </header>
            <main class="main">
-                           <form>
+                           <form  class="searchform">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <input type="search" value="Marseille,France" placeholder= "Marseille,France">
                                     <button>Rechercher</button> 
                                   
                            </form>
            
-        <section>
+        <section class="filtres">
          <h3>Filtres</h3>  
                            <br/>
-                            <p><button><i class="fas fa-money-bill-wave"></i></button></p>Economique
-                            <p><button><i class="fas fa-child"></i></button>Famillial</p>
-                            <p><button><i class="fas fa-heart"></i></button>Romantique</p>
-                            <p><button><i class="fas fa-dog"></i></button>Animaux autorisés</p>
-                            <i class="fas fa-info">Plus de 500 logements sont disponibles dans cette ville</i>
+             <span class="iconename">
+                     <article class="iconemoney">
+                             <p><button><i class="fas fa-money-bill-wave"></i></button></p>Economique
+                      </article>
+
+                      <article class="iconechild">
+                             <p><button><i class="fas fa-child"></i></button>Famillial</p>
+                      </article>
+
+                      <article class="iconeheart">
+                             <p><button><i class="fas fa-heart"></i></button>Romantique</p>
+                      </article>
+
+                      <article class="iconedog">
+                             <p><button><i class="fas fa-dog"></i></button>Animaux autorisés</p>
+                      </article>
+              </span>
+        </section>
+        <section class="information">
+                      <article>        
+                             <i class="fas fa-info">Plus de 500 logements sont disponibles dans cette ville</i>
+                     </article>
+       
         </section>
 
-         <section class="hebergementmarseille">
+         <section class="allsection">
+         <section class="hebergements1et2">
+         <section class="hebergements1">
          <h3><b>Hébergements à Marseille</b></h3>
                                                
                     <article>
@@ -128,8 +153,8 @@
                     </article>
          
         </section>
-          <section class="lespluspopulaires">
-         <h3>Les plus populaires</h3>
+          <section class="hebergements2">
+          <h3>Les plus populaires</h3>
                        <article>
                                     <i class="fas fa-chart-line"></i>
                                     <br/>
