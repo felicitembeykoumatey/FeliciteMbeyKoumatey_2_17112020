@@ -13,7 +13,7 @@
  <body>
         <header>
         <section class="containerheader"> 
-               <article id="logo">
+
                 <img src="img/logo/Reservia.SVG" alt="Reservia">   
                  </article>
                                                   <nav class="headernav">
@@ -29,20 +29,18 @@
         </section > 
         </header>
        
-                           <form class="searchform">
-                             <i class="fasfa-map-marker-alt"></i>
-                                    <input type="search" value="Marseille,France" placeholder="Marseille,France">
-                                    <button class="search"><strong>Rechercher</strong></button> 
+                           <form class="searchform" role="search">
+                                    <span class="searchformicon"><i class="fasfa-map-marker-alt"></i></span>
+                                    <input type="search" value="Marseille,France" class="searchforminput" placeholder="Marseille,France" aria aria-label="Rechercher par ville">
+                                    <button class="searchformbtn" type="button"><span class="searchformbtn">Rechercher</span><i class="fas fa-search searchformbtnicon"></i></button>
                                   
                            </form>
            
-        <section class="filtres">
-         <h3>Filtres</h3>  
-                           <br/>
-             <span class="iconename"></span>
-                     <article class="iconemoney">
-                             <p><button><i class="fas fa-money-bill-wave"></i></button></p>Economique
-                      </article>
+       <section class="filtres">
+         <h3 classe="filter">Filtres</h3>  
+                     
+                             <p><button><i class="fas fa-money-bill-wave">Economique</i></button></p>
+                      
 
                       <article class="iconechild">
                              <p><button><i class="fas fa-child"></i></button>Famillial</p>
@@ -66,27 +64,26 @@
 
         
          <section class="element1">
-         <h3><b>Hébergements à Marseille</b></h3>
-                                               
-                    <article>
-                                     <img src="img/hebergements/4_small/auberge_la_cannebiere.png" alt="auberge la cannebiere">
-                                     <br/>
-                                     <h4>Auberge la Cannebiére</h4>
-                                     <p><em>Nuit à partir de</em> 25€
+         <h3 class="hebergements">Hébergements à Marseille</h3>
+                      <article class="bloc1">        
+                                       <img class="image1" src="img/hebergements/4_small/auberge_la_cannebiere.png" alt="Mezzanine noire en fer">
+                                       <p class="texte1"><h4>Auberge la Cannebiére</h4>
+                                       <span class="price1"><em>Nuit à partir de</em><strong>25€</strong></span></p>
            
+                      </article>
+                      <article class="iconestar1">
                                       <i class="fas fa-star"></i>
                                       <i class="fas fa-star"></i>
                                       <i class="fas fa-star"></i>
                                       <i class="fas fa-star"></i>
-                                      </p>
-                    </article>
+                      </article>
 
-                    <article>
-                                    <img src="img/hebergements/4_small/hotel_du_port.png" alt="hotel du port">
-                                    <br/>
-                                    <h4>Hôtel du port</h4>
-                                    <p><em>Nuit à partir de</em> 52€
-
+                      <article class="bloc1">
+                                      <img  class="image2" src="img/hebergements/4_small/hotel_du_port.png" alt="chambre double blanc gris">  
+                                     <p class="texte"><h4>Hôtel du port</h4>
+                                     <span class="price2"><em>Nuit à partir de</em><strong>52€</strong></span></p>
+                      </article>
+                      <article class="iconestar1">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -95,7 +92,7 @@
                                     </p>
                     </article>
                     <article>
-                                    <img src="img/hebergements/4_small/hotel_les_mouettes.png" alt="hotel les mouettes">
+                                    <img src="img/hebergements/4_small/hotel_les_mouettes.png" alt="chambre avec armoire">
                                     <br/>
                                     <h4>Hôtel les mouettes</h4>
                                      <p><em>Nuit à partir de</em> 76€ 
@@ -108,7 +105,7 @@
                     </article>
 
                     <article>
-                                    <img src="img/hebergements/4_small/hotel_de_la_mer.png" alt="hotel de la mer">
+                                    <img src="img/hebergements/4_small/hotel_de_la_mer.png" alt="chambre bleu">
                                     <br/>
                                     <h4><strong>Hôtel de la mer </strong></h4>
                                     <p><em>Nuit à partir de</em> 46€ 
@@ -121,7 +118,7 @@
             
 
                     <article>
-                                    <img src="img/hebergements/4_small/auberge_le_pannier.png" alt="auberge le pannier">
+                                    <img src="img/hebergements/4_small/auberge_le_pannier.png" alt="lits superposés en bois">
                                      <br/>
                                     <h4><strong>Auberge le pannier</strong></h4>
                                     <p><em>Nuit à partir de</em> 23€ 
@@ -134,7 +131,7 @@
                    </article>
             
                     <article>
-                                    <img src="img/hebergements/4_small/hotel_chez_amina.png" alt="hotel chez amina">
+                                    <img src="img/hebergements/4_small/hotel_chez_amina.png" alt="chambre double avec télévision">
                                     <br/>
                                     <h4><strong>Hôtel chez Amina</strong></h4>
                                     <p><em>Nuit à partir de</em> 96€ 
@@ -158,7 +155,7 @@
                                     <br/>
         
                         <article>          
-                                     <img src="img/hebergements/4_small/hotel_le_soleil_du_matin.png" alt="hotel le soleil du matin">
+                                     <img src="img/hebergements/4_small/hotel_le_soleil_du_matin.png" alt="chambre verte limineuse">
                                       <br/>
                                       <h4><strong>Hôtel le soleil du matin</strong></h4>
                                       <p><em>Nuit à partir de</em> 128€ 
@@ -172,7 +169,7 @@
                         </article>
                 
                         <article>
-                                    <img src="img/hebergements/4_small/au_coeur_de_l_eau_chambre_d_hote.png" alt="au_coeur de l'eau chambre d'hotes">
+                                    <img src="img/hebergements/4_small/au_coeur_de_l_eau_chambre_d_hote.png" alt="chambre spacieux">
                                        <br/>
                                         <h4>Au coeur de l'eau chambre d'hôtes</h4>
                                         <p><em>Nuit à partir de</em> 71€ 
@@ -185,7 +182,7 @@
                         </article>
 
                         <article>
-                                      <img src="img/hebergements/4_small/hotel_tout_bleu_et_blanc.png" alt="hotel tout bleue et blanc">
+                                      <img src="img/hebergements/4_small/hotel_tout_bleu_et_blanc.png" alt="chambre le sol en parquet">
                                       <br/>
                                       <h4>Hôtel tout bleu et blanc</h4>
                                      <p><em>Nuit à partir de</em> 68€
