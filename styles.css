@@ -1,6 +1,7 @@
 
 html { 
  font-family: raleway;
+ font size: 16px;
 }
 
  .hebergementmarseille
@@ -18,9 +19,11 @@ background-color:#F2F2F2;
 
 nav { 
     text-decoration: overline;
-
+    text-decoration-color:#0065FC; 
 }
-
+.headernav { 
+       text-align: right;
+}
 .footercolumn{ 
     column-count 3;
 
@@ -41,14 +44,29 @@ nav {
 .trouvezvotrehebergementdereve{
     font-weight: bold;
 } 
+.searchformicon{
+    background-color: #F2F2F2;
+} 
 .search{
    background-color: #0065FC; 
 } 
-
-.search{
-    border-radius: 50px;
-    padding: 30px 20px 20px ;
+.searchforminput {
+    background-color: #F2F2F2;
+    border-radius: 16px; 
+    height: 16px;
+    padding: 16px 20px 20px ;
+  
 }
+.searchformbtn {
+    border-bottom-right-radius: 16px ;
+    border-top-right-radius: 16px; 
+    background-color: #0065FC;
+    height: 16px;
+    padding: 16px 20px 20px ;
+    color: white;
+  font size: 16px;
+}
+
 .title{
     font-weight: bold;  
 }
