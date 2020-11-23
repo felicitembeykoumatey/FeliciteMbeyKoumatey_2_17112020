@@ -15,17 +15,28 @@ background-color:#F2F2F2;
     background-color:#F2F2F2;
     
     }
-
-
-nav { 
-    text-decoration: overline;
-    text-decoration-color:#0065FC; 
-}
 .headernav { 
-       text-align: right;
+    text-decoration: overline;
+    text-align: right; 
 }
+
+
+.pucenav{ 
+    list-style: none;
+}
+
+.pucenav1{ 
+    list-style: none;
+}
+
+.pucenav2{ 
+    list-style: none;
+}
+
+
+
 .footercolumn{ 
-    column-count 3;
+  list-style : none;
 
 }
 
@@ -75,4 +86,17 @@ border-bottom-right-radius: 16px;
 border-radius: 30px;
 height: auto;
 width: auto;
+}
+.puce{ 
+    list-style: none;
+}
+.puce1{ 
+    list-style: none;
+}
+.puce2{ 
+    list-style: none;
+}
+.footer{ 
+text-align: center;
+text-decoration-line : 
 }
