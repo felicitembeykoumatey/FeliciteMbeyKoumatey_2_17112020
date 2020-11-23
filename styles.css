@@ -1,7 +1,6 @@
 
 html { 
  font-family: raleway;
- font size: 16px;
 }
 
  .hebergementmarseille
@@ -9,15 +8,15 @@ html {
 background-color:#F2F2F2;
 
 }
-.filtres-icone{
+.filtres-icones{
     background-color:#DEEBFF;
-    display: flex;
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    display: block;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    color: #0065FC;
     align-items: center;
     justify-content: center;
-    color: #0065FC;
 }
 .lespluspopulaires 
 {
@@ -29,36 +28,28 @@ background-color:#F2F2F2;
     text-align: right; 
 }
 
-
+.info{ 
+background-color:#DEEBFF;
+display: block;
+border-radius: 32px;
+height: 32px;
+width: 32px;
+color: #0065FC;
+align-items: center;
+justify-content: center;
+}
 .pucenav{ 
     list-style: none;
 }
-
-.pucenav1{ 
-    list-style: none;
-}
-
-.pucenav2{ 
-    list-style: none;
-}
-
-
-
 .footercolumn{ 
   list-style : none;
-
 }
-
-   
+  
 .element1{
-
-    font-weight: bold;
-
+   font-weight: bold;
 } 
   .element2{
-
-    font-weight: bold;
-    
+    font-weight: bold;  
 } 
 
 .trouvezvotrehebergementdereve{
@@ -90,6 +81,10 @@ background-color:#F2F2F2;
 .title{
     font-weight: bold;  
 }
+
+.price{
+    font-weight: bold;  
+}
 .iconemoney{
 border-bottom-right-radius: 16px;
 border-radius: 30px;
@@ -99,13 +94,15 @@ width: auto;
 .puce{ 
     list-style: none;
 }
-.puce1{ 
-    list-style: none;
+
+.star{
+color: #0065FC;
 }
-.puce2{ 
-    list-style: none;
-}
+
+
+
+
+
 .footer{ 
 text-align: center;
-text-decoration-line : 
 }
