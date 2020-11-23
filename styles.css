@@ -9,7 +9,16 @@ html {
 background-color:#F2F2F2;
 
 }
-
+.filtres-icone{
+    background-color:#DEEBFF;
+    display: flex;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+}
 .lespluspopulaires 
 {
     background-color:#F2F2F2;
