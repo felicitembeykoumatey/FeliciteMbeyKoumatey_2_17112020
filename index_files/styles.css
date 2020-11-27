@@ -1,0 +1,133 @@
+body{
+  font-family: raleway; arial; sans-serif;
+  font-size: 12pt;
+  display: grid;
+  grid-template-columns: repeat(6; 1fr);
+  grid-row: 4px; auto;
+  grid-gap: 20px;
+margin: 0;
+padding:0 
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+.conteneur-flex {
+  display: flex; 
+  flex-flow: column wrap;
+  width:760px; margin:0 auto;}
+}
+.breadcrumb{
+  grid-column: 4 / span 2;
+  grid-row: 2;
+}
+.sidebar {
+  grid-column: 5 / span 2;
+  grid-row: 3;
+}
+ 
+.footer{
+  grid-column: 1 / -1;
+  grid-row: 4;
+}
+
+.filtres-icones {
+  background-color: #deebff;
+  display: flex;
+  border-radius: 32px;
+  height: 32px;
+  width: 32px;
+  color: #0065fc;
+  align-items: left;
+  justify-content: left;
+}
+
+.lespluspopulaires{
+  background-color: #f2f2f2;
+}
+
+.headernav {
+  text-decoration: overline;
+  text-align: right;
+   grid-column: 2 / span 3;
+  grid-row: 1;
+}
+
+.info {
+  background-color: #deebff;
+  display: left;
+  border-radius: 32px;
+  height: 32px;
+  width: 32px;
+  color: #0065fc;
+  align-items: left;
+}
+
+.pucenav {
+  list-style: none;
+}
+
+.footercolumn {
+  list-style: none;
+}
+.title{
+font-weight: bold;
+}
+
+}
+.price{
+  font-weight: bold;
+
+}
+.element-flex{
+  font-weight: bold;
+
+}
+
+.searchformicon {
+  background-color: #f2f2f2;
+}
+
+.search {
+  background-color: #0065fc;
+}
+
+.searchforminput {
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  height: 16px;
+  padding: 16px 20px 20px;
+}
+
+.searchformbtn {
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  background-color: #0065fc;
+  height: 16px;
+  padding: 16px 20px 20px;
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.iconemoney {
+  border-bottom-right-radius: 16px;
+  border-radius: 30px;
+  height: auto;
+  width: auto;
+}
+
+.puce {
+  list-style: none;
+}
+
+.star {
+  color: #0065fc;
+}
+
+.footer {
+  text-align: left
+}
