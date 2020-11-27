@@ -13,3 +13,6 @@ body {
   text-decoration: overline;
   text-align: right;
 }
+.puce{
+  list-style: none;
+}
