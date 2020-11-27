@@ -9,4 +9,7 @@ body {
   margin-left: 15x;
 }
 
-.logo {}
+.hadernav{
+  text-decoration: overline;
+  text-align: right;
+}
