@@ -77,11 +77,17 @@ body{
 .footercolumn {
   list-style: none;
 }
+.title{
+font-weight: bold;
+}
 
 .element1 {
   font-weight: bold;
 }
+.price{
+  font-weight: bold;
 
+}
 .element2 {
   font-weight: bold;
 }
