@@ -32,8 +32,8 @@ font-weight: bold;
 color: black; 
 
 }
-.barrefiltre{
-  flex-direction: row;
+.filtres-icones{
+  color:#0065fc ;
 }
 .searchformbtn {
   border-bottom-right-radius: 10px;
@@ -55,6 +55,9 @@ color: black;
   align-items: center;
 }
 .element1{
+  font-weight: bold;
+}
+.price{
   font-weight: bold;
 }
 
