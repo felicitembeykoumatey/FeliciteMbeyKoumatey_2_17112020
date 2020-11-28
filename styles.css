@@ -46,7 +46,7 @@ color: black;
 .element-flex{
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 320px;
 }
 .hebergements{
   display: flex;
@@ -56,3 +56,16 @@ color: black;
 .element1{
   font-weight: bold;
 }
+
+.star {
+  color: #0065fc;
+}
+
+.conteneur-flex3{
+  background-color: #F2F2F2;
+}
+.footer {
+  text-align: center;
+background-color: #F2F2F2;
+}
+
