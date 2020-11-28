@@ -48,10 +48,11 @@ color: black;
   flex-direction: column;
   width: 320px;
 }
-.hebergements{
-  display: flex;
-  justify-content: space-around;
+.element-flex1{
   flex-direction: row;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  align-items: center;
 }
 .element1{
   font-weight: bold;
@@ -61,7 +62,7 @@ color: black;
   color: #0065fc;
 }
 
-.conteneur-flex3{
+.sidebar{
   background-color: #F2F2F2;
 }
 .footer {
