@@ -1,5 +1,5 @@
 body {
-  font-family: "raleway"; sans-serif;
+  font-family: "raleway", sans-serif;
   font-size: 100%;
   margin-top: 15px;
   margin-right: 10px;
@@ -7,19 +7,19 @@ body {
   margin-left: 15x;
 }
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 20px;
-    margin-block-end: 20px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
-.headernav{
+.headernav {
   text-decoration: overline;
   text-align: right;
 }
-.puce{
+.puce {
   list-style: none;
 }
 .searchformicon {
@@ -27,13 +27,12 @@ h2 {
   border-left: 12px;
   border-radius: 12px;
 }
-.searchforminput{
-font-weight: bold;
-color: black; 
-
+.searchforminput {
+  font-weight: bold;
+  color: black;
 }
-.filtres-icones{
-  color:#0065fc ;
+.filtres-icones {
+  color: #0065fc;
 }
 .searchformbtn {
   border-bottom-right-radius: 10px;
@@ -43,21 +42,21 @@ color: black;
   padding: 12px 15px 15px;
   color: white;
 }
-.element-flex{
+.element-flex {
   display: flex;
   flex-direction: column;
   width: 320px;
 }
-.element-flex1{
+.element-flex1 {
   flex-direction: row;
   justify-content: space-around;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   align-items: center;
 }
-.element1{
+.element1 {
   font-weight: bold;
 }
-.price{
+.price {
   font-weight: bold;
 }
 
@@ -65,11 +64,10 @@ color: black;
   color: #0065fc;
 }
 
-.sidebar{
-  background-color: #F2F2F2;
+.sidebar {
+  background-color: #f2f2f2;
 }
 .footer {
   text-align: center;
-background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
-
