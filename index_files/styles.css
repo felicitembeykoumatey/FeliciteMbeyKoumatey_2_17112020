@@ -1,17 +1,25 @@
 body {
-  font-family: "raleway"; sans-serif;
+  font-family: "raleway", sans-serif;
   font-size: 100%;
   margin-top: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
   margin-left: 15x;
 }
-
-.headernav{
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.headernav {
   text-decoration: overline;
   text-align: right;
 }
-.puce{
+.puce {
   list-style: none;
 }
 .searchformicon {
@@ -19,12 +27,13 @@ body {
   border-left: 12px;
   border-radius: 12px;
 }
-.searchforminput{
-font-weight: bold;
-color: black; 
-
+.searchforminput {
+  font-weight: bold;
+  color: black;
 }
-
+.filtres-icones {
+  color: #0065fc;
+}
 .searchformbtn {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
@@ -33,16 +42,32 @@ color: black;
   padding: 12px 15px 15px;
   color: white;
 }
-.element-flex{
+.element-flex {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 320px;
 }
-.hebergements{
-  display: flex;
-  justify-content: space-around;
+.element-flex1 {
   flex-direction: row;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  align-items: center;
 }
-.element1{
+.element1 {
   font-weight: bold;
+}
+.price {
+  font-weight: bold;
+}
+
+.star {
+  color: #0065fc;
+}
+
+.sidebar {
+  background-color: #f2f2f2;
+}
+.footer {
+  text-align: center;
+  background-color: #f2f2f2;
 }
