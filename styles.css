@@ -10,7 +10,6 @@ body {
 .headernav {
   text-decoration: overline;
   text-align: right;
-  flex-direction: wrap;
 }
 .puce {
   list-style: none;
@@ -50,7 +49,7 @@ body {
   align-items: right;
   max-width: 100%;
   height: auto;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,7 +80,6 @@ body {
 .barrefiltres {
   flex-direction: wrap;
 }
-.image1 {
-  max-width: 100%;
-  height: auto;
+.element-flex2 {
+  display: flex;
 }

@@ -8,16 +8,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 1024px)"
-      href="petite_resolution.css"
-    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -60,10 +55,10 @@
         <input
           type="search"
           value="Marseille,France"
-          class="searchforminput"
+          class="search_form_input"
           placeholder="Marseille,France"
         />
-        <span class="searchformbtn">Rechercher</span>
+        <span class="search_form_btn">Rechercher</span>
       </form>
     </section>
     <!--fin section recherche-->
@@ -73,18 +68,18 @@
       <h3 class="filtres">Filtres</h3>
     </div>
 
-    <section class="barrefiltre">
-      <h4 class="filtres-icones">
+    <section class="barre_filtre">
+      <h4 class="filtres_icones">
         <i class="fas fa-money-bill-wave icons"></i>
         <span class="title">Économique</span>
       </h4>
 
-      <h4 class="filtres-icones">
+      <h4 class="filtres_icones">
         <i class="fas fa-child icons"></i>
         <span class="title">Familial</span>
       </h4>
 
-      <h4 class="filtres-icones">
+      <h4 class="filtres_icones">
         <i class="fas fa-heart icons"></i>
         <span class="title">Romantique</span>
       </h4>
@@ -112,9 +107,9 @@
 
     <main>
       <div id="hebergements">
-        <div class="element-flex1">
+        <section class="element-flex1">
           <h3 class="hebergements">Hébergements à Marseille</h3>
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/auberge_la_cannebiere.png"
@@ -122,14 +117,15 @@
             />
             <h4 class="title">Auberge la Cannebiére</h4>
             <em>Nuit à partir de</em><span class="price"> 25€ </span>
-          </article>
-          <div class="star">
-            <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
           </div>
 
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/hotel_du_port.png"
@@ -137,16 +133,17 @@
             />
             <h4 class="title">Hôtel du port</h4>
             <em>Nuit à partir de</em><span class="price"> 52€ </span>
-          </article>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
           </div>
 
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/hotel_les_mouettes.png"
@@ -154,16 +151,16 @@
             />
             <h4 class="title">Hôtel les mouettes</h4>
             <em>Nuit à partir de</em><span class="price"> 76€ </span>
-          </article>
 
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
           </div>
 
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/hotel_de_la_mer.png"
@@ -171,15 +168,15 @@
             />
             <h4 class="title">Hôtel de la mer</h4>
             <em>Nuit à partir de</em><span class="price"> 46€ </span>
-          </article>
 
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
           </div>
 
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/auberge_le_pannier.png"
@@ -194,9 +191,9 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-          </article>
+          </div>
 
-          <article class="flex-item1">
+          <div class="flex-item1">
             <img
               class="image1"
               src="./index_files/hotel_chez_amina.png"
@@ -212,9 +209,9 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-          </article>
+          </div>
           <h4 class="title">Aficher Plus</h4>
-        </div>
+        </section>
         <br />
 
         <!--fin hebergement-->
@@ -223,7 +220,7 @@
 
         <h3 class="element3">Activités à Marseille</h3>
         <div id="activity">
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/vieux_port.png"
@@ -232,7 +229,7 @@
             <h4 class="title">Vieux port</h4>
           </article>
 
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/fort_de_pomegues.png"
@@ -241,7 +238,7 @@
             <h4 class="title">Fort de Pomegues</h4>
           </article>
 
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/iles_du_frioul.png"
@@ -250,7 +247,7 @@
             <h4 class="title">îles du frioul</h4>
           </article>
 
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/parc_national_des_calanques.png"
@@ -259,7 +256,7 @@
             <h4 class="title">Parc National des Calanques</h4>
           </article>
 
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/notre_dame_de_la_garde.png"
@@ -268,7 +265,7 @@
             <h4 class="title">Notre-Dame-de-la-garde</h4>
           </article>
 
-          <article class="element-flex">
+          <article class="element-flex2">
             <img
               class="image3"
               src="./index_files/parc_longchamps.png"
@@ -279,18 +276,17 @@
         </div>
         <aside class="sidebar">
           <h3 class="conteneur-flex3">Les plus populaires</h3>
-          <div id="pop">
-            <i class="fas fa-chart-line"></i>
-            <br />
-            <article class="element-flex">
-              <img
-                class="image2"
-                src="./index_files/hotel_le_soleil_du_matin.png"
-                alt="chambre verte limineuse"
-              />
-              <h4 class="title">Hôtel le soleil du matin</h4>
-              <span class="price"><em>Nuit à partir de</em> 128€ </span>
-            </article>
+
+          <i class="fas fa-chart-line"></i>
+          <br />
+          <div class="element-flex3">
+            <img
+              class="image2"
+              src="./index_files/hotel_le_soleil_du_matin.png"
+              alt="chambre verte limineuse"
+            />
+            <h4 class="title">Hôtel le soleil du matin</h4>
+            <span class="price"><em>Nuit à partir de</em> 128€ </span>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -298,30 +294,32 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-            <article class="element-flex">
-              <img
-                class="image2"
-                src="./index_files/au_coeur_de_l_eau_chambre_d_hote.png"
-                alt="chambre spacieux"
-              />
-              <h4 class="title">Au coeur de l'eau chambre d'hôtes</h4>
-              <em>Nuit à partir de</em> <span class="price"> 71€ </span>
-            </article>
+          </div>
+
+          <div class="element-flex">
+            <img
+              class="image2"
+              src="./index_files/au_coeur_de_l_eau_chambre_d_hote.png"
+              alt="chambre spacieux"
+            />
+            <h4 class="title">Au coeur de l'eau chambre d'hôtes</h4>
+            <em>Nuit à partir de</em> <span class="price"> 71€ </span>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-            <article class="element-flex">
-              <img
-                class="image2"
-                src="./index_files/hotel_tout_bleu_et_blanc.png"
-                alt="chambre le sol en parquet"
-              />
-              <h4 class="title">Hôtel tout bleu et blanc</h4>
-              <em>Nuit à partir de</em><span class="price"> 68€ </span>
-            </article>
+          </div>
+
+          <div class="element-flex">
+            <img
+              class="image2"
+              src="./index_files/hotel_tout_bleu_et_blanc.png"
+              alt="chambre le sol en parquet"
+            />
+            <h4 class="title">Hôtel tout bleu et blanc</h4>
+            <em>Nuit à partir de</em><span class="price"> 68€ </span>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
