@@ -1,7 +1,6 @@
 body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
-  margin: 15px, 10px, 1em;
   color: #17202a;
 }
 
@@ -26,24 +25,47 @@ body {
   font-weight: bold;
   color: #17202a;
 }
-.filters_icons {
+.global {
   color: #0065fc;
-  border: 2px blue solid;
-  border-radius: 10px;
+  border: 1px #deebff solid;
+  border-bottom-left-radius: 50%;
+  border-radius: 50px;
+  margin-left: 20px;
+  height: 35px;
+  padding: 0px 20px 0px 0px;
+}
+
+.fa-dog {
+  background-color: #deebff;
+  border-radius: 50%;
+  padding: 10px 12px 10px 12px;
+}
+
+.fa-heart {
+  background-color: #deebff;
+  border-radius: 50%;
+  padding: 10px 12px 10px 12px;
+}
+
+.fa-money-bill-wave {
+  background-color: #deebff;
+  border-radius: 50%;
+  padding: 10px 12px 10px 12px;
 }
 
 .fa-child {
-  background-color: red;
+  background-color: #deebff;
   border-radius: 50%;
   padding: 10px 12px 10px 12px;
 }
 .title {
   color: #17202a;
+  font-weight: bold;
 }
 .barre_filters {
   margin: 0 10px 0 10px;
 }
-.fliters_global {
+.filters_global {
   display: flex;
   flex-direction: row;
 }
@@ -64,7 +86,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: #f2f2f2;
-  align-items: right;
   max-width: 100%;
   height: auto;
   display: flex;
