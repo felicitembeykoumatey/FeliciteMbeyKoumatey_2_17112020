@@ -2,12 +2,15 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
   margin: 15px, 10px, 1em;
+  color: #17202a;
 }
 
 .header_nav {
+  display: flex;
   text-decoration: overline;
   text-align: right;
   flex-direction: row;
+  justify-content: flex-end;
 }
 .puce {
   list-style: none;
@@ -27,9 +30,10 @@ body {
 .title {
   color: #17202a;
 }
+
 .search_form_btn {
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 100px;
   background-color: #0065fc;
   height: 10px;
   padding: 12px 15px 15px;
@@ -41,7 +45,7 @@ body {
   width: 320px;
 }
 .element_flex_1 {
-  flex-direction: wrap;
+  flex-direction: row;
   justify-content: space-around;
   background-color: #f2f2f2;
   align-items: right;
@@ -51,11 +55,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.flex_item1 {
+  justify-content: space-around;
+  flex-direction: row;
+}
 .price {
   font-weight: bold;
 }
-
 .star {
   color: #0065fc;
 }
@@ -76,7 +82,9 @@ body {
   margin-right: auto;
 }
 .barre_filters {
-  flex-direction: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .element_flex_2 {
   display: flex;
