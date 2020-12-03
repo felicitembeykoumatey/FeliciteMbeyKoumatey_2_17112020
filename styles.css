@@ -7,6 +7,7 @@ body {
 .header_nav {
   text-decoration: overline;
   text-align: right;
+  flex-direction: row;
 }
 .puce {
   list-style: none;
