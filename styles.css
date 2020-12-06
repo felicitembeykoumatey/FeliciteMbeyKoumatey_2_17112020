@@ -22,7 +22,6 @@ body {
   background-color: #f2f2f2;
   border-left: 12px;
   border-radius: 12px;
-
 }
 
 }
@@ -105,13 +104,42 @@ body {
 .flex_item1 {
   justify-content: space-between;
   flex-direction: row;
-  padding: 20px 20px 70px 20px;
+  padding: 5px 10px 10px 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 .image1 {
-  height: 50px;
-  width: 100%;
+  height: 200px;
+  width: 50%
 }
 
+.image2{
+   height: 200px;
+  width: 50%;
+
+}
+.image3{
+  height: 180px;
+  width: 50%;
+
+}
+
+.image4{
+  height: 180px;
+  width: 50%;
+}
+
+.image5{
+  height: 170px;
+  width: 50%;
+}
+
+.image6{
+  height: 170px;
+  width: 50%;
+}
 .price {
   font-weight: bold;
 }
@@ -137,11 +165,7 @@ body {
   margin-right: auto;
 }
 
-.image3{
-  padding: 0px 10px 5px 10px;
-  border-bottom-right-radius: 80px;
-  border-top-right-radius: 100px;
-}
+
 .barre_filters {
   display: flex;
   flex-direction: row;
