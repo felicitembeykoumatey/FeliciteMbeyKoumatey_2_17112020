@@ -2,6 +2,8 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
   color: #17202a;
+  margin: auto;
+  padding: 15px 5px 10px 5px;
 }
 
 .header_nav {
@@ -99,12 +101,24 @@ body {
   flex-wrap: wrap;
 
 }
+
+@media screen and (min-width: 768px){
+
+.sidebar {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    order: 1;
+    border-radius: 1.25rem;
+    padding: 2rem 0.5rem;
+}
+
 .flex_item1 {
   display: block;
   justify-content: space-between;
   flex-direction: row;
   padding: 5px 10px 10px 5px;
-  margin: auto;
+  margin: 5% 0 5% 0%;
   background-color: white;
   border-radius: 50px;
   align-items: center;
@@ -180,8 +194,8 @@ body {
   display: flex;
   height: 350px;
   width: 95%;
-  margin: 50px;
-  width: 70%;
+  margin: 50px 20px 20px 50px;
+  width: 90%;
   border-top-left-radius: 15%;
   border-top-right-radius: 15%;
   align-items: center; 
