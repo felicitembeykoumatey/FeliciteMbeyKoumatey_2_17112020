@@ -93,50 +93,99 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   background-color: #f2f2f2;
-  max-width: 100%;
-  height: auto;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 10px 5px 10px;
+  margin: auto;
+  padding: 60px 20px 20px 30px;
   flex-wrap: wrap;
+
 }
 .flex_item1 {
+  display: block;
   justify-content: space-between;
   flex-direction: row;
   padding: 5px 10px 10px 5px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+}
+.h4{
+  font-weight: bold;
+  flex-direction: row ;
+  flex-wrap: wrap;
 }
 .image1 {
-  height: 200px;
-  width: 50%
+  display: flex;
+  min height: 100px;
+  margin: auto;
+  width: 70%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
 
 .image2{
-   height: 200px;
-  width: 50%;
-
+  display: flex;
+   height: 280px;
+  width: 70%;
+  margin: auto;
+  width: 70%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
 .image3{
-  height: 180px;
-  width: 50%;
-
+  display: flex;
+  height: 270px;
+  width: 65%;
+  margin: auto;
+  width: 70%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
 
 .image4{
-  height: 180px;
-  width: 50%;
+  display: flex;
+  height: 290px;
+  width: 97%;
+  margin: auto;
+  width: 70%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
-
+.wording{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
 .image5{
-  height: 170px;
-  width: 50%;
+  display: flex;
+  height: 280px;
+  width: 70%;
+  margin: auto;
+  width: 70%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
 
 .image6{
-  height: 170px;
-  width: 50%;
+  display: flex;
+  height: 350px;
+  width: 95%;
+  margin: 50px;
+  width: 70%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  align-items: center; 
+  padding: 0px 50px 50px 10px;
 }
 .price {
   font-weight: bold;
