@@ -2,7 +2,7 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
   color: #17202a;
-  margin: auto;
+  margin: 0; 
   padding: 15px 5px 10px 5px;
 }
 
@@ -41,6 +41,14 @@ body {
   padding: 12px 15px 15px;
   color: #ffffff;
 }
+
+.fa-info{
+   color: #0065fc;
+  border: 1px #deebff solid;
+  border-radius: 50%;
+  padding: 5px 12px 10px 15px;
+  background-color: #ffffff;
+}
 .global {
   color: #0065fc;
   border: 1px #deebff solid;
@@ -51,6 +59,8 @@ body {
   padding: 0px 20px 0px 0px;
 }
 
+
+
 .fa-dog {
   background-color: #deebff;
   border-radius: 50%;
@@ -60,7 +70,7 @@ body {
 .fa-heart {
   background-color: #deebff;
   border-radius: 50%;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 13px 10px 13px;
 }
 
 .fa-money-bill-wave {
@@ -84,7 +94,7 @@ body {
 }
 .filters_global {
   display: flex;
-  flex-direction: row;
+  flex wrap: wrap;
 }
 
 .element_flex {
