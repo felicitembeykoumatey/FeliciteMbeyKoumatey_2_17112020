@@ -1,3 +1,7 @@
+:root { 
+  --sky: #deebff; 
+}
+
 body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
@@ -44,43 +48,43 @@ body {
 
 .fa-info{
    color: #0065fc;
-  border: 1px #deebff solid;
+  border: 1px var(--sky) solid;
   border-radius: 50%;
   padding: 5px 12px 10px 15px;
   background-color: #ffffff;
 }
 .global {
   color: #0065fc;
-  border: 1px #deebff solid;
+  border: 1px var(--sky) solid;
   border-bottom-left-radius: 50%;
   border-radius: 50px;
   margin-left: 20px;
   height: 35px;
-  padding: 0px 20px 0px 0px;
+  padding: 0 20px 0 0;
 }
 
 
 
 .fa-dog {
-  background-color: #deebff;
+  background-color: var(--sky);
   border-radius: 50%;
   padding: 10px 12px 10px 12px;
 }
 
 .fa-heart {
-  background-color: #deebff;
+  background-color: var(--sky);
   border-radius: 50%;
   padding: 10px 13px 10px 13px;
 }
 
 .fa-money-bill-wave {
-  background-color: #deebff;
+  background-color: var(--sky);
   border-radius: 50%;
   padding: 10px 12px 10px 12px;
 }
 
 .fa-child {
-  background-color: #deebff;
+  background-color: var(--sky);
   border-radius: 50%;
   padding: 10px 12px 10px 12px;
 }
@@ -94,7 +98,7 @@ body {
 }
 .filters_global {
   display: flex;
-  flex wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .element_flex {
@@ -147,7 +151,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 
 .image2{
@@ -159,7 +163,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 .image3{
   display: flex;
@@ -170,7 +174,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 
 .image4{
@@ -182,7 +186,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 .wording{
   display: block;
@@ -198,7 +202,7 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 
 .image6{
@@ -210,7 +214,7 @@ body {
   border-top-left-radius: 15%;
   border-top-right-radius: 15%;
   align-items: center; 
-  padding: 0px 50px 50px 10px;
+  padding: 0 50px 50px 10px;
 }
 .price {
   font-weight: bold;
