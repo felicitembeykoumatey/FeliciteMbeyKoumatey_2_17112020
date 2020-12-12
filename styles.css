@@ -2,7 +2,7 @@
   --sky: #deebff; 
 }
 :root {
-  --sky: #f2f2f2;
+  --body: #f2f2f2;
 }
 
 
@@ -10,8 +10,8 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
   color: #17202a;
-  margin: 0; 
   padding: 15px 5px 10px 5px;
+  margin: 15%;
 }
 
 .header_nav ul {
@@ -128,12 +128,12 @@ body {
 @media screen and (min-width: 768px){
 
 .sidebar {
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: column wrap;
-    order: 1;
-    border-radius: 1.25rem;
-    padding: 2rem 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+ flex-flow: column wrap;
+ order: 1;
+ border-radius: 1.25rem;
+ padding: 2rem 0.5rem;
 }
 
 
@@ -144,7 +144,7 @@ body {
   flex-direction: row;
   padding: 5px 10px 10px 5px;
   margin: 5% 0 5% 0%;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 50px;
   align-items: center;
 }
