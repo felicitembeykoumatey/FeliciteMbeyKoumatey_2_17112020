@@ -10,8 +10,8 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 100%;
   color: #17202a;
-  padding: 15px 5px 10px 5px;
-  margin: 15%;
+  padding: 0 10px 20px 0;
+  margin: 2% 20% 15% 10%;
 }
 
 .header_nav ul {
@@ -42,6 +42,10 @@ body {
   width: 100px;
   padding: 12px 12px 15px;
 }
+
+
+@media screen and (min-width: 768px){
+
 .search_form_btn {
   border-bottom-right-radius: 80px;
   border-top-right-radius: 100px;
@@ -50,7 +54,7 @@ body {
   padding: 12px 15px 15px;
   color: #ffffff;
 }
-
+}
 .fa-info{
    color: #0065fc;
   border: 1px var(--sky) solid;
@@ -68,8 +72,13 @@ body {
   padding: 0 20px 0 0;
 }
 
-
-
+.info title {
+  color: #17202a;
+  font-weight: bold;
+}
+.span {
+  font-size: 1.6rem;
+}
 .fa-dog {
   background-color: var(--sky);
   border-radius: 50%;
