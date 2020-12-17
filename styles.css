@@ -53,6 +53,18 @@ body {
   width: 100px;
   padding: 12px 12px 15px;
 }
+.search_form_icon {
+  background-color: var(--white);
+  border-left: 12px;
+  border-radius: 12px;
+}
+.search_form_btn {
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 100px;
+  background-color: var(--blue);
+  padding: 12px 15px 15px;
+  color: var(--white);
+}
 
 .fa-info {
   color: var(--blue);
