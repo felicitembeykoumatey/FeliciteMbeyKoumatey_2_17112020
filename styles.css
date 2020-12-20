@@ -51,6 +51,14 @@
   margin: 10px 12px 10px 12px;
   font-size: 100%;
 }
+.fa-map-marker-alt {
+ background-color: var(--gray);
+ border-radius: 15px 0px 0px 15px;
+ padding: 13px 10px 12px 12px;
+ margin:auto;
+}
+
+
 
 @media (min-width: 576px) {
   .most_popular {
@@ -69,8 +77,10 @@
 .hotel_pop {
   display: flex;
   padding: 0px 10px 12px 15px;
-  margin: 0 10% 10% 12%;
-  border-radius: 1.25em 1.25em 0 0;
+  margin: auto;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: auto;
 }
 
 .lodging_nav {
@@ -87,7 +97,7 @@
 .search_form_input {
   font-weight: bold;
   color: var(--black);
-  width: 100px;
+  width: 150px;
   padding: 12px 12px 15px;
 }
 
@@ -128,25 +138,25 @@
 .fa-dog {
   background-color: var(--sky);
   border-radius: 80%;
-  padding: 10px 12px 10px 12px;
+  padding: 14px 12px 10px 12px;
 }
 
 .fa-heart {
   background-color: var(--sky);
   border-radius: 375%;
-  padding: 10px 12px 10px 12px;
+  padding: 14px 12px 10px 12px;
 }
 
 .fa-money-bill-wave {
   background-color: var(--sky);
   border-radius: 80%;
-  padding: 12px 10px 10px 12px;
+  padding: 14px 12px 10px 12px;
 }
 
 .fa-child {
   background-color: var(--sky);
   border-radius: 80%;
-  padding: 10px 12px 10px 12px;
+  padding: 14px 12px 10px 12px;
 }
 
 .title {
@@ -167,6 +177,9 @@
   justify-content: flex-end;
 }
 
+.fa .fas {
+    font-weight: 900;
+}
 .barre_filters {
   display: flex;
   margin: 0 10px 0 10px;
@@ -215,7 +228,7 @@
 }
 
 
-.hotel_title {
+.hotel_title{
  color: var(--black);
  font-weight: bold;
 }
