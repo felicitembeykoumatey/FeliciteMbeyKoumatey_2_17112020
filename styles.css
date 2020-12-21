@@ -68,7 +68,7 @@
 .fa-map-marker-alt {
  background-color: var(--gray);
  border-radius: 15px 0px 0px 15px;
- padding: 13px 10px 12px 12px;
+ padding: 13px 15px 15px 15px;
  margin:auto;
 }
 
@@ -114,12 +114,13 @@
   width: 150px;
   padding: 12px 12px 15px;
 }
-.localisation {
-  padding-right: 40px;
-  border: 1px var(--gray) solid;
-  border-right: transparent;
-  border-left: transparent;
-  outline: transparent;
+.search_bar{
+  padding: 10px 2px 13px 23px;
+  width: 10em;
+  border-top: var(--gray) 1px solid;
+  border-bottom: var(--gray) 1px solid;
+  border-right: none;
+  border-left: none;
   font-size: 100%;
 }
 .city{
