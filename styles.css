@@ -14,6 +14,8 @@
   color: var(--black);
   font-weight: 300;
   font-size: 100%;
+  display: block;
+  
   
 }
 .logo {
@@ -43,6 +45,15 @@
   word-spacing: 4px;
   text-align: right;
   flex-wrap: wrap;
+  margin: 0;
+}
+
+.header_nav ul li {
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.header_nav ul li a {
+  padding: 43px 25px 0;
 }
 
 .h1 .main_title {
@@ -103,11 +114,29 @@
   width: 150px;
   padding: 12px 12px 15px;
 }
+.localisation {
+  padding-right: 40px;
+  border: 1px var(--gray) solid;
+  border-right: transparent;
+  border-left: transparent;
+  outline: transparent;
+  font-size: 100%;
+}
+.city{
+  font-weight: bold;
+}
 
 .search_form_icon {
   background-color: var(--white);
   border-left: 12px;
   border-radius: 12px;
+}
+
+.localisation::placeholder {
+  font-family: "Raleway", "sans-serif";
+  color: var(--black);
+  font-weight: 100%;
+  padding: 12px;
 }
 
 .search_form_btn {
@@ -116,7 +145,15 @@
   background-color: var(--blue);
   padding: 12px 15px 15px;
   color: var(--white);
+  border: transparent;
+  cursor: pointer;
+
 }
+
+.btn{
+  display: none;
+}
+
 
 .fa-info {
   color: var(--blue);
@@ -124,6 +161,13 @@
   border-radius: 50%;
   padding: 5px 12px 10px 15px;
   background-color: var(--white);
+}
+.info{
+  margin: auto;
+}
+.filters_global{
+  display: flex;
+  flex-wrap: wrap;
 }
 .global {
   color: var(--blue);
@@ -134,21 +178,6 @@
   padding: 0 20px 0 0;
 }
 
-.info title {
-  color: var(--black);
-  font-weight: bold;
-}
-.fa-dog {
-  background-color: var(--sky);
-  border-radius: 80%;
-  padding: 14px 12px 10px 12px;
-}
-
-.fa-heart {
-  background-color: var(--sky);
-  border-radius: 375%;
-  padding: 14px 12px 10px 12px;
-}
 
 .fa-money-bill-wave {
   background-color: var(--sky);
@@ -160,6 +189,24 @@
   background-color: var(--sky);
   border-radius: 80%;
   padding: 14px 12px 10px 12px;
+}
+
+.fa-heart {
+  background-color: var(--sky);
+  border-radius: 375%;
+  padding: 14px 12px 10px 12px;
+}
+.fa-dog {
+  background-color: var(--sky);
+  border-radius: 80%;
+  padding: 14px 12px 10px 12px;
+}
+
+
+.info {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom:40px;
 }
 
 .title {
@@ -277,4 +324,19 @@
 }
 .activity_flex{
   display: flex;
+}
+
+h3 {
+display: flex;
+ font-size: 1.17em;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+}
+.h1 {
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.4em;
 }
