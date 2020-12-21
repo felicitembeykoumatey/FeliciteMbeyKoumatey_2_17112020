@@ -6,12 +6,15 @@
   --gray: #f2f2f2;
 }
 
-.body {
+.html body {
   font-family: "raleway", sans-serif;
-  font-size: 100%;
   width: 100%;
-  margin: 20% 10%;
+  margin: 0;
+  padding: 0;
   color: var(--black);
+  font-weight: 300;
+  font-size: 100%;
+  
 }
 .logo {
   object-fit: cover;
