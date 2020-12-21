@@ -5,7 +5,7 @@
   --blue: #0065fc;
   --gray: #f2f2f2;
 }
-
+/* body */
 .html body {
   font-family: "raleway", sans-serif;
   width: 100%;
@@ -16,7 +16,7 @@
   font-size: 100%;
   display: block;
   
-  
+  /* header */
 }
 .logo {
   object-fit: cover;
@@ -107,7 +107,7 @@
   width: 240px;
   height: 110px;
 }
-
+/* section recherche */
 .search_form_input {
   font-weight: bold;
   color: var(--black);
@@ -153,18 +153,32 @@
 .btn{
   display: none;
 }
-
-
+/* info */
+.info {
+  display: flex;
+  margin: auto;
+}
 .fa-info {
   color: var(--blue);
   border: 1px var(--sky) solid;
   border-radius: 50%;
-  padding: 5px 12px 10px 15px;
+  padding: 2px 10px 5px 10px;
   background-color: var(--white);
 }
-.info{
-  margin: auto;
+.info p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+display: flex;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+margin-inline-end: 0px;
+
 }
+
+/* filtre */
+
 .filters_global{
   display: flex;
   flex-wrap: wrap;
@@ -201,23 +215,7 @@
   border-radius: 80%;
   padding: 14px 12px 10px 12px;
 }
-
-
-.info {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom:40px;
-}
-
 .title {
-  color: var(--black);
-  font-weight: bold;
-}
-.main_title {
-  color: var(--black);
-  font-weight: bold;
-}
-.popular_title {
   color: var(--black);
   font-weight: bold;
 }
@@ -228,21 +226,10 @@
 }
 
 .fa .fas {
-    font-weight: 900;
+font-weight: 900;
 }
-.barre_filters {
-  display: flex;
-  margin: 0 10px 0 10px;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.filters_global {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.h4 {
+/* section hébergements */
+.h3 {
   display: block;
   font-weight: bold;
   flex-direction: row;
@@ -253,6 +240,15 @@
   margin-inline-end: 0px;
 }
 
+.main_title {
+  color: var(--black);
+  font-weight: bold;
+}
+
+.popular_title {
+  color: var(--black);
+  font-weight: bold;
+}
 
 .element_flex {
   display: flex;
@@ -270,6 +266,7 @@
   background-color: var(--gray);
 }
 
+
 .hotel{
   display: flex;
   min height: 100px;
@@ -286,6 +283,7 @@
 .price{
   font-weight: bold;
 }
+
 .fa-star{
   color: var(--blue);
 }
@@ -310,18 +308,23 @@
 .about{
   font-weight: bold;
 }
+
 .assistance{
   font-weight: bold;
 }
+
 .lodging{
   font-weight: bold;
 }
+
 .show_more{
   font-weight: bold;
 }
+
 .title{
   font-weight: bold;
 }
+
 .activity_flex{
   display: flex;
 }
@@ -334,6 +337,7 @@ display: flex;
  margin-inline-start: 0px;
  margin-inline-end: 0px;
 }
+
 .h1 {
   font-weight: 700;
   margin-bottom: 0;
