@@ -6,16 +6,23 @@
   --gray: #f2f2f2;
 }
 
+.html{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* body */
-.html body {
+.body {
   font-family: "raleway", sans-serif;
   width: 100%;
-  margin: 0;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 0;
   color: var(--black);
   font-weight: 300;
   font-size: 100%;
-  display: block;
+  display: flex;
 
   /* header */
 }
@@ -78,21 +85,6 @@
   margin: auto;
 }
 
-
-
-@media (min-width: 576px) {
-  .most_popular {
-    background-color: var(--gray);
-  }
-
-  .most_popular {
-    order: -1;
-    padding: 0;
-    border-radius: 0;
-    margin: 0;
-    width: 100%;
-  }
-}
 
 .hotel_pop {
   display: flex;
@@ -237,8 +229,42 @@
 .fa .fas {
   font-weight: 900;
 }
+.most_popular{
+  order: 1;
+  background-color: var(--tertiary-color);
+  padding: 2rem 3.55%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 /* section hébergements */
+
+.flex_item1{
+
+  background-color: var(--white);
+  display: flex;
+  padding: 5px 10px 10px 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+ transform: scale(1);
+ transition: .3s;
+}
+
+.element_flex{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: var(--white);
+  display: flex;
+  padding: 5px 10px 10px 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+ transform: scale(1);
+ transition: .3s;
+}
 
 .city_of_accommodation {
   display: flex;
@@ -268,10 +294,11 @@
   font-weight: bold;
 }
 
-.element_flex {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
+.hotel_pop{
+  border-radius: 12px 10px 10px 12px;
+ object-fit: cover;
+ width: 240px;
+ height: 110px;
 }
 
 .container_flex2 {
@@ -285,7 +312,12 @@
   width: auto;
 }
 
-
+.most_popular{
+  display: flex;
+  order: 1;
+  background-color: var(--gray);
+  width: 100%;
+}
 .hotel {
   display: flex;
   min height: 100px;
