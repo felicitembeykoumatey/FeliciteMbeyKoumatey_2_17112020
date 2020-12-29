@@ -271,7 +271,7 @@
   justify-content: flex-end;
 }
 
-.hotel_pop {
+.hotel_pop img {
   display: flex;
   border-radius: 12px 10px 10px 12px;
   object-fit: cover;
@@ -314,13 +314,6 @@
   display: flex;
 }
 
-.image {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 0px 10px 10px 10px;
-}
-
 /*Pieds de page*/
 
 .footer {
@@ -360,7 +353,9 @@
 .fa-star {
   color: var(--blue);
 }
-
+.activity figcaption{
+  font-weight: bold;
+}
 .price {
   font-weight: bold;
 }
