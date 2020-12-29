@@ -218,16 +218,63 @@
   font-weight: 900;
 }
 
+/*Les hebergements les populaires*/
+
+.aside .most_popular {
+  display: flex;
+  order: 1;
+  background-color: var(--gray--);
+  padding: 10px 20px 12px 10px%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.popular_title {
+  font-weight: bold;
+  font-size: 80%;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.fa-chart-line {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hotel_pop img {
+  display: flex;
+  border-radius: 12px 10px 10px 12px;
+  object-fit: cover;
+  width: 240px;
+  height: 110px;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px 12px 15px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.hotel_flex {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: var(--white);
+  display: flex;
+  padding: 5px 10px 10px 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+  transform: scale(1);
+  transition: .3s;
+}
+
 /* section hébergements*/
 
 .container_flex2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0 20px 20px 30px;
-  flex-wrap: wrap;
   border-radius: 20px;
-  background-color: var(--gray);
   width: auto;
 }
 
@@ -256,51 +303,6 @@
   font-weight: bold;
 }
 
-/*Les hebergements les populaires*/
-
-
-.popular_title {
-  font-weight: bold;
-  font-size: 80%;
-  color: var(--black);
-  font-weight: bold;
-}
-
-.fa-chart-line {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hotel_pop img {
-  display: flex;
-  border-radius: 12px 10px 10px 12px;
-  object-fit: cover;
-  width: 240px;
-  height: 110px;
-  margin: 0px 10px 10px 10px;
-  padding: 0px 10px 12px 15px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-
-.figcaption {
-  display: flex;
-
-}
-
-.element_flex {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  background-color: var(--white);
-  display: flex;
-  padding: 5px 10px 10px 5px;
-  border-radius: 10px;
-  margin: 0 0 30px 0;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
-  transform: scale(1);
-  transition: .3s;
-}
 
 
 /*Activités*/
@@ -370,14 +372,17 @@
 /*media scrren*/
 
 @media (min-width: 576px) {
-.most_popular {
+
+
+.container_flex2 {
   display: flex;
-  order: 1;
-  background-color: var(--gray--);
-  padding: 10px 20px 12px 10px%;
-  width: 100%;
-  box-sizing: border-box;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 20px 30px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-color: var(--gray);
+  width: auto;
 }
 .footer {
   display: flex;
