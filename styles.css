@@ -6,20 +6,28 @@
   --gray: #f2f2f2;
 }
 
+.html {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: auto;
+  width: auto;
+}
+
 /* body */
-.html body {
+.body {
   font-family: "raleway", sans-serif;
   width: 100%;
-  margin: 0;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 0;
   color: var(--black);
   font-weight: 300;
   font-size: 100%;
-  display: block;
-
-  /* header */
+  display: flex;
 }
 
+/* header */
 .logo {
   object-fit: cover;
   margin-top: 2%;
@@ -49,7 +57,7 @@
   word-spacing: 4px;
   text-align: right;
   flex-wrap: wrap;
-  margin: 0;
+  margin: auto;
 }
 
 .header_nav ul li {
@@ -61,8 +69,21 @@
   padding: 43px 25px 0;
 }
 
-.h1 .main_title {
+.lodging_nav {
+  text-decoration: overline;
+}
+
+/* section recherche */
+.main_title {
+  color: var(--black);
   font-weight: bold;
+}
+
+.h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 80%h;
 }
 
 .location {
@@ -78,36 +99,6 @@
   margin: auto;
 }
 
-
-
-@media (min-width: 576px) {
-  .most_popular {
-    background-color: var(--gray);
-  }
-
-  .most_popular {
-    order: -1;
-    padding: 0;
-    border-radius: 0;
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.hotel_pop {
-  display: flex;
-  padding: 0px 10px 12px 15px;
-  margin: auto;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-  width: auto;
-}
-
-.lodging_nav {
-  text-decoration: overline;
-}
-
-/* section recherche */
 .search_form_input {
   font-weight: bold;
   color: var(--black);
@@ -150,7 +141,6 @@
   color: var(--white);
   border: transparent;
   cursor: pointer;
-
 }
 
 .btn {
@@ -183,6 +173,7 @@
 
 }
 
+
 /* filtre */
 
 .filters_global {
@@ -198,7 +189,6 @@
   margin-left: 20px;
   padding: 0 20px 0 0;
 }
-
 
 .fa-money-bill-wave {
   background-color: var(--sky);
@@ -224,7 +214,54 @@
   padding: 14px 12px 10px 12px;
 }
 
-.title {
+.fa .fas {
+  font-weight: 900;
+}
+
+/* section hébergements*/
+
+.container_flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 20px 30px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-color: var(--gray);
+  width: auto;
+}
+
+.city_of_accommodation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.hotel img {
+  display: flex;
+  min height: 100px;
+  margin: 10px 12px 5px 10px;
+  width: 70%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+
+.show_more {
+  font-weight: bold;
+}
+
+/*Les hebergements les populaires*/
+
+
+.popular_title {
+  font-weight: bold;
+  font-size: 80%;
   color: var(--black);
   font-weight: bold;
 }
@@ -234,78 +271,57 @@
   justify-content: flex-end;
 }
 
-.fa .fas {
-  font-weight: 900;
-}
-
-/* section hébergements */
-
-.city_of_accommodation {
+.hotel_pop {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+  border-radius: 12px 10px 10px 12px;
+  object-fit: cover;
+  width: 240px;
+  height: 110px;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px 12px 15px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-.h3 {
-  display: block;
-  font-weight: bold;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
+.figcaption {
+  display: flex;
 
-.main_title {
-  color: var(--black);
-  font-weight: bold;
-}
-
-.popular_title {
-  color: var(--black);
-  font-weight: bold;
 }
 
 .element_flex {
   display: flex;
   flex-direction: column;
   width: 320px;
+  background-color: var(--white);
+  display: flex;
+  padding: 5px 10px 10px 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+  transform: scale(1);
+  transition: .3s;
 }
 
-.container_flex2 {
+
+/*Activités*/
+.activity {
+  padding: 0px 0px 15px 10px;
+  margin: auto;
+  width: 200px;
+}
+
+.activity_flex {
+  display: flex;
+}
+
+.image {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 20px 20px 30px;
-  flex-wrap: wrap;
-  border-radius: 20px;
-  background-color: var(--gray);
-  width: auto;
+  margin: auto;
+  padding: 0px 10px 10px 10px;
 }
 
-
-.hotel {
-  display: flex;
-  min height: 100px;
-  margin: 10px 12px 5px 10px;
-  width: 70%;
-}
-
-
-.hotel_title {
-  color: var(--black);
-  font-weight: bold;
-}
-
-.price {
-  font-weight: bold;
-}
-
-.fa-star {
-  color: var(--blue);
-}
+/*Pieds de page*/
 
 .footer {
   display: flex;
@@ -321,6 +337,7 @@
   background-color: var(--gray);
 }
 
+
 .footer ul {
   list-style: none;
   padding: 0px;
@@ -330,38 +347,79 @@
   font-weight: bold;
 }
 
+.lodging{
+  font-weight: bold;
+}
+
 .assistance {
   font-weight: bold;
 }
 
-.lodging {
+/*Mots repetés*/
+
+.fa-star {
+  color: var(--blue);
+}
+
+.price {
   font-weight: bold;
 }
 
-.show_more {
-  font-weight: bold;
-}
-
-.title {
-  font-weight: bold;
-}
-
-.activity_flex {
+.h3 {
   display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-h3 {
+/*media scrren*/
+
+@media (min-width: 576px) {
+.most_popular {
   display: flex;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  order: 1;
+  background-color: var(--gray--);
+  padding: 10px 20px 12px 10px%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  line-height: 30px;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: 30px;
+  white-space: nowrap;
+  width: 50%;
+  margin-top: 50px;
+  background-color: var(--gray);
+}
+.container_flex2{
+  display: flex;
+  flex-direction: row;
+ border-radius: 10px;
+ background-color: var(--gray);
+ width: 70%;
+ margin-bottom: 20px;
+ margin: 0;
+ padding: 0 18px;
+ margin-right: 30px;
 }
 
-.h1 {
-  font-weight: 700;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 1.4em;
+.flex_item1 {
+  background-color: var(--white);
+  display: flex;
+  padding: 5px 10px 10px 5px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+  transform: scale(1);
+  transition: .3s;
+  flex-wrap: wrap;
 }
+
+}
+
