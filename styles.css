@@ -430,7 +430,7 @@
   }
   .search_bar {
     padding: 10px 0px 10px 2px;
-    width: 23%;
+    width: auto;
     border-top: var(--gray) 1px solid;
     border-bottom: var(--gray) 1px solid;
     border-right: none;
@@ -492,19 +492,4 @@
     transition: .3s;
     flex-wrap: wrap;
   }
-
-}
-
-@media (min-width: 2932px){
-.search_bar {
-    padding: 10px 0px 10px 2px;
-    width: 4%;
-    border-top: var(--gray) 1px solid;
-    border-bottom: var(--gray) 1px solid;
-    border-right: none;
-    border-left: none;
-    font-size: small;
-    color: var(--black);
-    font-weight: bold;
-}
 }
