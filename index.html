@@ -21,13 +21,11 @@
       <div class="logo">
         <img class="logo" src="./img/logo/Reservia.SVG" alt="Reservia" />
       </div>
-      <nav>
-        <ul class="header_nav">
-          <li>
-            <a href="#lodging_nav">Hébergements</a>
-          </li>
-          <li><a href="#activity_nav">Activités</a></li>
-          <li><a href="#register_nav">S'inscrire</a></li>
+      <nav class="header_nav">
+        <ul>
+          <li class="lodging_nav"><a href="#">Hébergements</a></li>
+          <li class="activity_nav"><a href="#">Activités</a></li>
+          <li class="register_nav"><a href="#">S'inscrire</a></li>
         </ul>
       </nav>
     </header>
@@ -36,7 +34,7 @@
     <!--main-->
     <main>
       <!--section recherche-->
-      <section class="search_wrapper">
+      <section id="search_wrapper">
         <div class="bread_crumb">
           <h1 class="main_title">
             Trouvez votre hébergements pour des vaccances de rêve
@@ -58,6 +56,7 @@
             size="1"
           />
           <input type="button" class="search_form_btn" value="Rechercher" />
+          <button><i class="fas fa-search" aria-hidden="true"></i></button>
         </form>
       </section>
       <!--fin section recherche-->
