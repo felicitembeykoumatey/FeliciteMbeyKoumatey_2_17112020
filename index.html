@@ -34,7 +34,7 @@
     <!--main-->
     <main>
       <!--section recherche-->
-      <section id="search_wrapper">
+      <section class="search_wrapper">
         <div class="bread_crumb">
           <h1 class="main_title">
             Trouvez votre hébergements pour des vaccances de rêve
@@ -43,21 +43,18 @@
         </div>
 
         <form class="search_form" role="search">
-          <label for="search_form_icon" class="geolocalisation">
-            <i class="fas fa-map-marker-alt"></i>
-          </label>
+          <label><i class="fas fa-map-marker-alt"></i></label>
           <input
             class="search_bar"
             type="search_form_icon"
             id="localisation"
             name="city"
             aria-label="search_form_input"
-            placeholder="Marseille,France"
-            size="1"
+            placeholder="Marseille, France"
+            size="auto"
           />
-          <input type="button" class="search_form_btn" value="Rechercher" />
-          <button><i class="fas fa-search" aria-hidden="true"></i></button>
-        </form>
+          <button class="search_form_btn">Rechercher</button>
+          <label><i class="fas fa-search" aria-hidden="true"></i></label        </form>
       </section>
       <!--fin section recherche-->
 
