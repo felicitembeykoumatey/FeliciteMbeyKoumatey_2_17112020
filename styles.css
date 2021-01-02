@@ -120,7 +120,7 @@
   padding: 10px 12px 10px;
 }
 
-.input .localisation .search_bar {
+.input .localisation .search_bar{
   background-color: var(--gray);
   color: var(--black);
   padding: 0px 10px 15px 12px;
@@ -135,7 +135,7 @@
   border-top-left-radius: 18%;
   border-top-right-radius: 18%;
   border-bottom-right-radius: 18%;
-padding: 10px 12px 15px 12px;
+  padding: 10px 12px 15px 12px;
 
 }
  .search_bar {
