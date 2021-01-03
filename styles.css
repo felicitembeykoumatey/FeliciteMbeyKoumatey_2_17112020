@@ -271,10 +271,10 @@ font-size: medium;
 }
 figure {
  display: flex;
- margin-block-start: 5em;
+ margin-block-start: 1em;
  margin-block-end: 1em;
- margin-inline-start: 40px;
- margin-inline-end: 40px;
+ margin-inline-start: 10px;
+ margin-inline-end: 19px;
   padding: 5px;
   border-radius: 10px;
   background-color: var(--white);
@@ -307,13 +307,26 @@ figure {
   transform: scale(1);
   transition: .3s;
 }
+
 .hotel_pop img{
  height: 120px;
  width: 32%;
  border-radius: 12px 0 0 12px;
  object-fit: cover;
 }
+.figcaption{
+  display: flex;
+  padding: 10px 10px 0px 10px;
+}
 
+.div .em .fa-star{
+  display:flex;
+  padding: 10px 10px 0px 10px;
+}
+.hotel_title{
+  display: flex;
+  padding: 0 4px 0 8px;
+}
 
 /* section hébergements*/
 
@@ -409,7 +422,8 @@ figure {
 }
 
 .price {
-  font-weight: bold;
+  padding:0 4px 0 8px;
+  font-size: small;
 }
 
 .h3 {
@@ -418,16 +432,6 @@ figure {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-.figure img {
-  display: flex;
-  padding: 0 10px 15px 10px;
-  margin: 12px 10px 10px 10px;
-}
-
-
-
-
 
 /*media scrren*/
 
