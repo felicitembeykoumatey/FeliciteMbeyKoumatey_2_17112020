@@ -53,6 +53,23 @@
   text-decoration: none;
 
 }
+.
+.header_nav li:first-child a {
+  padding top: 23px;
+  color: var(--blue);
+  
+}
+
+.header_nav li:first-child a {
+  border-top: none;
+}
+
+.header_nav li {
+  width: 50%;
+  text-align: center;
+  border-bottom: 2px var(--gray) solid;
+  padding-bottom: 10px;
+}
 
 /* section recherche */
 .main {
@@ -371,7 +388,7 @@ figure {
   font-weight: bold;
 }
 
-.most_view{
+.most_view {
   font-weight: bold;
   font-size: medium;
 }
@@ -379,19 +396,22 @@ figure {
 
 /*Activités*/
 
-.section .activity{
-display: flex;
-padding: 0px 10px 10px 10px;
-width: auto;
+.section .activity {
+  display: flex;
+  padding: 0px 10px 10px 10px;
+  width: auto;
 }
+
 .activity_contry {
   display: flex;
   font-weight: bold;
   font-size: large;
 }
-.section{
+
+.section {
   display: flex;
 }
+
 .activity_flex img {
   border-radius: 14px 14px 0px 0px;
   height: 100px;
@@ -454,11 +474,11 @@ width: auto;
 
 /*Mots repetés*/
 
-.figcaption{
- margin: 14px 0 0 20px;
- height: 36px;
-font-weight: bold;
-padding: 10px 10px 0px 10px;
+.figcaption {
+  margin: 14px 0 0 20px;
+  height: 36px;
+  font-weight: bold;
+  padding: 10px 10px 0px 10px;
 }
 
 .price {
