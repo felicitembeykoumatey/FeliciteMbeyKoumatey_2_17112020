@@ -316,11 +316,6 @@ figure {
   object-fit: cover;
 }
 
-.figcaption {
-  display: flex;
-  padding: 10px 10px 0px 10px;
-}
-
 .div .em .fa-star {
   display: flex;
   padding: 10px 10px 0px 10px;
@@ -376,25 +371,32 @@ figure {
   font-weight: bold;
 }
 
+.most_view{
+  font-weight: bold;
+  font-size: medium;
+}
 
 
 /*Activités*/
-.activity{
-  height: 100px;
-  width: 110%;
+
+.section .activity{
+display: flex;
+padding: 0px 10px 10px 10px;
+width: auto;
 }
-.activity_contry{
+.activity_contry {
   display: flex;
   font-weight: bold;
   font-size: large;
 }
-
-
-.activity .figcaption {
-  font-weight: bold;
+.section{
   display: flex;
-  flex-direction: column;
-  width: auto;
+}
+.activity_flex img {
+  border-radius: 14px 14px 0px 0px;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .activity_flex {
@@ -413,12 +415,7 @@ figure {
   margin-inline-start: 2px;
   margin-inline-end: 45px;
 }
-.activity_flex .figcaption{
-  display: flex;
-  padding: 10px 10px 12px 12px;
-  font-weight: bold;
-  font-size: medium;
-}
+
 
 
 /*Pieds de page*/
@@ -435,7 +432,6 @@ figure {
   width: 50%;
   margin-top: 50px;
   background-color: var(--gray);
-
 }
 
 
@@ -458,17 +454,20 @@ figure {
 
 /*Mots repetés*/
 
-.fa-star {
-  color: var(--blue);
-}
-
-.activity figcaption {
-  font-weight: bold;
+.figcaption{
+ margin: 14px 0 0 20px;
+ height: 36px;
+font-weight: bold;
+padding: 10px 10px 0px 10px;
 }
 
 .price {
   padding: 0 4px 0 8px;
   font-size: small;
+}
+
+.fa-star {
+  color: var(--blue);
 }
 
 .h3 {
