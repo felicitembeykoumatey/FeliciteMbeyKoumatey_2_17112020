@@ -16,7 +16,6 @@
   color: var(--black);
   font-weight: 300;
   font-size: 100%;
-
 }
 
 /* header */
@@ -53,11 +52,10 @@
   text-decoration: none;
   padding: 35px;
   transition: 3s;
-
 }
 
-. .header_nav li:first-child a {
-  padding top: 23px;
+ .header_nav li:first-child a {
+  padding-top: 23px;
   color: var(--blue);
   border-top: 2px var(--blue) solid;
 
@@ -73,11 +71,15 @@
   border-bottom: 2px var(--gray) solid;
   padding-bottom: 10px 10px 10px 10px;
 }
-
+.a {
+ font-size: 1rem;
+ text-decoration: none;
+ color: var(--black);
+}
 .header_nav li:nth-child(3) a {
   position: absolute;
   text-align: end;
-  top: 30px
+  top: 30px ;left:
 }
 
 /* section recherche */
