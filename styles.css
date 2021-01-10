@@ -430,9 +430,44 @@ figure {
   transition: 0.3s;
 }
 .card_1 {
-  padding: 10px 12px 10px 10px;
   margin: 10px 12px 10px 12px;
-  height: 150px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card_2 {
+  margin: 10px 12px 10px 12px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card_3 {
+  margin: 10px 12px 10px 12px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card_4 {
+  margin: 10px 12px 10px 12px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card_5 {
+  margin: 10px 12px 10px 12px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_6 {
+  margin: 10px 12px 10px 12px;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 /*Pieds de page*/
