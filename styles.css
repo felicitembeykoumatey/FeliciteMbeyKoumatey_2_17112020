@@ -14,7 +14,6 @@
   margin: auto;
   padding: 30px;
   color: var(--black);
-  font-weight: 300;
   font-size: 100%;
 }
 
@@ -136,10 +135,6 @@
   color: var(--black);
   width: 150px;
   padding: 12px 12px 15px;
-}
-
-.city {
-  font-weight: bold;
 }
 
 .search_form_icon {
@@ -346,7 +341,7 @@ figure {
   object-fit: cover;
 }
 
-.div .em .fa-star {
+.div .fa-star {
   display: flex;
   padding: 10px 10px 0px 10px;
 }
@@ -368,7 +363,6 @@ figure {
 .hotel_flex {
   display: flex;
   flex-direction: column;
-  width: auto;
   background-color: var(--white);
   padding: 5px 32px 0 10px;
   border-radius: 12px 12px 12px 12px;
@@ -376,7 +370,11 @@ figure {
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
-  margin: 10px 12px 12px 10px;
+  height: 190px;
+}
+
+.city_hotel {
+  padding: 0 12px 12px;
 }
 
 .hotel_flex img {
@@ -407,64 +405,61 @@ figure {
   display: flex;
   font-weight: bold;
   font-size: large;
-  height: 100px;
+  height: 15px;
   padding: 12px 10px 10px 12px;
-}
-
-.activity {
-  display: flex;
-  flex-direction: column;
 }
 
 .activity_flex {
   display: flex;
   flex-direction: column;
-  width: 100%;
   background-color: var(--white);
-  padding: 9px 30px 0px 10px;
-  margin: 10px 12px 10px 12px;
+  padding: 0 0 0 0;
+  margin: 30px 12px 10px 12px;
   height: 150px;
   border-radius: 12px 12px 12px 12px;
-  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
+  opacity: 1;
 }
+
 .card_1 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  padding: 2px;
 }
 
 .card_2 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .card_3 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .card_4 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .card_5 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
+
 .card_6 {
-  margin: 10px 12px 10px 12px;
+  margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -503,22 +498,25 @@ figure {
   font-weight: bold;
 }
 
+.footer li {
+  font-size: small;
+  font-weight: normal;
+  color: var(--black);
+}
+
 /*Mots repetés*/
 
-.figcaption {
+.figcaption .hotel_title {
+  display: flex;
   margin: 14px 0 0 20px;
-  height: 36px;
+  height: 100%;
   font-weight: bold;
   padding: 10px 10px 0px 10px;
+  float: right;
 }
 
 .filters {
   font-size: medium;
-}
-
-.price {
-  padding: 0 4px 0 8px;
-  font-size: small;
 }
 
 .fa-star {
