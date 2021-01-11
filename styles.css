@@ -351,13 +351,19 @@ figure {
   padding: 0 4px 0 8px;
 }
 
+.most_view {
+  height: 100%;
+  padding: 10px 12px 10px 12px;
+  margin: 10px 12px 10px 12px;
+}
+
 /* section hébergements*/
 
 .city_of_accommodation {
   display: flex;
   flex-direction: column;
-  padding: 0 0 25px 35px;
-  width: auto;
+  padding: 15px 40px 100px 15px;
+  width: 107%;
 }
 
 .hotel_flex {
@@ -370,17 +376,20 @@ figure {
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
-  height: 190px;
+  height: 220px;
 }
 
 .city_hotel {
   padding: 0 12px 12px;
+  width: 150%;
+  height: 100%;
 }
 
 .hotel_flex img {
   display: flex;
-  height: 100px;
-  width: 110%;
+  height: 97px;
+  width: 105%;
+  margin: 10px 12px 10px 12px;
   border-radius: 12px 12px 0 0;
 }
 
@@ -506,13 +515,18 @@ figure {
 
 /*Mots repetés*/
 
-.figcaption .hotel_title {
+.hotel_flex .figcaption {
   display: flex;
   margin: 14px 0 0 20px;
   height: 100%;
   font-weight: bold;
   padding: 10px 10px 0px 10px;
   float: right;
+}
+
+.figcaption {
+  padding: 10px 12px 10px 12px;
+  margin: 10px 12px 10px 10px;
 }
 
 .filters {
@@ -533,6 +547,22 @@ figure {
 /*medias queries*/
 
 @media screen and (min-width: 576px) {
+  .most_popular {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: var(--gray);
+    border-radius: 25px;
+    order: 3;
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 40px 100px 15px;
+    width: 107%;
+  }
+
   .footer .section {
     flex: 33%;
     margin: 10px 12px 10px 12px;
