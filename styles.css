@@ -101,7 +101,7 @@
   margin: auto;
 }
 
-.main_title {
+.h1 {
   color: var(--black);
   font-weight: bold;
   font-size: 120%;
@@ -433,7 +433,41 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
-
+.card_rocks {
+  margin: 0 0 8px 0;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2px 15px 12px 2px;
+}
+.card_isle {
+  margin: 0 0 8px 0;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2px;
+}
+.card_park {
+  margin: 0 0 8px 0;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2px;
+}
+.card_sea {
+  margin: 0 0 8px 0;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2px;
+}
+.card_monument {
+  margin: 0 0 8px 0;
+  height: 100px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2px;
+}
 /*Pieds de page*/
 
 .footer {
@@ -519,6 +553,50 @@ figure {
 
   .lodging_nav {
     border-top: var(--blue);
+  }
+
+  .card_boats {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+    flex-grow: 2;
+  }
+  .card_rocks {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px 15px 12px 2px;
+  }
+  .card_isle {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_park {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_sea {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_monument {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
   }
   .most_popular {
     float: right;
@@ -614,9 +692,8 @@ figure {
     background-color: var(--gray);
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin: 10px 12px 10px 12px;
-    padding: 12px 2px 10px 15px;
+    padding-left: 30px;
     flex-direction: row;
   }
 }
