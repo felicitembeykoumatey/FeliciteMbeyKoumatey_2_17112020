@@ -399,7 +399,7 @@ figure {
 
 /*Activités*/
 
-.section .activity {
+.section .activities {
   display: flex;
   padding: 0px 10px 10px 10px;
   width: auto;
@@ -426,47 +426,12 @@ figure {
   opacity: 1;
 }
 
-.card_1 {
+.card_boats {
   margin: 0 0 8px 0;
   height: 100px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   padding: 2px;
-}
-
-.card_2 {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.card_3 {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.card_4 {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.card_5 {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-.card_6 {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
 }
 
 /*Pieds de page*/
