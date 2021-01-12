@@ -542,9 +542,6 @@ figure {
 /*medias queries*/
 
 @media screen and (min-width: 576px) {
-  .logo {
-    height: 100%;
-  }
   .header_nav li:hover {
     border-bottom: none;
   }
