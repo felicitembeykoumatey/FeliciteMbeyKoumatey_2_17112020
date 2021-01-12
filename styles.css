@@ -43,7 +43,7 @@
   padding: 20px 10px 10px 15px;
 }
 .lodging_nav {
-  color: var (var(--blue));
+  color: var(--blue);
 }
 
 .activity_nav:hover {
