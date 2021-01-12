@@ -542,8 +542,17 @@ figure {
 /*medias queries*/
 
 @media screen and (min-width: 576px) {
+  .logo {
+    height: 100%;
+  }
   .header_nav li:hover {
     border-bottom: none;
+  }
+  .header_nav li {
+    width: 15%;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 10px 12px 10px 10px;
   }
 
   .lodging_nav {
