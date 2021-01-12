@@ -42,7 +42,13 @@
   color: var(--blue);
   padding: 20px 10px 10px 15px;
 }
+.lodging_nav {
+  color: var (var(--blue));
+}
 
+.activity_nav:hover {
+  color: var(--blue);
+}
 .header_nav a {
   cursor: pointer;
   text-decoration: none;
@@ -52,6 +58,7 @@
 
 .header_nav li:first-child a {
   border-top: none;
+  color: var(--blue);
 }
 
 .header_nav li {
