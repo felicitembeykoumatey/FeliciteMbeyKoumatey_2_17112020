@@ -42,6 +42,7 @@
   color: var(--blue);
   padding: 20px 10px 10px 15px;
 }
+
 .lodging_nav {
   color: var(--blue);
 }
@@ -49,6 +50,7 @@
 .activity_nav:hover {
   color: var(--blue);
 }
+
 .header_nav a {
   cursor: pointer;
   text-decoration: none;
@@ -433,6 +435,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
+
 .card_rocks {
   margin: 0 0 8px 0;
   height: 100px;
@@ -440,6 +443,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px 15px 12px 2px;
 }
+
 .card_isle {
   margin: 0 0 8px 0;
   height: 100px;
@@ -447,6 +451,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
+
 .card_park {
   margin: 0 0 8px 0;
   height: 100px;
@@ -454,6 +459,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
+
 .card_sea {
   margin: 0 0 8px 0;
   height: 100px;
@@ -461,6 +467,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
+
 .card_monument {
   margin: 0 0 8px 0;
   height: 100px;
@@ -468,6 +475,7 @@ figure {
   border-top-right-radius: 12px;
   padding: 2px;
 }
+
 /*Pieds de page*/
 
 .footer {
@@ -546,6 +554,7 @@ figure {
   .header_nav li:hover {
     border-bottom: none;
   }
+
   .header_nav li {
     width: 15%;
     text-align: center;
@@ -565,6 +574,7 @@ figure {
     padding: 2px 0 0 0;
     flex-grow: 2;
   }
+
   .card_rocks {
     margin: 0 0 8px 0;
     height: 100px;
@@ -572,6 +582,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 15px 12px 2px;
   }
+
   .card_isle {
     margin: 0 0 8px 0;
     height: 100px;
@@ -579,6 +590,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .card_park {
     margin: 0 0 8px 0;
     height: 100px;
@@ -586,6 +598,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .card_sea {
     margin: 0 0 8px 0;
     height: 100px;
@@ -593,6 +606,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_monument {
     margin: 0 0 8px 0;
     height: 100px;
@@ -600,6 +614,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .most_popular {
     float: right;
     display: flex;
@@ -620,7 +635,8 @@ figure {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
+  }
+
   .hotel_flex {
     display: flex;
     flex-direction: row;
@@ -636,6 +652,7 @@ figure {
     object-fit: cover;
     width: 45%;
   }
+
   .figure {
     display: flex;
     margin: 10px 12px 10px 12px;
@@ -654,6 +671,7 @@ figure {
     width: 39%;
     flex-wrap: wrap;
     background-color: var(--gray);
+    border-radius: 25%;
   }
 
   .container_hotels {
@@ -713,6 +731,7 @@ figure {
     flex-direction: row;
   }
 }
+
 /* Fin tablette ≤ 768px*/
 
 /*Tablette landscape ≤1024px*/
@@ -720,6 +739,7 @@ figure {
   .header_nav li:hover {
     border-bottom: none;
   }
+
   .header_nav li {
     width: 15%;
     text-align: center;
@@ -739,6 +759,7 @@ figure {
     padding: 2px 0 0 0;
     flex-grow: 2;
   }
+
   .card_rocks {
     margin: 0 0 8px 0;
     height: 100px;
@@ -746,6 +767,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 15px 12px 2px;
   }
+
   .card_isle {
     margin: 0 0 8px 0;
     height: 100px;
@@ -753,6 +775,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_park {
     margin: 0 0 8px 0;
     height: 100px;
@@ -760,6 +783,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_sea {
     margin: 0 0 8px 0;
     height: 100px;
@@ -767,6 +791,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .card_monument {
     margin: 0 0 8px 0;
     height: 100px;
@@ -774,7 +799,8 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
- .most_popular {
+
+  .most_popular {
     float: right;
     display: flex;
     flex-direction: column;
@@ -792,7 +818,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
+  }
 
   .hotel_flex {
     display: flex;
@@ -816,6 +842,7 @@ figure {
     width: 40%;
     flex-wrap: wrap;
     background-color: var(--gray);
+    border-radius: 25%;
   }
 
   .container_hotels {
@@ -883,6 +910,7 @@ figure {
   .header_nav li:hover {
     border-bottom: none;
   }
+
   .header_nav li {
     width: 15%;
     text-align: center;
@@ -902,6 +930,7 @@ figure {
     padding: 2px 0 0 0;
     flex-grow: 2;
   }
+
   .card_rocks {
     margin: 0 0 8px 0;
     height: 100px;
@@ -909,6 +938,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 15px 12px 2px;
   }
+
   .card_isle {
     margin: 0 0 8px 0;
     height: 100px;
@@ -916,6 +946,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_park {
     margin: 0 0 8px 0;
     height: 100px;
@@ -923,6 +954,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_sea {
     margin: 0 0 8px 0;
     height: 100px;
@@ -930,6 +962,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_monument {
     margin: 0 0 8px 0;
     height: 100px;
@@ -937,6 +970,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .most_popular {
     float: right;
     display: flex;
@@ -949,14 +983,15 @@ figure {
   }
 
 
- .city_hotel {
+  .city_hotel {
     padding: 12px 2px 70px 12px;
     width: 110%;
     height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
+  }
+
   .figure .hotel_flex {
     width: 100%;
   }
@@ -981,6 +1016,7 @@ figure {
     width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
+    border-radius: 25%;
   }
 
   .container_hotels {
@@ -1050,6 +1086,7 @@ figure {
   .header_nav li:hover {
     border-bottom: none;
   }
+
   .header_nav li {
     width: 15%;
     text-align: center;
@@ -1059,6 +1096,16 @@ figure {
 
   .lodging_nav {
     border-top: var(--blue);
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 40px 100px 15px;
+    width: 45%;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+    border-radius: 25%;
   }
 
   figure {
@@ -1080,6 +1127,7 @@ figure {
     padding: 2px;
     flex-grow: 2;
   }
+
   .card_rocks {
     margin: 0 0 8px 0;
     height: 100px;
@@ -1087,6 +1135,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 15px 12px 2px;
   }
+
   .card_isle {
     margin: 0 0 8px 0;
     height: 100px;
@@ -1094,6 +1143,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px;
   }
+
   .card_park {
     margin: 0 0 8px 0;
     height: 100px;
@@ -1101,6 +1151,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .card_sea {
     margin: 0 0 8px 0;
     height: 100px;
@@ -1108,6 +1159,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .card_monument {
     margin: 0 0 8px 0;
     height: 100px;
@@ -1115,6 +1167,7 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
+
   .most_popular {
     float: right;
     display: flex;
@@ -1125,6 +1178,7 @@ figure {
     width: 35%;
     height: 80%;
   }
+
   .city_hotel {
     padding: 12px 2px 70px 12px;
     width: 110%;
@@ -1132,7 +1186,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
+  }
 
 
   .hotel_flex {
@@ -1148,15 +1202,6 @@ figure {
     transition: 0.3s;
     height: 220px;
     object-fit: cover;
-  }
-
-  .city_of_accommodation {
-    display: flex;
-    flex-direction: row;
-    padding: 15px 40px 100px 15px;
-    width: 45%;
-    flex-wrap: wrap;
-    background-color: var(--gray);
   }
 
   .container_hotels {
