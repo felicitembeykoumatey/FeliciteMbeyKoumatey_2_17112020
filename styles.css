@@ -609,6 +609,8 @@ figure {
     order: 3;
     padding: 0 12px 15px 10px;
     margin: 12px 10px 12px 10px;
+    width: 35%;
+    height: 80%;
   }
 
   .city_hotel {
@@ -631,8 +633,9 @@ figure {
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
     transform: scale(1);
     transition: 0.3s;
-    height: 220px;
+    height: 80%;
     object-fit: cover;
+    width: 45%;
   }
   .figure {
     display: flex;
@@ -772,14 +775,17 @@ figure {
     border-top-right-radius: 12px;
     padding: 2px 0 0 0;
   }
-  .most_popular {
+ .most_popular {
     float: right;
     display: flex;
     flex-direction: column;
     background: var(--gray);
     border-radius: 25px;
     order: 3;
+    width: 25%;
+    height: 50%;
   }
+
 
   .city_hotel {
     padding: 0 12px 12px;
@@ -940,7 +946,10 @@ figure {
     background: var(--gray);
     border-radius: 25px;
     order: 3;
+    width: 25%;
+    height: 50%;
   }
+
 
   .city_hotel {
     padding: 0 12px 12px;
@@ -1038,6 +1047,7 @@ figure {
 /* Fin laptop ≤1600**/
 
 /* Desktop >1600px*/
+
 @media screen and (min-width: 1600px) {
   .header_nav li:hover {
     border-bottom: none;
@@ -1114,17 +1124,18 @@ figure {
     background: var(--gray);
     border-radius: 25px;
     order: 3;
-    width: 25%;
+    width: 35%;
+    height: 80%;
   }
-
   .city_hotel {
-    padding: 0 12px 12px;
-    width: 150%;
-    height: 100%;
+    padding: 2px 70px 12px;
+    width: 110%;
+    height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
+}
+
 
   .hotel_flex {
     display: flex;
