@@ -537,9 +537,10 @@ figure {
   flex-direction: column;
   flex-wrap: wrap;
 }
-/* Tablette*/
+
 /*medias queries*/
 
+/* Tablette ≤ 768px*/
 @media screen and (min-width: 576px) {
   .header_nav li:hover {
     border-bottom: none;
@@ -697,11 +698,491 @@ figure {
     flex-direction: row;
   }
 }
-/* Fin tablette*/
+/* Fin tablette ≤ 768px*/
 
-/*Laptop*/
+/*Tablette landscape ≤1024px*/
+@media screen and (min-width: 769px) {
 
-/* Fin laptop*/
+   .header_nav li:hover {
+    border-bottom: none;
+  }
+  .header_nav li {
+    width: 15%;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 10px 12px 10px 10px;
+  }
 
-/* Desktop*/
-/* Fin Desktop*/
+  .lodging_nav {
+    border-top: var(--blue);
+  }
+
+  .card_boats {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+    flex-grow: 2;
+  }
+  .card_rocks {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px 15px 12px 2px;
+  }
+  .card_isle {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_park {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_sea {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_monument {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .most_popular {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: var(--gray);
+    border-radius: 25px;
+    order: 3;
+  }
+
+  .city_hotel {
+    padding: 0 12px 12px;
+    width: 150%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .hotel_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    padding: 5px 32px 0 10px;
+    border-radius: 12px 12px 12px 12px;
+    margin: 32px 12px 40px 32px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: 0.3s;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 40px 100px 15px;
+    width: 107%;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+  }
+
+  .container_hotels {
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+  section .about {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .section .lodging {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .hotel_flex img {
+    display: flex;
+    height: 97px;
+    width: 105%;
+    margin: 10px 12px 10px 12px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+
+  .activity_flex img {
+    display: flex;
+    object-fit: cover;
+    flex-direction: row;
+  }
+
+  .section.assistance {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .footer li {
+    font-size: small;
+    font-weight: normal;
+    color: var(--black);
+  }
+
+  .footer .section {
+    flex: 33%;
+    margin: 10px 12px 10px 12px;
+    padding: 0 12px 12px 0;
+  }
+
+  .footer {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 12px 10px 12px;
+    padding-left: 30px;
+    flex-direction: row;
+  }
+}
+
+/*Fin tablette landscape ≤1024px*/
+
+/*Laptop ≤1600*/
+@media screen and (min-width: 1025px) {
+
+
+   .header_nav li:hover {
+    border-bottom: none;
+  }
+  .header_nav li {
+    width: 15%;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 10px 12px 10px 10px;
+  }
+
+  .lodging_nav {
+    border-top: var(--blue);
+  }
+
+  .card_boats {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+    flex-grow: 2;
+  }
+  .card_rocks {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px 15px 12px 2px;
+  }
+  .card_isle {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_park {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_sea {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_monument {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .most_popular {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: var(--gray);
+    border-radius: 25px;
+    order: 3;
+  }
+
+  .city_hotel {
+    padding: 0 12px 12px;
+    width: 150%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .hotel_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    padding: 5px 32px 0 10px;
+    border-radius: 12px 12px 12px 12px;
+    margin: 32px 12px 40px 32px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: 0.3s;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 40px 100px 15px;
+    width: 107%;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+  }
+
+  .container_hotels {
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+  section .about {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .section .lodging {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .hotel_flex img {
+    display: flex;
+    height: 97px;
+    width: 105%;
+    margin: 10px 12px 10px 12px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+
+  .activity_flex img {
+    display: flex;
+    object-fit: cover;
+    flex-direction: row;
+  }
+
+  .section.assistance {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .footer li {
+    font-size: small;
+    font-weight: normal;
+    color: var(--black);
+  }
+
+  .footer .section {
+    flex: 33%;
+    margin: 10px 12px 10px 12px;
+    padding: 0 12px 12px 0;
+  }
+
+  .footer {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 12px 10px 12px;
+    padding-left: 30px;
+    flex-direction: row;
+  }
+}
+
+/* Fin laptop ≤1600**/
+
+/* Desktop >1600px*/
+@media screen and (min-width: 1600px) {
+
+   .header_nav li:hover {
+    border-bottom: none;
+  }
+  .header_nav li {
+    width: 15%;
+    text-align: center;
+    border-bottom: none;
+    padding-top: 10px 12px 10px 10px;
+  }
+
+  .lodging_nav {
+    border-top: var(--blue);
+  }
+
+  .card_boats {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+    flex-grow: 2;
+  }
+  .card_rocks {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px 15px 12px 2px;
+  }
+  .card_isle {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_park {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_sea {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .card_monument {
+    margin: 0 0 8px 0;
+    height: 100px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2px;
+  }
+  .most_popular {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: var(--gray);
+    border-radius: 25px;
+    order: 3;
+  }
+
+  .city_hotel {
+    padding: 0 12px 12px;
+    width: 150%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .hotel_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    padding: 5px 32px 0 10px;
+    border-radius: 12px 12px 12px 12px;
+    margin: 32px 12px 40px 32px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: 0.3s;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 40px 100px 15px;
+    width: 107%;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+  }
+
+  .container_hotels {
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+
+  section .about {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .section .lodging {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .hotel_flex img {
+    display: flex;
+    height: 97px;
+    width: 105%;
+    margin: 10px 12px 10px 12px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+
+  .activity_flex img {
+    display: flex;
+    object-fit: cover;
+    flex-direction: row;
+  }
+
+  .section.assistance {
+    margin: 10px 12px 10px 12px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .footer li {
+    font-size: small;
+    font-weight: normal;
+    color: var(--black);
+  }
+
+  .footer .section {
+    flex: 33%;
+    margin: 10px 12px 10px 12px;
+    padding: 0 12px 12px 0;
+  }
+
+  .footer {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 12px 10px 12px;
+    padding-left: 30px;
+    flex-direction: row;
+  }
+}
+}
+/* Fin Desktop >1600px*/
