@@ -651,7 +651,7 @@ figure {
     display: flex;
     flex-direction: row;
     padding: 15px 40px 100px 15px;
-    width: 107%;
+    width: 39%;
     flex-wrap: wrap;
     background-color: var(--gray);
   }
@@ -813,7 +813,7 @@ figure {
     display: flex;
     flex-direction: row;
     padding: 15px 40px 100px 15px;
-    width: 107%;
+    width: 40%;
     flex-wrap: wrap;
     background-color: var(--gray);
   }
@@ -978,7 +978,7 @@ figure {
     display: flex;
     flex-direction: row;
     padding: 15px 40px 100px 15px;
-    width: 107%;
+    width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
   }
@@ -1154,7 +1154,7 @@ figure {
     display: flex;
     flex-direction: row;
     padding: 15px 40px 100px 15px;
-    width: 35%;
+    width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
   }
