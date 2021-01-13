@@ -614,14 +614,13 @@ figure {
   }
 
   .city_hotel {
-    padding: 0 12px 12px;
-    width: 150%;
-    height: 100%;
+    padding: 12px 2px 70px 12px;
+    width: 110%;
+    height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-
+}
   .hotel_flex {
     display: flex;
     flex-direction: row;
@@ -786,15 +785,14 @@ figure {
     height: 50%;
   }
 
-
   .city_hotel {
-    padding: 0 12px 12px;
-    width: 150%;
-    height: 100%;
+    padding: 12px 2px 70px 12px;
+    width: 110%;
+    height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
+}
 
   .hotel_flex {
     display: flex;
@@ -951,14 +949,14 @@ figure {
   }
 
 
-  .city_hotel {
-    padding: 0 12px 12px;
-    width: 150%;
-    height: 100%;
+ .city_hotel {
+    padding: 12px 2px 70px 12px;
+    width: 110%;
+    height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
+}
   .figure .hotel_flex {
     width: 100%;
   }
@@ -1128,7 +1126,7 @@ figure {
     height: 80%;
   }
   .city_hotel {
-    padding: 2px 70px 12px;
+    padding: 12px 2px 70px 12px;
     width: 110%;
     height: 88%;
     display: flex;
