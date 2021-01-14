@@ -551,6 +551,9 @@ figure {
 /* Tablette ≤ 768px*/
 
 @media screen and (min-width: 576px) {
+  .main{
+    
+  }
   .header_nav li:hover {
     border-bottom: none;
   }
