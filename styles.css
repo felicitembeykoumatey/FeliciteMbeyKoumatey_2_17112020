@@ -671,7 +671,7 @@ figure {
     width: 39%;
     flex-wrap: wrap;
     background-color: var(--gray);
-    border-radius: 25%;
+    border-radius: 2px 2px 2px 2px;
   }
 
   .container_hotels {
@@ -842,7 +842,7 @@ figure {
     width: 40%;
     flex-wrap: wrap;
     background-color: var(--gray);
-    border-radius: 25%;
+    border-radius: 2px 2px 2px 2px;
   }
 
   .container_hotels {
@@ -1016,7 +1016,7 @@ figure {
     width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
-    border-radius: 25%;
+    border-radius: 2px 2px 2px 2px;
   }
 
   .container_hotels {
@@ -1105,7 +1105,7 @@ figure {
     width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
-    border-radius: 25%;
+    border-radius: 2px 2px 2px 2px;
   }
 
   figure {
