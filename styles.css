@@ -552,8 +552,6 @@ figure {
 
 @media screen and (min-width: 576px) {
   
-
-  }
   .header_nav li:hover {
     border-bottom: none;
   }
