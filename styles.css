@@ -239,6 +239,11 @@
   margin: auto;
   padding: 0px 20px 40px 20px;
 }
+.div .fa-star{
+  display: flex;
+  padding: 10px 10px 12px 12px;
+  margin: 10px 12px 10px 12px;
+}
 
 p {
   display: flex;
@@ -311,12 +316,13 @@ p {
 figure {
   display: flex;
   margin: 10px 12px 10px 12px;
-  padding: 5px;
+  padding: 5px 10px 12px 10px;
   border-radius: 10px;
   background-color: var(--white);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
+  align-items: center;
 }
 
 .most_popular {
@@ -342,10 +348,12 @@ figure {
   padding: 10px 10px 0px 10px;
 }
 
-.hotel_title {
+.figcaption {
   display: flex;
   padding: 0 4px 0 8px;
+  color: var(--black);
 }
+
 
 .most_view {
   height: 100%;
@@ -526,10 +534,6 @@ figure {
   float: right;
 }
 
-.figcaption {
-  padding: 10px 12px 10px 12px;
-  margin: 10px 12px 10px 10px;
-}
 
 .filters {
   font-size: medium;
@@ -544,14 +548,17 @@ figure {
   font-weight: bold;
   flex-direction: column;
   flex-wrap: wrap;
+  color: var(--black);
 }
+
+
 
 /*medias queries*/
 
 /* Tablette ≤ 768px*/
 
 @media screen and (min-width: 576px) {
-  
+
   .header_nav li:hover {
     border-bottom: none;
   }
@@ -638,7 +645,7 @@ figure {
     flex-direction: row;
   }
 
- .hotel_flex {
+  .hotel_flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -652,8 +659,9 @@ figure {
     height: 14%;
     object-fit: cover;
     width: 55%;
-}
-.city_of_accommodation {
+  }
+
+  .city_of_accommodation {
     display: flex;
     flex-direction: row;
     padding: 5px 30px 85px 10px;
@@ -661,7 +669,7 @@ figure {
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 15px 15px 15px 15px;
-}
+  }
 
   .figure {
     display: flex;
@@ -674,7 +682,7 @@ figure {
     transition: 0.3s;
   }
 
- 
+
 
   .container_hotels {
     display: flex;
