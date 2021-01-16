@@ -17,6 +17,7 @@
   color: var(--black);
   font-size: 100%;
 }
+
 /* main */
 
 /* header */
@@ -62,16 +63,19 @@
 .a .lodging_nav {
   color: var(--blue);
 }
-.a .activity_nav{
+
+.a .activity_nav {
   color: var(--black);
 }
 
 .activity_nav:hover {
   color: var(--blue);
 }
-.lodging_nav{
+
+.lodging_nav {
   color: var(--blue);
 }
+
 .header_nav li:nth-child(3) a {
   position: absolute;
   text-align: end;
@@ -79,7 +83,8 @@
   right: 85px;
   color: var(--blue);
 }
-.li{
+
+.li {
   text-decoration: none;
 }
 
@@ -220,8 +225,9 @@
 }
 
 /*fin recherche*/
-/* filtre */
 
+
+/*filtre*/
 .h3 .filters_search {
   font-size: medium;
   font-weight: bold;
@@ -272,9 +278,11 @@
   border-radius: 80%;
   padding: 14px 12px 10px 12px;
 }
-/* fin filtre */
 
-/* informations */
+
+/*fin filtre*/
+
+/*informations*/
 .info {
   display: flex;
   margin: auto;
@@ -291,31 +299,36 @@
   margin: 7px 0 10px 17px;
 }
 
-.section .info {
+.span .info {
   display: flex;
   margin: auto;
   padding: 0px 20px 40px 20px;
 }
 
-.div .fa-star {
-  display: flex;
-  padding: 10px 10px 12px 12px;
-  margin: 10px 12px 10px 12px;
-}
-
 p {
   display: flex;
   margin: 9px 10px 12px 12px;
-  font-size: small;
+  font-size: medium;
 }
-/* fin informations */
 
-/*les plus populaires*/
-.container_hotels{
-  background-color:var(--gray);
+/*fin informations*/
+
+/* section les plus populaires*/
+.container_hotels {
+  background-color: var(--gray);
   width: 100%;
   padding: 0 15px 30px 10px;
 }
+
+.container_hotels a {
+  text-decoration: none;
+  line-height: 2em;
+}
+
+.container_hotels .figcaption {
+  line-height: 2em;
+}
+
 .most_popular {
   display: flex;
   width: auto;
@@ -324,6 +337,7 @@ p {
   padding: 25px 15px 25px 15px;
   margin: 19px 19px 5px 5px;
 }
+
 .popular_title {
   display: flex;
   font-weight: bold;
@@ -333,14 +347,16 @@ p {
   align-items: center;
   margin: 0 19px 5px 5px;
 }
+
 .fa-chart-line {
   display: flex;
   justify-content: flex-end;
   font-size: 23px;
   margin: 19px 19x 5px 5px;
 }
-.fa-3x{
-  font-size:2em;
+
+.fa-3x {
+  font-size: 2em;
 }
 
 .fa .fas {
@@ -357,13 +373,17 @@ figure {
   transition: 0.3s;
   align-items: center;
   background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+
 }
+
 .hotel_popu img {
-  width: 130px;
+  width: 120px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
- height: 145px;
+  height: 210px;
 }
 
 .hotel_pop img {
@@ -371,42 +391,39 @@ figure {
   object-fit: cover;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  height: 148px;
+}
+
+.pop_detail .h3 {
+  margin: 0;
+  font-size: medium;
 }
 
 .pop_detail {
   background-color: var(--white);
-  padding: 15px;
+  padding: 15px 2px 12px 10px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
 
-
-.div .fa-star {
-  display: flex;
-  padding: 10px 10px 0px 10px;
 }
 
 .figcaption {
   display: flex;
   padding: 0 4px 0 8px;
   color: var(--black);
+  line-height: 2em;
 }
 
+/* fin section les plus populaires*/
 
-.most_view {
-  height: 100%;
-  padding: 10px 12px 10px 12px;
-  margin: 10px 12px 10px 12px;
-}
 
 /* section hébergements*/
 
 .city_of_accommodation {
   display: flex;
   flex-direction: column;
-  padding: 15px 40px 100px 15px;
-  width: 107%;
+ padding: 0 15px 30px 10px;
+  width: 100%;
+  line-height: 1em;
 }
 
 .hotel_flex {
@@ -422,10 +439,11 @@ figure {
   height: 220px;
 }
 
-.city_hotel {
+.city_hotel .a {
   padding: 0 12px 12px;
   width: 150%;
   height: 100%;
+  
 }
 
 .hotel_flex img {
@@ -563,6 +581,15 @@ figure {
 }
 
 /*Mots repetés*/
+.most_view {
+  height: 100%;
+  padding: 10px 12px 10px 12px;
+  margin: 10px 12px 10px 12px;
+}
+
+.hotel_pop:hover .hotel_popu:hover .hotel_flex:hover .activities_card:hover {
+  transform: scale(2);
+}
 
 .hotel_flex .figcaption {
   display: flex;
@@ -585,6 +612,17 @@ figure {
 
 .fa-star {
   color: var(--blue);
+}
+
+.figcaption.price {
+  margin: 10px 10px 12px 12px;
+  padding: 10px 10px 12px 12px;
+}
+
+.div .fa-star {
+  display: flex;
+  padding: 10px 10px 12px 12px;
+  margin: 10px 12px 10px 12px;
 }
 
 .h3 {
