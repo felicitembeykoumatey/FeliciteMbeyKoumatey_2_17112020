@@ -426,6 +426,11 @@ figure {
   text-decoration: none;
 }
 
+.city_of_accommodation .h2 {
+  font-size: medium;
+  font-weight: bold;
+}
+
 .hotel_flex {
   display: flex;
   flex-direction: column;
@@ -451,13 +456,14 @@ figure {
 
 .hotel_flex img {
   display: flex;
-  height: 97px;
-  width: 105%;
-  margin: 10px 12px 10px 12px;
+  height: 84px;
+  width: 114%;
+  margin: 0 0 10px 21px;
   border-radius: 12px 12px 0 0;
   object-fit: cover;
   text-decoration: none;
 }
+
 .detail .h3 {
   margin: 0;
   font-size: medium;
@@ -475,79 +481,107 @@ figure {
 
 /*Activités*/
 
-.section .activities {
+.activities {
   display: flex;
-  padding: 0px 10px 10px 10px;
-  width: auto;
+  flex-direction: column;
+  margin: 0 15px 25px 25px;
 }
 
 .activity_town {
   display: flex;
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   height: 15px;
   padding: 12px 10px 10px 12px;
 }
 
-.activity_flex {
+.container_activities,
+.activities_card,
+.activities_small_card_1,
+.activities_small_card_2 {
   display: flex;
+  flex-direction: column;
+}
+
+.container_activities {
+  align-self: center;
+  margin: 0 14px 0 14px;
+}
+
+.activities_card {
+  display: flex;
+  height: 150px;
   flex-direction: column;
   background-color: var(--white);
   padding: 0 0 0 0;
   margin: 30px 12px 10px 12px;
-  height: 150px;
   border-radius: 12px 12px 12px 12px;
   transform: scale(1);
   transition: 0.3s;
   opacity: 1;
 }
 
-.card_boats {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px;
+.activities_card img {
+  height: 115px;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 325px;
 }
 
-.card_rocks {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px 15px 12px 2px;
+.activities_small_card_1,
+.activities_small_card_2 {
+  width: 325px;
+  height: auto;
+  margin: 0;
 }
 
-.card_isle {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px;
+.activities_small_card_1_1 img,
+.activities_small_card_2_2 img {
+  display: flex;
+  flex-direction: row;
+  width: 325px;
+  height: 115px;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
-.card_park {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px;
+.activities_small_card_1_1,
+.activities_small_card_1_2,
+.activities_small_card_2_1,
+.activities_small_card_2_2 {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: auto;
+  margin: 15px 15px 5px 0;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+  border: 5px solid var(--white);
+  border-radius: 25px;
+  transition: 0.3s;
 }
 
-.card_sea {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px;
+.activities_small_card_1_1 img,
+.activities_small_card_1_2 img,
+.activities_small_card_2_1 img,
+.activities_small_card_2_2 img {
+  width: 325px;
+  height: 115px;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
-.card_monument {
-  margin: 0 0 8px 0;
-  height: 100px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  padding: 2px;
+.hotel_flex,
+.hotel_pop,
+.hotel_popu,
+.activities:hover,
+.activities_small_card_1_1:hover,
+.activities_small_card_1_2,
+.activities_small_card_2_1,
+.activities_small_card_2_2 {
+  transform: scale(1);
 }
 
 /*Pieds de page*/
@@ -619,7 +653,7 @@ figure {
   font-size: medium;
 }
 
-.fa-star[data-active="true"]{
+.fa-star[data-active="true"] {
   color: var(--blue);
 }
 
