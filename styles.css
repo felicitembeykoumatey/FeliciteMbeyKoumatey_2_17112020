@@ -352,7 +352,7 @@ p {
   display: flex;
   justify-content: flex-end;
   font-size: 23px;
-  margin: 19px 19x 5px 5px;
+  margin: 19px 19px 5px 5px;
 }
 
 .fa-3x {
@@ -409,7 +409,6 @@ figure {
 .figcaption {
   display: flex;
   padding: 0 4px 0 8px;
-  color: var(--black);
   line-height: 2em;
 }
 
@@ -421,9 +420,10 @@ figure {
 .city_of_accommodation {
   display: flex;
   flex-direction: column;
- padding: 0 15px 30px 10px;
+  padding: 0 0 0 9px;
   width: 100%;
-  line-height: 1em;
+  line-height: 2em;
+  text-decoration: none;
 }
 
 .hotel_flex {
@@ -437,13 +437,16 @@ figure {
   transform: scale(1);
   transition: 0.3s;
   height: 220px;
+  text-decoration: none;
 }
 
 .city_hotel .a {
   padding: 0 12px 12px;
   width: 150%;
   height: 100%;
-  
+  text-decoration: none;
+  line-height: 2em;
+
 }
 
 .hotel_flex img {
@@ -453,6 +456,12 @@ figure {
   margin: 10px 12px 10px 12px;
   border-radius: 12px 12px 0 0;
   object-fit: cover;
+  text-decoration: none;
+}
+.detail .h3 {
+  margin: 0;
+  font-size: medium;
+
 }
 
 .show_more {
@@ -610,8 +619,12 @@ figure {
   font-size: medium;
 }
 
-.fa-star {
+.fa-star[data-active="true"]{
   color: var(--blue);
+}
+
+.star_icon[data-active="false"] {
+  color: var(--gray);
 }
 
 .figcaption.price {
