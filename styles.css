@@ -64,6 +64,7 @@
 .activity_nav:hover {
   color: var(--blue);
 }
+
 .header_nav li:nth-child(3) a {
   position: absolute;
   text-align: end;
@@ -71,6 +72,7 @@
   right: 85px;
   color: var(--blue);
 }
+
 .a {
   font-size: small;
   text-decoration: none;
@@ -105,7 +107,7 @@
 .location {
   display: flex;
   margin: 10px 12px 10px 12px;
-  font-size: 100%;
+  font-size: medium;
   height: 20px;
   padding: 0 0 15px 0;
 }
@@ -135,6 +137,7 @@
   color: var(--black);
   font-weight: bold;
   padding: 12px;
+  font-size: medium;
 }
 
 .search_form_btn {
@@ -196,7 +199,7 @@
   border-bottom: var(--gray) 1px solid;
   border-right: none;
   border-left: none;
-  font-size: small;
+  font-size: medium;
   color: var(--black);
   font-weight: bold;
 }
@@ -222,10 +225,10 @@
   padding: 6px 15px 12px 15px;
   background-color: var(--white);
   width: auto;
-  margin: 20px 25px 20px 17px;
+  margin: 7px 0 10px 17px;
 }
 
-.div .info {
+.section .info {
   display: flex;
   margin: auto;
   padding: 0px 20px 40px 20px;
@@ -239,17 +242,28 @@
 
 p {
   display: flex;
-  margin: 0 10px 12px 12px;
-  font-size: medium;
+  margin: 9px 10px 12px 12px;
+  font-size: small;
 }
 
 /* filtre */
+
+.h3 .filters_search {
+  font-size: medium;
+  font-weight: bold;
+}
 
 .filters_global {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 10px 10px 10px;
   width: auto;
+}
+
+.filters {
+  color: var(--black);
+  font-size: small;
+  font-weight: bold;
 }
 
 .global {
@@ -285,25 +299,43 @@ p {
   padding: 14px 12px 10px 12px;
 }
 
-.fa .fas {
-  font-weight: 900;
+/* fin filtre */
+
+/*les populaires*/
+
+.most_popular {
+  display: flex;
+  width: auto;
+  order: 1;
+  justify-content: space-between;
+  padding: 25px 15px 25px 15px;
+  margin: 19px 19px 5px 5px;
 }
 
-/*Les hebergements les populaires*/
 .popular_title {
   display: flex;
   font-weight: bold;
-  font-size: medium;
+  font-size: 23px;
   color: var(--black);
   justify-content: space-between;
   align-items: center;
+  margin: 0 19px 5px 5px;
 }
 
 .fa-chart-line {
   display: flex;
   justify-content: flex-end;
-  font-size: 30px;
+  font-size: 23px;
+  margin: 19px 19x 5px 5px;
 }
+.fa-3x{
+  font-size:2em;
+}
+
+.fa .fas {
+  font-weight: 900;
+}
+
 
 figure {
   display: flex;
@@ -325,15 +357,7 @@ figure {
 }
 
 
-.most_popular {
-  display: flex;
-  width: auto;
-  order: 1;
-  padding: 30px 15px 0 15px;
-  margin: 10px 15px 20px 15px;
-  flex-direction: column;
-  border-radius: 2px 2px 2px 2px;
-}
+
 
 .hotel_pop img {
   width: 130px;
