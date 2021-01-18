@@ -333,7 +333,7 @@ p {
 
 .most_popular {
   display: flex;
-  width: 335px;
+  width: auto;
   order: 1;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
@@ -417,7 +417,7 @@ p {
 
 /* section hébergements*/
 
-.city_of_accommodation{
+.city_of_accommodation {
   display: flex;
   flex-direction: column;
   width: 93%;
@@ -449,7 +449,7 @@ p {
   align-items: center;
 }
 
-.city_hotel  {
+.city_hotel {
   padding: 0 12px 12px;
   width: 93%;
   height: 100%;
@@ -629,6 +629,7 @@ p {
   font-weight: bold;
 }
 
+
 .assistance {
   font-weight: bold;
 }
@@ -640,6 +641,7 @@ p {
 }
 
 /*Mots repetés*/
+
 .most_view {
   height: 100%;
   padding: 10px 12px 10px 12px;
@@ -648,8 +650,8 @@ p {
 
 .hotel_pop:hover,
 .hotel_popu:hover,
- .hotel_flex:hover ,
- .activities_card:hover {
+.hotel_flex:hover,
+.activities_card:hover {
   transform: scale(2);
 }
 
@@ -706,8 +708,30 @@ p {
 /* Tablette ≤ 768px*/
 
 @media screen and (min-width: 576px) {
-  .container_hotels{
+
+  .fa-search {
+    display: none;
+  }
+
+  .search_form_btn {
+    display: flex;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: var(--blue);
+    height: 16px;
+    padding: 16px 20px 20px;
+    color: var(--white);
+  }
+
+  .container_hotels {
     flex-direction: row;
+  }
+
+  .city_hotel {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .header_nav li:hover {
@@ -722,54 +746,10 @@ p {
     padding: 10px 12px 10px 10px;
   }
 
-
-  .card_boats {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-    flex-grow: 2;
-  }
-
-  .card_rocks {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 15px 12px 2px;
-  }
-
-  .card_isle {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
-
-  .card_park {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
-
-  .card_sea {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_monument {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
+  .a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--black);
   }
 
   .most_popular {
@@ -783,15 +763,6 @@ p {
     margin: 12px 10px 12px 10px;
     width: 35%;
     height: 80%;
-  }
-
-  .city_hotel {
-    padding: 12px 2px 70px 12px;
-    width: 110%;
-    height: 88%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
   }
 
   .hotel_flex {
@@ -812,8 +783,8 @@ p {
 
   .city_of_accommodation {
     display: flex;
-    flex-direction: row;
-    padding: 5px 30px 85px 10px;
+    flex-direction: column;
+    margin: 0 25px 0 25px;
     width: 45%;
     flex-wrap: wrap;
     background-color: var(--gray);
@@ -829,14 +800,6 @@ p {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     transform: scale(1);
     transition: 0.3s;
-  }
-
-
-
-  .container_hotels {
-    display: flex;
-    flex-direction: row;
-    float: left;
   }
 
   section .about {
@@ -894,7 +857,22 @@ p {
 /* Fin tablette ≤ 768px*/
 
 /*Tablette landscape ≤1024px*/
+
 @media screen and (min-width: 769px) {
+  .fa-search {
+    display: none;
+  }
+
+  .search_form_btn {
+    display: flex;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: var(--blue);
+    height: 16px;
+    padding: 16px 20px 20px;
+    color: var(--white);
+  }
+
   .header_nav li:hover {
     border-bottom: none;
   }
@@ -908,55 +886,6 @@ p {
 
   .lodging_nav {
     border-top: var(--blue);
-  }
-
-  .card_boats {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-    flex-grow: 2;
-  }
-
-  .card_rocks {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 15px 12px 2px;
-  }
-
-  .card_isle {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_park {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_sea {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
-
-  .card_monument {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
   }
 
   .most_popular {
@@ -997,7 +926,6 @@ p {
   .city_of_accommodation {
     display: flex;
     flex-direction: row;
-    padding: 15px 40px 100px 15px;
     width: 40%;
     flex-wrap: wrap;
     background-color: var(--gray);
@@ -1065,7 +993,23 @@ p {
 /*Fin tablette landscape ≤1024px*/
 
 /*Laptop ≤1600*/
+
 @media screen and (min-width: 1025px) {
+
+  .fa-search {
+    display: none;
+  }
+
+  .search_form_btn {
+    display: flex;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: var(--blue);
+    height: 16px;
+    padding: 16px 20px 20px;
+    color: var(--white);
+  }
+
   .header_nav li:hover {
     border-bottom: none;
   }
@@ -1081,54 +1025,7 @@ p {
     border-top: var(--blue);
   }
 
-  .card_boats {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-    flex-grow: 2;
-  }
 
-  .card_rocks {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 15px 12px 2px;
-  }
-
-  .card_isle {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_park {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_sea {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_monument {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
 
   .most_popular {
     float: right;
@@ -1242,6 +1139,18 @@ p {
 /* Desktop >1600px*/
 
 @media screen and (min-width: 1600px) {
+    .fa-search{
+    display: none;
+  }
+  .search_form_btn{
+    display: flex;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  background-color:var(--blue);
+  height: 16px;
+  padding: 16px 20px 20px;
+  color: var(--white);
+}
   .header_nav li:hover {
     border-bottom: none;
   }
@@ -1278,54 +1187,6 @@ p {
     transition: 0.3s;
   }
 
-  .card_boats {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-    flex-grow: 2;
-  }
-
-  .card_rocks {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 15px 12px 2px;
-  }
-
-  .card_isle {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px;
-  }
-
-  .card_park {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
-
-  .card_sea {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
-
-  .card_monument {
-    margin: 0 0 8px 0;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 2px 0 0 0;
-  }
 
   .most_popular {
     float: right;
