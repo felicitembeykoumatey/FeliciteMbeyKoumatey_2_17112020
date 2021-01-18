@@ -16,6 +16,7 @@
   padding: 30px 20px 10px 30px;
   color: var(--black);
   font-size: 100%;
+  text-decoration: none;
 }
 
 /* main */
@@ -314,24 +315,25 @@ p {
 /*fin informations*/
 
 /* section les plus populaires*/
-.container_hotels {
+.most_popular {
   background-color: var(--gray);
-  width: 100%;
+  width: 205px;
   padding: 0 15px 30px 10px;
+  flex-direction: column;
 }
 
-.container_hotels a {
+.most_popular a {
   text-decoration: none;
   line-height: 2em;
 }
 
-.container_hotels .figcaption {
+.most_popular .figcaption {
   line-height: 2em;
 }
 
 .most_popular {
   display: flex;
-  width: auto;
+  width: 335px;
   order: 1;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
@@ -363,34 +365,37 @@ p {
   font-weight: 900;
 }
 
-figure {
+.hotel_popu,
+.hotel_pop {
   display: flex;
   margin: 0 12px 12px 12px;
   border-radius: 20px;
   border: 5px solid var(--white);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
   align-items: center;
   background-color: var(--white);
   color: var(--black);
-  text-decoration: none;
+  width: 306px;
 
 }
 
 .hotel_popu img {
   width: 120px;
+  height: 190px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  height: 210px;
 }
 
 .hotel_pop img {
   width: 120px;
+  height: 190px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+
 }
 
 .pop_detail .h3 {
@@ -406,24 +411,22 @@ figure {
 
 }
 
-.figcaption {
-  display: flex;
-  padding: 0 4px 0 8px;
-  line-height: 2em;
-}
 
 /* fin section les plus populaires*/
 
 
 /* section hébergements*/
 
-.city_of_accommodation {
+.city_of_accommodation{
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 9px;
-  width: 100%;
-  line-height: 2em;
+  width: 93%;
+  padding: 0 15px 30px 10px;
+}
+
+.city_of_accommodation a {
   text-decoration: none;
+  line-height: 2em;
 }
 
 .city_of_accommodation .h2 {
@@ -441,23 +444,22 @@ figure {
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
-  height: 220px;
-  text-decoration: none;
+  width: 300px;
+  color: var(--black);
+  align-items: center;
 }
 
-.city_hotel .a {
+.city_hotel  {
   padding: 0 12px 12px;
-  width: 150%;
+  width: 93%;
   height: 100%;
-  text-decoration: none;
   line-height: 2em;
-
 }
 
 .hotel_flex img {
   display: flex;
   height: 84px;
-  width: 114%;
+  width: 102%;
   margin: 0 0 10px 21px;
   border-radius: 12px 12px 0 0;
   object-fit: cover;
@@ -485,6 +487,7 @@ figure {
   display: flex;
   flex-direction: column;
   margin: 0 15px 25px 25px;
+  width: 93%;
 }
 
 .activity_town {
@@ -495,14 +498,6 @@ figure {
   padding: 12px 10px 10px 12px;
 }
 
-.container_activities,
-.activities_card,
-.activities_small_card_1,
-.activities_small_card_2 {
-  display: flex;
-  flex-direction: column;
-}
-
 .container_activities {
   align-self: center;
   margin: 0 14px 0 14px;
@@ -510,12 +505,12 @@ figure {
 
 .activities_card {
   display: flex;
-  height: 150px;
+  height: 155px;
+  width: 306px;
   flex-direction: column;
   background-color: var(--white);
-  padding: 0 0 0 0;
   margin: 30px 12px 10px 12px;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 30px 30px 30px 30px;
   transform: scale(1);
   transition: 0.3s;
   opacity: 1;
@@ -526,21 +521,32 @@ figure {
   object-fit: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  width: 325px;
+  width: 318px;
 }
+
 
 .activities_small_card_1,
 .activities_small_card_2 {
-  width: 325px;
+  display: flex;
   height: auto;
-  margin: 0;
+  width: 306px;
+  flex-direction: column;
+  background-color: var(--white);
+  margin: 30px 12px 10px 12px;
+  border-radius: 30px 30px 30px 30px;
+  transform: scale(1);
+  transition: 0.3s;
+  opacity: 1;
 }
 
+
 .activities_small_card_1_1 img,
+.activities_small_card_2_2 img,
+.activities_small_card_2_1 img,
 .activities_small_card_2_2 img {
   display: flex;
   flex-direction: row;
-  width: 325px;
+  width: 318px;
   height: 115px;
   object-fit: cover;
   border-top-left-radius: 25px;
@@ -553,9 +559,10 @@ figure {
 .activities_small_card_2_2 {
   display: flex;
   flex-direction: column;
-  width: 325px;
-  height: auto;
-  margin: 15px 15px 5px 0;
+  width: 306px;
+  height: 115px;
+  margin: 5px 5px 5px 0;
+  padding: 5px 10px 15px 10px;
   box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
   border: 5px solid var(--white);
   border-radius: 25px;
@@ -583,6 +590,15 @@ figure {
 .activities_small_card_2_2 {
   transform: scale(1);
 }
+
+.container_activities,
+.activities_card,
+.activities_small_card_1,
+.activities_small_card_2 {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /*Pieds de page*/
 
@@ -630,7 +646,10 @@ figure {
   margin: 10px 12px 10px 12px;
 }
 
-.hotel_pop:hover .hotel_popu:hover .hotel_flex:hover .activities_card:hover {
+.hotel_pop:hover,
+.hotel_popu:hover,
+ .hotel_flex:hover ,
+ .activities_card:hover {
   transform: scale(2);
 }
 
@@ -687,6 +706,9 @@ figure {
 /* Tablette ≤ 768px*/
 
 @media screen and (min-width: 576px) {
+  .container_hotels{
+    flex-direction: row;
+  }
 
   .header_nav li:hover {
     border-bottom: none;
