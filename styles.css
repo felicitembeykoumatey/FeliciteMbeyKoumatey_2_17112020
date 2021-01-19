@@ -647,7 +647,7 @@ p {
 .hotel_popu:hover,
 .hotel_flex:hover,
 .activities_card:hover {
-  transform: scale(2);
+  transform: scale(1.1);
 }
 .hotel_flex .figcaption {
   display: flex;
