@@ -430,41 +430,45 @@ p {
   display: flex;
   flex-direction: column;
   background-color: var(--gray);
-  padding: 5px 32px 0 10px;
+  padding: 2px 27px 0px 14px;
   border-radius: 25px;
-  margin: 32px 12px 40px 32px;
+  margin: 5px 0px 25px 32px;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: 0.3s;
-  width: 300px;
+  width: 106%;
   color: var(--black);
   align-items: center;
   border: 5px solid var(--white);
   object-fit: cover;
 }
- .detail {
-    background-color: var(--white);
-    font-size: small;
-    margin: 2px -33px -2px -11px;
-    padding: 2px 8px 6px 37px;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 336px;
-  }
+
+.detail {
+  background-color: var(--white);
+  font-size: small;
+  margin: -8px -67px -1px -56px;
+  padding: 2px 43px 6px 5px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 261px;
+  height: 116px;
+  align-items: center;
+}
+
 .city_hotel {
-  padding: 0 12px 12px;
-  width: 93%;
+  padding: -4px 12px 7px -6px;
+  width: 75%;
   height: 100%;
   line-height: 2em;
 }
 
 .hotel_flex img {
   display: flex;
-  height: 84px;
-  width: 102%;
-  margin: 0 0 10px 21px;
-  border-radius: 12px 12px 0 0;
+  height: 159px;
+  width: 115%;
+  margin: 0 0 10px 13px;
+  border-radius: 22px 22px 0 0;
   object-fit: cover;
   text-decoration: none;
 }
@@ -490,9 +494,8 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0 15px 25px 25px;
-  width: 93%;
+  width: 80%;
 }
-
 .activity_town {
   display: flex;
   font-weight: bold;
@@ -508,7 +511,7 @@ p {
 
 .activities_card {
   display: flex;
-  height: 155px;
+  height: auto;
   width: 306px;
   flex-direction: column;
   background-color: var(--white);
@@ -517,6 +520,8 @@ p {
   transform: scale(1);
   transition: 0.3s;
   opacity: 1;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+  border: 5px solid var(--white);
 }
 
 .activities_card img {
@@ -524,9 +529,8 @@ p {
   object-fit: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  width: 318px;
+  width: 307px;
 }
-
 
 .activities_small_card_1,
 .activities_small_card_2 {
@@ -541,7 +545,6 @@ p {
   transition: 0.3s;
   opacity: 1;
 }
-
 
 .activities_small_card_1_1 img,
 .activities_small_card_2_2 img,
@@ -563,7 +566,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 306px;
-  height: 115px;
+  height: 150px;
   margin: 5px 5px 5px 0;
   padding: 5px 10px 15px 10px;
   box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
@@ -576,7 +579,7 @@ p {
 .activities_small_card_1_2 img,
 .activities_small_card_2_1 img,
 .activities_small_card_2_2 img {
-  width: 325px;
+  width: 289px;
   height: 115px;
   object-fit: cover;
   border-top-left-radius: 25px;
@@ -600,6 +603,12 @@ p {
 .activities_small_card_2 {
   display: flex;
   flex-direction: column;
+}
+
+.activities a {
+  text-decoration: none;
+  line-height: 2em;
+  color: var(--black);
 }
 
 
@@ -658,16 +667,6 @@ p {
   transform: scale(1.1);
 }
 
- .detail {
-    background-color: var(--white);
-    font-size: small;
-    margin: 2px -33px -2px -11px;
-    padding: 2px 8px 6px 37px;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 336px;
-  }
 .hotel_flex .figcaption {
   display: flex;
   margin: 14px 0 0 20px;
@@ -719,6 +718,22 @@ p {
   text-decoration: none;
   color: var(--black);
 }
+
+.h2 {
+  display: flex;
+  font-size: medium;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  width: auto;
+}
+
 
 /*medias queries*/
 
@@ -805,7 +820,7 @@ p {
     width: 235px;
   }
 
-   .hotel_flex {
+  .hotel_flex {
     height: auto;
     margin: 10px 10px 20px 0;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
@@ -836,7 +851,7 @@ p {
     object-fit: cover;
   }
 
-   .detail {
+  .detail {
     background-color: var(--white);
     font-size: small;
     margin: 2px -33px -2px -11px;
