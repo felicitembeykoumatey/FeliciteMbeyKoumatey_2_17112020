@@ -429,9 +429,9 @@ p {
 .hotel_flex {
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--gray);
   padding: 5px 32px 0 10px;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 25px;
   margin: 32px 12px 40px 32px;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1);
@@ -439,8 +439,19 @@ p {
   width: 300px;
   color: var(--black);
   align-items: center;
+  border: 5px solid var(--white);
+  object-fit: cover;
 }
-
+ .detail {
+    background-color: var(--white);
+    font-size: small;
+    margin: 2px -33px -2px -11px;
+    padding: 2px 8px 6px 37px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 336px;
+  }
 .city_hotel {
   padding: 0 12px 12px;
   width: 93%;
@@ -647,6 +658,16 @@ p {
   transform: scale(1.1);
 }
 
+ .detail {
+    background-color: var(--white);
+    font-size: small;
+    margin: 2px -33px -2px -11px;
+    padding: 2px 8px 6px 37px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 336px;
+  }
 .hotel_flex .figcaption {
   display: flex;
   margin: 14px 0 0 20px;
@@ -784,20 +805,16 @@ p {
     width: 235px;
   }
 
-  .hotel_flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--white);
-    padding: 2px 32px 9px 23px;
-    border-radius: 19px 14px 12px 12px;
-    margin: 0px 12px 40px 32px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1);
+   .hotel_flex {
+    height: auto;
+    margin: 10px 10px 20px 0;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--white);
+    border-radius: 25px;
     transition: 0.3s;
-    height: 14%;
+    width: 235px;
+    background-color: var(--gray);
     object-fit: cover;
-    width: 55%;
   }
 
   .city_of_accommodation {
@@ -818,14 +835,18 @@ p {
     border-radius: 12px 12px 0 0;
     object-fit: cover;
   }
-  .detail {
+
+   .detail {
+    background-color: var(--white);
     font-size: small;
-    margin: 0;
-    padding: 5px 0 5px 5px;
+    margin: 2px -33px -2px -11px;
+    padding: 2px 8px 6px 37px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    width: 336px;
   }
+
   .detail .p {
     margin: 5px 0 15px 0;
   }
@@ -958,17 +979,14 @@ p {
   }
 
   .hotel_flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--white);
-    padding: 5px 32px 0 10px;
-    border-radius: 12px 12px 12px 12px;
-    margin: 32px 12px 40px 32px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
+    height: auto;
+    margin: 10px 10px 20px 0;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--white);
+    border-radius: 25px;
     transition: 0.3s;
-    height: 220px;
+    width: 235px;
+    background-color: var(--gray);
     object-fit: cover;
   }
 
@@ -1100,6 +1118,17 @@ p {
     width: 335px;
   }
 
+  .detail {
+    background-color: var(--white);
+    font-size: small;
+    margin: 2px -33px -2px -11px;
+    padding: 2px 8px 6px 37px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 336px;
+  }
+
   .hotel_popu,
   .hotel_pop {
     display: flex;
@@ -1128,16 +1157,16 @@ p {
     width: 100%;
   }
 
+
   .hotel_flex {
-    display: flex;
-    background-color: var(--white);
-    padding: 5px 32px 0 10px;
-    border-radius: 12px 12px 12px 12px;
-    margin: 32px 12px 40px 32px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
+    height: auto;
+    margin: 10px 10px 20px 0;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--white);
+    border-radius: 25px;
     transition: 0.3s;
-    height: 220px;
+    width: 235px;
+    background-color: var(--gray);
     object-fit: cover;
   }
 
@@ -1255,7 +1284,6 @@ p {
     border-radius: 2px 2px 2px 2px;
   }
 
-
   .hotel_popular {
     float: right;
     display: flex;
@@ -1267,6 +1295,17 @@ p {
     margin: 12px 10px 12px 10px;
     height: 80%;
     width: 335px;
+  }
+
+  .detail {
+    background-color: var(--white);
+    font-size: small;
+    margin: 2px -33px -2px -11px;
+    padding: 2px 8px 6px 37px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 336px;
   }
 
   .hotel_popu,
@@ -1293,21 +1332,6 @@ p {
     flex-direction: row;
   }
 
-  .hotel_flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--white);
-    padding: 5px 32px 0 10px;
-    border-radius: 12px 12px 12px 12px;
-    margin: 32px 12px 40px 32px;
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
-    transition: 0.3s;
-    height: 220px;
-    object-fit: cover;
-  }
-
   .container_hotels {
     display: flex;
     flex-direction: row;
@@ -1317,11 +1341,23 @@ p {
 
   .hotel_flex img {
     display: flex;
-    height: 27%;
-    width: 299px;
-    margin: 10px 12px 10px 12px;
+    height: 90px;
+    width: 265px;
+    margin: -4px 3px -1px -3px;
     border-radius: 12px 12px 0 0;
     object-fit: cover;
+
+  }
+
+  .hotel_flex {
+    height: auto;
+    margin: 10px 10px 20px 0;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--white);
+    border-radius: 25px;
+    transition: 0.3s;
+    width: 235px;
+    background-color: var(--gray);
   }
 
   .activity_flex img {
