@@ -79,7 +79,7 @@
 }
 
 .header_nav li:nth-child(3) a {
-  position: absolute;
+  position : absolute;
   text-align: end;
   top: 5px;
   right: 85px;
@@ -183,6 +183,7 @@
   background-color: var(--white);
   margin: 0 0 0 -310px;
 }
+
 .input .localisation .search_bar {
   background-color: var(--gray);
   color: var(--black);
@@ -361,7 +362,7 @@ p {
 .hotel_popu,
 .hotel_pop {
   display: flex;
-  margin: 0 12px 12px 12px;
+  margin: 0 12px 20px 0;
   border-radius: 20px;
   border: 5px solid var(--white);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -483,14 +484,20 @@ p {
 .most_view {
   font-weight: bold;
   font-size: medium;
+  height: 100%;
+  padding: 0 5px 0px 12px;
+  margin: 6px 0px -44px 12px;
 }
+
+
+
 
 /*Activités*/
 
 .activities {
   display: flex;
   flex-direction: column;
-  margin: 0 15px 25px 25px;
+  margin: 65px 15px 25px 25px;
   width: 80%;
 }
 
@@ -640,12 +647,6 @@ p {
 
 /*Mots repetés*/
 
-.most_view {
-  height: 100%;
-  padding: 10px 12px 10px 12px;
-  margin: 10px 12px 10px 12px;
-}
-
 .hotel_pop:hover,
 .hotel_popu:hover,
 .hotel_flex:hover,
@@ -719,6 +720,17 @@ p {
 
 
 /*medias queries*/
+/*mobile*/
+@media screen and (min-width: 575px) {
+.header_nav li:nth-child(3) a {
+  position: absolute;
+    text-align: end;
+    top: 5px;
+    right: 85px;
+    color: var(--blue);
+}
+}
+/*fin mobile*/
 
 /* Tablette*/
 
@@ -727,6 +739,9 @@ p {
     display: none;
   }
 
+  .header_nav li:nth-child(3) a {
+  position: inherit;
+  }
   .search_form_btn {
     display: flex;
     border-bottom-right-radius: 16px;
@@ -1411,11 +1426,16 @@ p {
 @media screen and (min-width: 1600px) {
   .header {
     margin-left: 25px;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
   }
-.h1{
-  display: flex;
-  margin:10px 12px 10px 12px;
-}
+
+  .h1 {
+    display: flex;
+    margin: 10px 12px 10px 12px;
+  }
+
   .fa-search {
     display: none;
   }
@@ -1434,11 +1454,22 @@ p {
     border-bottom: none;
   }
 
+  .header_nav li:nth-child(3) a {
+    text-align: end;
+    top: 5px;
+    right: 85px;
+    color: var(--blue);
+  }
+
   .header_nav li {
     width: 15%;
     text-align: center;
     border-bottom: none;
     padding: 10px 12px 10px 10px;
+  }
+
+  .header_nav .ul {
+    justify-content: flex-end;
   }
 
   .lodging_nav {
@@ -1457,7 +1488,6 @@ p {
     transform: scale(1.1);
   }
 
-
   .activities_card:hover,
   .activities_small_card_1_1:hover,
   .activities_small_card_1_2:hover,
@@ -1468,7 +1498,7 @@ p {
 
   .hotel_popu {
     display: flex;
-    margin: 3px;
+    margin: 34px;
     border-radius: 20px;
     border: 5px solid var(--white);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -1481,7 +1511,7 @@ p {
 
   .hotel_pop {
     display: flex;
-    margin: 6px;
+    margin: 34px;
     border-radius: 20px;
     border: 5px solid var(--white);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -1516,6 +1546,7 @@ p {
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 2px 2px 2px 2px;
+    margin: -31px 0px 72px 11px;
   }
 
   .hotel_popular {
