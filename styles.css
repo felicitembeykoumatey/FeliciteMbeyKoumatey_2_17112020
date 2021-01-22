@@ -18,9 +18,7 @@
 /* main */
 
 /* header */
-.logo{
-  
-}
+
 .header {
   display: flex;
   margin-right: 60px;
@@ -178,7 +176,7 @@
 .search_form {
   display: flex;
   background-color: var(--white);
-  margin: 0 0 0 -310px;
+  margin: 0 0 0 10px;
 }
 
 .input .localisation .search_bar {
@@ -446,14 +444,14 @@ p {
   border-top-right-radius: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 261px;
+  width: 224px;
   height: 116px;
   align-items: center;
 }
 
 .city_hotel {
   padding: 0 12px 7px 0;
-  width: 75%;
+  width: 65%;
   height: 100%;
   line-height: 2em;
 }
@@ -461,7 +459,7 @@ p {
 .hotel_flex img {
   display: flex;
   height: 159px;
-  width: 115%;
+  width: 117%;
   margin: 0 0 10px 13px;
   border-radius: 22px 22px 0 0;
   object-fit: cover;
@@ -714,6 +712,12 @@ p {
 
 /*medias queries*/
 
+
+.search_form_icon{
+    display: flex;
+    background-color: var(--white);
+    padding: 10px 12px 10px;
+}
 /* Tablette*/
 
 @media screen and (min-width: 576px) {
