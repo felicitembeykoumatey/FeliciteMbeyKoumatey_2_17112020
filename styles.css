@@ -1367,7 +1367,7 @@ p {
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
     border: 5px solid var(--white);
   }
- .activities_small_card_1_1,
+   .activities_small_card_1_1,
   .activities_small_card_1_2,
   .activities_small_card_2_1,
   .activities_small_card_2_2 {
@@ -1382,13 +1382,20 @@ p {
     border-radius: 25px;
     transition: 0.3s;
   }
+ 
   .activities_small_card_1_1:hover,
   .activities_small_card_1_2:hover,
   .activities_small_card_2_1:hover,
   .activities_small_card_2_2:hover {
     transform: scale(1.1);
   }
-
+.container_activities, 
+.activities_card, 
+.activities_small_card_1, 
+.activities_small_card_2 {
+    display: flex;
+    flex-direction: row;
+}
   .hotel_pop:hover,
   .hotel_popu:hover,
   .hotel_flex:hover,
@@ -1411,9 +1418,9 @@ p {
     border-radius: 10px;
     order: 3;
     padding: 0 15px 30px 10px;
-    margin: 12px 10px 12px 10px;
+    margin: 30px 10px 12px 406px;
     height: 80%;
-    width: 335px;
+    width: 440px;
   }
 
   .hotel_popu img {
@@ -1433,12 +1440,12 @@ p {
   .detail {
     background-color: var(--white);
     font-size: small;
-    margin: 2px -33px -2px -11px;
+    margin: -12px 2px -2px 16px;
     padding: 2px 8px 6px 37px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 336px;
+    width: 237px;
   }
   .hotel_pop {
     display: flex;
@@ -1476,29 +1483,37 @@ p {
   }
   .hotel_flex img {
     display: flex;
-    height: 27%;
-    width: 299px;
-    margin: 10px 12px 10px 12px;
-    border-radius: 12px 12px 0 0;
+    height: 44%;
+    width: 275px;
+    margin: -2px 13px 10px 30px;
+    border-radius: 25px 25px 0 0;
     object-fit: cover;
   }
   .city_of_accommodation {
     display: flex;
     flex-direction: row;
     padding: 0 40px 54px 25px;
-    width: 80%;
+    width: 165%;
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 2px 2px 2px 2px;
-    margin: 31px 0px 72px 103px;
+    margin: 31px 0px 72px 10px;
 }
   .container_hotels {
     display: flex;
     flex-direction: row;
     float: left;
-    width: 90%;
+    width: 100%;
   }
   
+  .container_activities {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 -134px;
+  }
+
   .footer {
     background-color: var(--gray);
     display: flex;
@@ -1617,6 +1632,14 @@ p {
     transform: scale(1.1);
   }
   
+.container_activities, 
+.activities_card, 
+.activities_small_card_1, 
+.activities_small_card_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 12px 10px;
+}
  .activities_small_card_1_1,
   .activities_small_card_1_2,
   .activities_small_card_2_1,
