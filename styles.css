@@ -1686,7 +1686,7 @@ p {
     display: flex;
     flex-direction: row;
     padding: 0 40px 33px 25px;
-    width: 93%;
+    width: 85%;
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 10px 10px 10px 10px;
@@ -1757,7 +1757,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 -170px;
+    margin: 0 0 0 -134px;
   }
 
   .activities_card img {
@@ -1765,7 +1765,7 @@ p {
     object-fit: cover;
     border-top-left-radius: 14%;
     border-top-right-radius: 14%;
-    width: 292px;
+    width: 280px;
     margin: -36px 2px 4px 5px;
     padding: 35px 5px 2px 0px;
   }
@@ -1795,14 +1795,27 @@ p {
     font-weight: normal;
     color: var(--black);
   }
-  .footer {
+   .footer {
     background-color: var(--gray);
     display: flex;
-    justify-content: space-between;
-    margin: 35px 25px 25px 135px;
-    padding-left: 59px;
+    justify-content: space-around;
+    margin: 35px 25px 25px -5px;
+    width: 1491px;
+    padding-left: 0px;
     flex-direction: row;
     align-items: center;
+  }
+.about {
+    font-weight: bold;
+    margin: 1px 1px 1px -195px;
+}
+.lodging {
+    font-weight: bold;
+    margin: 1px 40px 1px -165px;
+}
+.assistance {
+    font-weight: bold;
+    margin: 1px 70px 0px -239px;
 }
 
 
