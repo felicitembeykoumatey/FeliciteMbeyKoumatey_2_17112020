@@ -871,7 +871,7 @@ p {
   .activities {
     display: flex;
     flex-direction: column;
-    margin: 0 15px 25px -25px;
+    margin: 0 15px 25px 25px;
     width: 102%;
   }
 
@@ -1557,6 +1557,9 @@ p {
     right: 85px;
     color: var(--blue);
   }
+  .header_nav li:first-child a{
+    color:var(--blue);
+  }
 
   .h1 {
     display: flex;
@@ -1777,7 +1780,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 -134px;
+    margin: 52px 0 0 -212px;
   }
 
   .activities_card img {
