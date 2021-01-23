@@ -910,19 +910,6 @@ p {
     width: 307px;
   }
 
-  .activities_small_card_1,
-  .activities_small_card_2 {
-    display: flex;
-    height: auto;
-    width: 306px;
-    flex-direction: column;
-    background-color: var(--white);
-    margin: 30px 12px 10px 12px;
-    border-radius: 30px 30px 30px 30px;
-    transition: 0.3s;
-    opacity: 1;
-  }
-
   .activities_small_card_1_1 img,
   .activities_small_card_1_2 img,
   .activities_small_card_2_1 img,
@@ -968,13 +955,14 @@ p {
   }
 
 
-  .activities_card,
-  .activities_small_card_1,
-  .activities_small_card_2 {
+ .container_activities, 
+.activities_card, 
+.activities_small_card_1, 
+.activities_small_card_2 {
     display: flex;
     flex-direction: column;
-  }
-
+    margin: 10px 12px 10px;
+}
   .activities a {
     text-decoration: none;
     line-height: 2em;
@@ -1243,6 +1231,14 @@ p {
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
     border: 5px solid var(--white);
   }
+  .container_activities, 
+.activities_card, 
+.activities_small_card_1, 
+.activities_small_card_2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 12px 10px;
+}
   .footer {
     background-color: var(--gray);
     display: flex;
@@ -1394,7 +1390,8 @@ p {
 .activities_small_card_1, 
 .activities_small_card_2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 10px 12px 10px;
 }
   .hotel_pop:hover,
   .hotel_popu:hover,
@@ -1637,7 +1634,7 @@ p {
 .activities_small_card_1, 
 .activities_small_card_2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px 12px 10px;
 }
  .activities_small_card_1_1,
