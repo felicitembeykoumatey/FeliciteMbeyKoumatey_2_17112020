@@ -1764,7 +1764,7 @@ p {
     background: var(--gray);
     border-radius: 10px;
     padding: 0 15px 30px 10px;
-    margin: 40px 10px 12px -96px;
+    margin: 4px 10px 12px -96px;
     height: 60%;
     width: 376px;
   }
@@ -1889,7 +1889,13 @@ p {
     font-weight: bold;
     margin: 1px 70px 0px -239px;
   }
-
+.most_view {
+  font-weight: bold;
+  font-size: medium;
+  height: 100%;
+  padding: 0 5px 0 12px;
+  margin: -32px 0 15px 12px;
+}
 
 }
 
