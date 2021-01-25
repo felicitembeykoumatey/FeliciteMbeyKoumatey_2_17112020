@@ -1,6 +1,7 @@
 Projet numéro 2 : Site Reservia. 
 
-Fonctionnalités:
+
+-Fonctionnalités:
 
  Les usagers pourront rechercher des hébergements dans la ville de leur choix de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
  
@@ -9,7 +10,8 @@ Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut 
 
 Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 
-Contraintes techniques : 
+
+-Contraintes techniques : 
 
 reproduire les deux maquettes : l'un desktop et l'autre mobile, si possible d'adapter le site pour les tablettes. 
 
@@ -25,6 +27,8 @@ Utiliser les icônes de la bibliothèque Font-Awesome.
 Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 
 La police du site est Raleway.
+
+
 
 Compétences réquises:
 
