@@ -8,7 +8,7 @@
 
 /* body */
 
-.body {
+body {
   font-family: "raleway", sans-serif;
   margin: 0;
   min-width: 375px;
@@ -253,6 +253,7 @@
   margin: 0 10px 10px 0;
   padding: 0 20px 0 0;
 }
+
 .global:hover {
   color: var(--blue);
   border: 1px var(--sky) solid;
@@ -329,6 +330,7 @@ p {
   border-radius: 10px;
   width: 335px;
   padding: 0 15px 30px 10px;
+  margin: 4px 10px 12px 8px;
   flex-direction: column;
 }
 
@@ -348,7 +350,7 @@ p {
   color: var(--black);
   justify-content: space-between;
   align-items: center;
-  margin: 0 19px 5px 5px;
+  margin: -10px 19px 5px 5px;
 }
 
 .most_popular {
@@ -374,7 +376,7 @@ p {
 .hotel_popu,
 .hotel_pop {
   display: flex;
-  margin: 0 12px 20px 0;
+  margin: 0 12px 20px 19px;
   border-radius: 20px;
   border: 5px solid var(--white);
   box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
@@ -386,15 +388,16 @@ p {
 }
 
 .hotel_popu img {
-  width: 120px;
-  height: 190px;
+  width: 117px;
+  height: 196px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  margin: 0 5px 10px 5px;
 }
 
 .hotel_pop img {
-  width: 120px;
+  width: 117px;
   height: 190px;
   object-fit: cover;
   border-top-left-radius: 15px;
