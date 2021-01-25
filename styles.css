@@ -933,12 +933,12 @@ p {
   .activities_small_card_2_2 img {
     display: flex;
     flex-direction: row;
-    height: 115px;
+    height: 116px;
     object-fit: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 327px;
-    margin: -5px -16px -1px -10px;
+    width: 337px;
+    margin: -10px -16px -1px -15px;
   }
 
   .activities_small_card_1_1,
