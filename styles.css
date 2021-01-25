@@ -570,17 +570,17 @@ p {
 }
 
 .activities_small_card_1_1 img,
-.activities_small_card_1_2 img,
-.activities_small_card_2_1 img,
+.activities_small_card_1_2 img, 
+.activities_small_card_2_1 img, 
 .activities_small_card_2_2 img {
-  display: flex;
-  flex-direction: row;
-  height: 115px;
-  object-fit: cover;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  width: 327px;
-  margin: -5px -16px -1px -10px;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 301px;
+    margin: -5px -16px -1px -12px;
 }
 
 .activities_small_card_1_1,
@@ -589,7 +589,7 @@ p {
 .activities_small_card_2_2 {
   display: flex;
   flex-direction: column;
-  width: 306px;
+  width: 279px;
   height: 150px;
   margin: 35px 5px 5px 0;
   padding: 5px 10px 15px 10px;
