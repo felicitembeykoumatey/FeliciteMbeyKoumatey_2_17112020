@@ -234,6 +234,11 @@
   width: auto;
 }
 
+.global:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
 .filters {
   color: var(--black);
   font-size: small;
@@ -248,6 +253,15 @@
   margin: 0 10px 10px 0;
   padding: 0 20px 0 0;
 }
+.global:hover {
+  color: var(--blue);
+  border: 1px var(--sky) solid;
+  border-bottom-left-radius: 50%;
+  border-radius: 50px;
+  margin: 0 10px 10px 0;
+  padding: 0 20px 0 0;
+}
+
 
 .fa-money-bill-wave {
   background-color: var(--sky);
@@ -357,17 +371,18 @@ p {
   font-weight: 900;
 }
 
-.hotel_popu, .hotel_pop {
-    display: flex;
-    margin: 0 12px 20px 0;
-    border-radius: 20px;
-    border: 5px solid var(--white);
-    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
-    transition: 0.3s;
-    align-items: center;
-    background-color: var(--white);
-    color: var(--black);
-    width: 285px;
+.hotel_popu,
+.hotel_pop {
+  display: flex;
+  margin: 0 12px 20px 0;
+  border-radius: 20px;
+  border: 5px solid var(--white);
+  box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--black);
+  width: 285px;
 }
 
 .hotel_popu img {
@@ -481,6 +496,7 @@ p {
   height: 100%;
   line-height: 2em;
 }
+
 .show_more {
   font-weight: bold;
 }
@@ -807,9 +823,9 @@ p {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-}
+  }
 
-.hotel_pop {
+  .hotel_pop {
     display: flex;
     margin: 6px;
     border-radius: 20px;
@@ -820,7 +836,7 @@ p {
     background-color: var(--white);
     color: var(--black);
     width: 289px;
-}
+  }
 
 
   .city_hotel {
@@ -1889,13 +1905,14 @@ p {
     font-weight: bold;
     margin: 1px 70px 0px -239px;
   }
-.most_view {
-  font-weight: bold;
-  font-size: medium;
-  height: 100%;
-  padding: 0 5px 0 12px;
-  margin: -32px 0 15px 12px;
-}
+
+  .most_view {
+    font-weight: bold;
+    font-size: medium;
+    height: 100%;
+    padding: 0 5px 0 12px;
+    margin: -32px 0 15px 12px;
+  }
 
 }
 
