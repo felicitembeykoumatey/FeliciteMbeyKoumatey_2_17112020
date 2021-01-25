@@ -1784,7 +1784,7 @@ p {
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 10px 10px 10px 10px;
-    margin: -7px 0px 70px 6px;
+    margin: -7px 0px 70px 20px;
   }
 
   .hotel_popular {
