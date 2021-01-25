@@ -1858,8 +1858,8 @@ p {
   .activities_card img {
     height: 332px;
     object-fit: inherit;
-    border-top-left-radius: -20%;
-    border-top-right-radius: -14%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     width: 278px;
     margin: -82px 0px 0px 2px;
     padding: 0px 0px 7px 0px;
