@@ -12,6 +12,7 @@ body {
   font-family: "raleway", sans-serif;
   margin: 0;
   min-width: 375px;
+  overflow-x: hidden; 
 }
 
 /* main */
@@ -27,6 +28,7 @@ body {
 .header_nav{
   display: flex;
   margin: 12px 0 0 10px;
+  width: 100%;
 }
 .header_nav ul {
   display: flex;
@@ -903,7 +905,6 @@ body {
   .activities {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     justify-content: center;
   }
 
@@ -1602,7 +1603,7 @@ body {
     margin: 0 16px 40px 10px;
   }
 
-  .header {
+   .header {
     margin-left: 25px;
     align-content: center;
     justify-content: space-between;
