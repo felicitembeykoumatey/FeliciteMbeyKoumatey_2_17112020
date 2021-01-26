@@ -117,7 +117,6 @@ body {
   font-weight: bold;
   font-size: medium;
   margin: 20px 10px 20px 10px;
-
 }
 
 .location {
@@ -325,7 +324,7 @@ body {
   padding: 0px 20px 40px 20px;
 }
 
-p {
+.p {
   display: flex;
   margin: 9px 10px 12px 12px;
   font-size: medium;
@@ -415,7 +414,7 @@ p {
   border-bottom-left-radius: 15px;
 }
 
-.pop_detail .h3 {
+.pop_detail .p {
   margin: 0;
   font-size: medium;
 }
@@ -499,7 +498,7 @@ p {
   }
 
 
-.detail .h3 {
+.detail .p {
   margin: 0;
   font-size: small;
   align-items: center;
@@ -684,8 +683,10 @@ p {
   transform: scale(1.1);
 }
 
-
-
+.detail_title{
+  font-weight: bold;
+  font-size: medium;
+}
 .h1 {
   font-size: medium;
   display: flex;
@@ -715,7 +716,7 @@ p {
   margin: 10px 12px 10px 12px;
 }
 
-.h3 {
+.p {
   display: flex;
   font-weight: bold;
   flex-direction: column;
@@ -902,7 +903,7 @@ p {
   .activities {
     display: flex;
     flex-direction: column;
-    margin: 0 15px 25px 25px;
+    justify-content: space-around;
     justify-content: center;
   }
 
