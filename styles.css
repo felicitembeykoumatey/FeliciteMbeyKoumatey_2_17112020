@@ -26,6 +26,7 @@ body {
 }
 .header_nav{
   display: flex;
+  margin: 12px 0 0 10px;
 }
 .header_nav ul {
   display: flex;
@@ -34,7 +35,7 @@ body {
   list-style: none;
   text-align: right;
   flex-wrap: wrap;
-  margin: auto;
+  margin-left:15px ;
   color: var(--blue);
   padding: 20px 10px 10px 15px;
 }
@@ -59,6 +60,7 @@ body {
   border-bottom: 2px var(--blue) solid;
   border-top: none;
 }
+
 
 .a .lodging_nav {
   color: var(--blue);
@@ -105,8 +107,8 @@ body {
   display: none;
 }
 
-.search_wrapper {
-  margin: 0;
+.search_wrapper{
+    margin: 9px 0 0 7px;
 }
 
 .h1 {
@@ -901,6 +903,7 @@ p {
     display: flex;
     flex-direction: column;
     margin: 0 15px 25px 25px;
+    justify-content: center;
   }
 
   .activity_town {
