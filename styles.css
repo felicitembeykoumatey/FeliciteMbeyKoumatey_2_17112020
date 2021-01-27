@@ -13,6 +13,7 @@ body {
   margin: 0;
   min-width: 375px;
   overflow-x: hidden;
+  position: fixed;
 }
 
 /* main */
