@@ -11,7 +11,7 @@
 body {
   font-family: "raleway", sans-serif;
   margin: 0;
-  min-width: 375px;
+  width: 100%;
   overflow-x: hidden;
   position: fixed;
 }
