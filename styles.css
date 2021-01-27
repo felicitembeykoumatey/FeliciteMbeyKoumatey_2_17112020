@@ -1646,22 +1646,21 @@ body {
     border-top: 86px solid var(--white);
     width: auto;
   }
-
-  .activities_small_card_1_1,
-  .activities_small_card_1_2,
-  .activities_small_card_2_1,
-  .activities_small_card_2_2 {
+.activities_small_card_1_1, 
+.activities_small_card_1_2,
+ .activities_small_card_2_1, 
+ .activities_small_card_2_2 {
     display: flex;
     flex-direction: column;
-    width: 306px;
+    width: 257px;
     height: 150px;
     margin: 35px 5px 5px 0;
     padding: 5px 10px 15px 10px;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+    box-shadow: 0 0px 15px rgb(0 0 0 / 20%);
     border: 5px solid var(--white);
     border-radius: 25px;
     transition: 0.3s;
-  }
+}
 
   .activities_card:hover,
   .activities_small_card_1_1:hover,
