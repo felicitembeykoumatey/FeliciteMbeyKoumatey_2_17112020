@@ -526,7 +526,7 @@ body {
   font-size: medium;
   height: 100%;
   padding: 0 5px 0 12px;
-  margin: 0 0 15px 12px;
+  margin: -23px 0 15px 12px;
 }
 
 /*Activités*/
@@ -1392,7 +1392,7 @@ body {
     background: var(--gray);
     border-radius: 10px;
     order: 3;
-    padding: -7px -43px -46px -59px;
+    padding: 1px 1px 1px 9px;
     margin: -1px -1px 32px 83px;
     height: 1128px;
     width: auto;
