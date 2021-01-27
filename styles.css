@@ -25,13 +25,13 @@ body {
   display: flex;
   margin-right: 60px;
   height: 120px;
-  width: 100%;
+  width: auto;
 }
 
 .header_nav {
   display: flex;
   margin: 12px 0 0 10px;
-  width: 100%;
+  width: auto;
 }
 
 .header_nav ul {
@@ -95,7 +95,7 @@ body {
 .header_nav li:nth-child(3) a {
   position: absolute;
   text-align: end;
-  top: 5px;
+  top: -26px;
   right: 1px;
   color: var(--blue);
 }
@@ -117,15 +117,25 @@ body {
 
 .search_wrapper {
   margin: 9px 0 0 7px;
+  font-size: small;
 }
 
+.filters_search .h3{
+  display:flex;
+}
+
+.filters_search {
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 15px 0 15px;
+}
 
 .location {
   display: flex;
   margin: 10px 12px 10px 12px;
   font-size: medium;
   height: 20px;
-  width: 100%;
+  width: auto;
   padding: 0 0 15px 0;
 }
 
@@ -244,7 +254,7 @@ body {
 .filters_global {
   display: flex;
   flex-wrap: wrap;
-  margin: -50px 12px 10px 67px;
+  margin: 0px 12px 10px 67px;
   width: auto;
 }
 
@@ -524,7 +534,7 @@ body {
   font-size: medium;
   height: 100%;
   padding: 0 5px 0 12px;
-  margin: -23px 0 15px 12px;
+  margin: 0 0 15px 12px;
 }
 
 /*Activités*/
@@ -691,7 +701,8 @@ body {
   font-weight: bold;
   font-size: medium;
 }
-h3.filters_search{
+
+h3.filters_search {
   width: 100%;
 }
 
@@ -756,10 +767,14 @@ h3.filters_search{
 /* Tablette*/
 
 @media screen and (min-width: 576px) {
-  
+
   body {
     margin: auto;
     width: 576px;
+  }
+.search_wrapper {
+  margin: 9px 0 0 7px;
+  font-size: medium;
 }
   .city_of_accommodation {
     display: flex;
@@ -920,7 +935,7 @@ h3.filters_search{
     margin: 5px 0 15px 0;
   }
 
- 
+
   .footer li {
     font-size: small;
     font-weight: normal;
@@ -965,6 +980,7 @@ h3.filters_search{
 
 
 }
+
 /* Fin tablette*/
 
 /*Tablette landscape*/
@@ -973,7 +989,8 @@ h3.filters_search{
   body {
     margin: auto;
     width: 769px;
-}
+  }
+
   .fa-search {
     display: none;
   }
@@ -1224,14 +1241,16 @@ h3.filters_search{
   body {
     margin: auto;
     width: 1440px;
-}
+  }
+
   .container_activities {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 52px 0 0 -212px;
-}
+  }
+
   .header_nav li:nth-child(3) a {
     position: inherit;
     text-align: end;
@@ -1340,9 +1359,10 @@ h3.filters_search{
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
     border: 5px solid var(--white);
   }
-.activities_small_card_1_1 img, 
-.activities_small_card_1_2 img,
- .activities_small_card_2_1 img,
+
+  .activities_small_card_1_1 img,
+  .activities_small_card_1_2 img,
+  .activities_small_card_2_1 img,
   .activities_small_card_2_2 img {
     display: flex;
     flex-direction: row;
@@ -1352,7 +1372,8 @@ h3.filters_search{
     border-top-right-radius: 25px;
     width: 285px;
     margin: -10px -16px -1px -15px;
-}
+  }
+
   .activities_small_card_1_1,
   .activities_small_card_1_2,
   .activities_small_card_2_1,
@@ -1367,7 +1388,7 @@ h3.filters_search{
     border: 5px solid var(--white);
     border-radius: 25px;
     transition: 0.3s;
-}
+  }
 
   .activities_small_card_1_1:hover,
   .activities_small_card_1_2:hover,
@@ -1496,7 +1517,7 @@ h3.filters_search{
     width: 100%;
   }
 
- .activities_card img {
+  .activities_card img {
     height: 283px;
     object-fit: inherit;
     border-top-left-radius: 25px;
@@ -1505,13 +1526,14 @@ h3.filters_search{
     margin: 0;
     padding: 0px 0px 7px 0px;
   }
-.container_activities {
+
+  .container_activities {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 10px 0 0 -30px;
-}
+  }
 
   .footer {
     background-color: var(--gray);
@@ -1657,10 +1679,11 @@ h3.filters_search{
     border-top: 86px solid var(--white);
     width: auto;
   }
-.activities_small_card_1_1, 
-.activities_small_card_1_2,
- .activities_small_card_2_1, 
- .activities_small_card_2_2 {
+
+  .activities_small_card_1_1,
+  .activities_small_card_1_2,
+  .activities_small_card_2_1,
+  .activities_small_card_2_2 {
     display: flex;
     flex-direction: column;
     width: 257px;
@@ -1671,7 +1694,7 @@ h3.filters_search{
     border: 5px solid var(--white);
     border-radius: 25px;
     transition: 0.3s;
-}
+  }
 
   .activities_card:hover,
   .activities_small_card_1_1:hover,
@@ -1875,10 +1898,11 @@ h3.filters_search{
     padding: 0 5px 0 12px;
     margin: 11px 0 15px 12px;
   }
-body {
+
+  body {
     margin: auto;
     width: 1600px;
-}
+  }
 }
 
 /* Fin Desktop >1600px*/
