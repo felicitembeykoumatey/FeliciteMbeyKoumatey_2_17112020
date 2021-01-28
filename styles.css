@@ -542,8 +542,7 @@ body {
 .activities {
   display: flex;
   flex-direction: column;
-  margin: 1px 15px 25px px;
-  width: 80%;
+  width: 100%;
 }
 
 .activity_town {
