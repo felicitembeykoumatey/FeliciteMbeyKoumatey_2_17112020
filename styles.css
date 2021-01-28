@@ -1472,6 +1472,7 @@ h3.filters_search {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 180px;
+    justify-content: flex-start;
   }
 
   .city_hotel {
@@ -1595,8 +1596,14 @@ h3.filters_search {
 
   body {
     margin: auto;
-    width: 1600px;
+    min-width:1440px;
   }
+.p .detail_title{
+  justify-content: flex-start;
+}
+span{
+  justify-content: flex-start;
+}
 }
 
 /* Fin Desktop >1600px*/
