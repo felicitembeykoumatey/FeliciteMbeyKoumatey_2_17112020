@@ -491,7 +491,7 @@ body {
 .hotel_flex img {
   display: flex;
   height: 159px;
-  width: 100%;
+  width: 272px;
   margin: 0 0 10px 13px;
   border-radius: 22px 22px 0 0;
   object-fit: cover;
@@ -542,7 +542,7 @@ body {
 .activities {
   display: flex;
   flex-direction: column;
-  margin: 1px 15px 25px 150px;
+  margin: 0 15px 25px 40px;
   width: 80%;
 }
 
