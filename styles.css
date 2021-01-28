@@ -491,7 +491,7 @@ body {
 .hotel_flex img {
   display: flex;
   height: 159px;
-  width: 100%;
+  width: 265px;
   margin: 0 0 10px 13px;
   border-radius: 22px 22px 0 0;
   object-fit: cover;
