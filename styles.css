@@ -1657,6 +1657,14 @@ h3.filters_search {
     margin: auto;
     width: 1600px;
   }
+  .most_view {
+  font-weight: bold;
+  font-size: medium;
+  height: 100%;
+  padding: 0 5px 0 12px;
+  margin: -20px 0 15px 12px;
+}
+
 }
 
 /* Fin Desktop >1600px*/
