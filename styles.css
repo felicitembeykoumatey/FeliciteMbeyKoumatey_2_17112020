@@ -1407,6 +1407,7 @@ h3.filters_search {
     background-color: var(--white);
     color: var(--black);
     width: 320px;
+    height: 10%;
   }
 
   .hotel_pop {
@@ -1424,14 +1425,15 @@ h3.filters_search {
 
   .hotel_pop img {
     width: 108px;
-    height: 151px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
+ 
 
   .hotel_popu img {
-    width: 158px;
+    width: 116px;
     height: 187px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -1588,7 +1590,7 @@ h3.filters_search {
     font-size: medium;
     height: 100%;
     padding: 0 5px 0 12px;
-    margin: 6px 0 15px 12px;
+    margin: 3px 0 15px 12px;
   }
 
   body {
