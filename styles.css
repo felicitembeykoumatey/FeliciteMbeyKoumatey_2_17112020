@@ -402,7 +402,6 @@ img #logo{
   font-weight: 900;
 }
 
-.hotel_popu,
 .hotel_pop {
   display: flex;
   margin: 0 12px 20px 19px;
@@ -416,17 +415,9 @@ img #logo{
   width: 285px;
 }
 
-.hotel_popu img {
-  width: 117px;
-  height: 196px;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin: 0 5px 10px 5px;
-}
 
 .hotel_pop img {
-  width: 117px;
+  width: 116px;
   height: 190px;
   object-fit: cover;
   border-top-left-radius: 15px;
@@ -482,6 +473,7 @@ img #logo{
   align-items: center;
   border: 5px solid var(--white);
   object-fit: cover;
+ 
 }
 
 .hotel_flex .figcaption {
@@ -693,7 +685,6 @@ img #logo{
 /*Mots repetés*/
 
 .hotel_pop:hover,
-.hotel_popu:hover,
 .hotel_flex:hover,
 .activities_card:hover {
   transform: scale(1.1);
@@ -837,7 +828,6 @@ h3.filters_search {
   }
 
   .hotel_pop:hover,
-  .hotel_popu:hover,
   .hotel_flex:hover,
   .activities_card:hover {
     transform: scale(1.1);
@@ -936,7 +926,6 @@ h3.filters_search {
   }
 
   .hotel_pop:hover,
-  .hotel_popu:hover,
   .hotel_flex:hover,
   .activities_card:hover {
     transform: scale(1.1);
@@ -962,13 +951,7 @@ h3.filters_search {
     width: 335px;
   }
 
-  .hotel_popu img {
-    width: 158px;
-    height: 187px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
+
 
   .hotel_pop {
     display: flex;
@@ -1226,8 +1209,7 @@ h3.filters_search {
   }
 
   .most_popular .hotel_flex:hover,
-  .hotel_pop:hover,
-  .hotel_popu:hover {
+  .hotel_pop:hover{
     transform: scale(1.1);
   }
 
@@ -1283,20 +1265,6 @@ h3.filters_search {
     margin: -5px -16px -1px -12px;
 }
 
-  .hotel_popu {
-    display: flex;
-    margin: 34px;
-    border-radius: 20px;
-    border: 5px solid var(--white);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    align-items: center;
-    background-color: var(--white);
-    color: var(--black);
-    width: 320px;
-    height: 10%;
-  }
-
   .hotel_pop {
     display: flex;
     margin: 34px;
@@ -1318,15 +1286,6 @@ h3.filters_search {
     border-bottom-left-radius: 15px;
   }
  
-
-  .hotel_popu img {
-    width: 116px;
-    height: 187px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-
   .city_of_accommodation {
     display: flex;
     flex-direction: row;
