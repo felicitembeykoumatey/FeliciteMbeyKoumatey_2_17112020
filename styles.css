@@ -457,6 +457,7 @@ img #logo{
 .city_of_accommodation .h2 {
   font-size: large;
   font-weight: bold;
+  margin: 10px 12px 10px 12px;
 }
 
 .hotel_flex {
@@ -488,7 +489,7 @@ img #logo{
 .hotel_flex img {
   display: flex;
   height: 159px;
-  width: 265px;
+  width: 270px;
   margin: 0 0 10px 13px;
   border-radius: 22px 22px 0 0;
   object-fit: cover;
