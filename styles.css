@@ -20,7 +20,11 @@ body {
 
 
 /* header */
-
+img #logo{
+  justify-content: flex-start;
+  display: flex;
+  margin: 10px 5px 5px 10px;
+}
 .header {
   display: flex;
   margin-right: 60px;
@@ -142,7 +146,7 @@ body {
 .fa-map-marker-alt {
   background-color: var(--gray);
   border-radius: 15px 0px 0px 15px;
-  padding: 12px 12px 13px 10px;
+  padding: 15px 12px 13px 9px;
   margin: auto;
 }
 
@@ -1281,9 +1285,12 @@ h3.filters_search {
     border-top-right-radius: 16px;
     background-color: var(--blue);
     height: 16px;
-    padding: 16px 20px 20px;
+    padding: 16px 20px 24px;
     color: var(--white);
     margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
   }
 
   .header_nav ul {
@@ -1444,7 +1451,7 @@ h3.filters_search {
     display: flex;
     flex-direction: row;
     padding: 0 40px 33px 25px;
-    width: 85%;
+    width: 82%;
     flex-wrap: wrap;
     background-color: var(--gray);
     border-radius: 10px 10px 10px 10px;
