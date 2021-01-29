@@ -1117,13 +1117,6 @@ h3.filters_search {
 }
 
 
-
-
-
-
-
-
-
 /* Desktop*/
 
 @media screen and (min-width: 1440px) {
@@ -1463,6 +1456,10 @@ h3.filters_search {
 span{
   justify-content: flex-start;
 }
+ body {
+    margin: auto;
+   min-width:1440px;
+  }
 }
 
 /* Fin Desktop >1600px*/
