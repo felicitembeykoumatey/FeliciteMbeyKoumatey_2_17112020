@@ -447,7 +447,7 @@ img #logo{
   display: flex;
   flex-direction: column;
   width: 80%;
-  padding: 0 15px 20px 2px;
+  padding: 0 15px 20px 23px;
 }
 
 .city_of_accommodation a {
@@ -755,11 +755,11 @@ h3.filters_search {
 
 /* Tablette*/
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 425px) {
 
   body {
     margin: auto;
-    width: 576px;
+   min-width:425px;
   }
 .search_wrapper {
   margin: 9px 0 0 7px;
@@ -871,7 +871,7 @@ h3.filters_search {
 
 }
 
-/* Fin tablette*/
+/* Fin mobile L*/
 
 /*Tablette landscape*/
 
@@ -948,7 +948,7 @@ h3.filters_search {
     border-radius: 10px;
     order: 3;
     padding: 0 15px 30px 10px;
-    margin: 12px 10px 12px 10px;
+    margin: 12px 10px 12px 135px;
     height: 80%;
     width: 335px;
   }
@@ -999,21 +999,6 @@ h3.filters_search {
     background-color: var(--gray);
     border-radius: 10px 10px 10px 10px;
     margin: 31px 0px 72px 103px;
-  }
-
-  .container_hotels {
-    display: flex;
-    flex-direction: row;
-    float: left;
-  }
-
-  .hotel_flex img {
-    display: flex;
-    height: 25%;
-    width: 298px;
-    margin: 10px 12px 10px 12px;
-    border-radius: 12px 12px 0 0;
-    object-fit: cover;
   }
 
 
@@ -1112,6 +1097,32 @@ h3.filters_search {
 }
 
 /*Fin tablette landscape*/
+
+
+
+@media screen and (min-width: 1024px){
+
+  .container_hotels {
+    display: flex;
+    flex-direction: row;
+    float: left;
+  }
+  .activities_card img {
+    height: 115px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 290px;
+}
+}
+
+
+
+
+
+
+
+
 
 /* Desktop*/
 
@@ -1324,10 +1335,14 @@ h3.filters_search {
   }
 
   .city_hotel {
+    padding: 12px 2px 70px 12px;
+    width: 110%;
+    height: 88%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
 
   .container_hotels {
     display: flex;
