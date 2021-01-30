@@ -434,7 +434,7 @@ img #logo {
 }
 
 .detail_title {
-  margin-bottom: -4px;
+  margin-bottom: 12px;
 }
 
 /* fin section les plus populaires*/
@@ -443,14 +443,12 @@ img #logo {
 /* section hébergements*/
 
 .city_of_accommodation {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+  margin: 10px 12px 10px -23px;
 }
 
 .city_of_accommodation a {
   text-decoration: none;
-  line-height: 2em;
+  color: var(--black);
 }
 
 .hotel_global {
@@ -459,14 +457,15 @@ img #logo {
   flex-direction: column;
   border-radius: 10px;
   height: 60%;
-  width: 403px;
-  
+  width: 100%;
+  justify-content: center;
+
 }
 
 .hotel_flex img {
   display: flex;
   height: 85px;
-  width: 330px;
+  width: 337px;
   margin: 0 3px -1px 3px;
   border-radius: 25px 25px 0 0;
   object-fit: cover;
@@ -489,8 +488,8 @@ img #logo {
   border-bottom-right-radius: 20px;
   width: 219px;
   text-align: start;
-  color: var(--black);
   height: 5px;
+  line-height: 2.1em;
 }
 
 
@@ -534,16 +533,15 @@ img #logo {
 }
 
 .activities_card {
-  display: flex;
+
   height: auto;
-  width: 306px;
-  flex-direction: column;
+  width: 97%;
   background-color: var(--white);
-  margin: 30px 12px 10px 12px;
+  margin: 30px 12px -25px 0px;
   border-radius: 30px 30px 30px 30px;
   transition: 0.3s;
   opacity: 1;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   border: 5px solid var(--white);
 }
 
@@ -552,14 +550,14 @@ img #logo {
   object-fit: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  width: 307px;
+  width: 100%;
 }
 
 .activities_small_card_1,
 .activities_small_card_2 {
   display: flex;
   height: auto;
-  width: 306px;
+  width: 327px;
   flex-direction: column;
   background-color: var(--white);
   margin: 30px 12px 10px 12px;
@@ -578,8 +576,8 @@ img #logo {
   object-fit: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  width: 301px;
-  margin: -5px -16px -1px -12px;
+  width: 346px;
+  margin: -5px -16px -1px -8px;
 }
 
 .activities_small_card_1_1,
@@ -588,9 +586,9 @@ img #logo {
 .activities_small_card_2_2 {
   display: flex;
   flex-direction: column;
-  width: 279px;
+  width: 327px;
   height: 150px;
-  margin: 35px 5px 5px 0;
+  margin: 35px 5px 5px -15px;
   padding: 5px 10px 15px 10px;
   box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
   border: 5px solid var(--white);
@@ -635,6 +633,11 @@ img #logo {
   white-space: nowrap;
   width: 96%;
   background-color: var(--gray);
+}
+
+ .h3 {
+  margin: 0px 20px 24px 0px;
+  font-size: large;
 }
 
 .footer ul {
