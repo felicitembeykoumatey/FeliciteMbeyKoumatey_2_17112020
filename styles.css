@@ -32,9 +32,11 @@ body {
   display: flex;
 
 }
+
 .header_nav {
-    margin: -25px 12px 10px 12px;
+  margin: -25px 12px 10px 12px;
 }
+
 .header_nav ul {
   display: flex;
   list-style: none;
@@ -83,8 +85,8 @@ body {
 
 .header_nav li:nth-child(2) a {
   margin: 10px 12px 10px 56px;
-    color: var(--black);
-    font-weight: bold;
+  color: var(--black);
+  font-weight: bold;
 }
 
 .header_nav li:nth-child(3) a {
@@ -96,6 +98,7 @@ body {
   font-weight: bold;
 
 }
+
 /* section recherche */
 
 .main {
@@ -110,7 +113,7 @@ body {
 .search_wrapper {
   margin: 9px 0 0 28px;
   font-size: small;
-  width: 100%;
+  width: 70%;
 }
 
 .filters_search .h3 {
@@ -302,8 +305,9 @@ body {
 /*informations*/
 .info {
   display: flex;
-  margin: auto;
+  margin: 10px;
   align-items: center;
+  text-align: center;
 }
 
 .fa-info {
@@ -320,13 +324,6 @@ body {
   display: flex;
   margin: auto;
   padding: 0px 20px 40px 20px;
-}
-
-.info .p {
-  display: flex;
-  margin: 9px 10px 12px 12px;
-  font-size: medium;
-  padding: 10px 12px 10px 12px;
 }
 
 /*fin informations*/
@@ -618,7 +615,7 @@ body {
   background-color: var(--gray);
 }
 
- .h3 {
+.h3 {
   margin: 0px 20px 24px 0px;
   font-size: large;
 }
@@ -666,6 +663,9 @@ h3.filters_search {
 
 .h1 {
   font-size: large;
+  margin: 10px 12px 10px 12px;
+  padding: 10px 12px 10px 10px;
+  width: auto;
 }
 
 h2 {
