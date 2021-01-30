@@ -32,7 +32,9 @@ body {
   display: flex;
 
 }
-
+.header_nav {
+    margin: -25px 12px 10px 12px;
+}
 .header_nav ul {
   display: flex;
   list-style: none;
@@ -43,7 +45,6 @@ body {
 
 .header_nav a {
   text-decoration: none;
-  padding: 35px;
 }
 
 .header_nav li {
@@ -59,10 +60,11 @@ body {
 
 .a .lodging_nav {
   color: var(--blue);
+  margin-top: 15px;
 }
 
 .a .activity_nav {
-  color: var(--black);
+  margin-top: 15px;
 }
 
 .activity_nav:hover {
@@ -76,18 +78,23 @@ body {
 .header_nav li:first-child a {
   color: var(--blue);
   padding: 15px 10px 15px 10px;
+  font-weight: bold;
 }
 
 .header_nav li:nth-child(2) a {
-  margin: 10px 12px 10px 12px;
+  margin: 10px 12px 10px 56px;
+    color: var(--black);
+    font-weight: bold;
 }
 
 .header_nav li:nth-child(3) a {
   position: absolute;
   text-align: end;
-  top: 5px;
-  right: 0;
+  margin-top: -56px;
+  right: 11px;
   color: var(--blue);
+  font-weight: bold;
+
 }
 /* section recherche */
 
@@ -101,8 +108,9 @@ body {
 }
 
 .search_wrapper {
-  margin: 9px 0 0 7px;
+  margin: 9px 0 0 28px;
   font-size: small;
+  width: 100%;
 }
 
 .filters_search .h3 {
@@ -110,9 +118,7 @@ body {
 }
 
 .filters_search {
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin: 0 15px 0 15px;
+  margin: 0 15px 0 30px;
 }
 
 .location {
@@ -234,8 +240,6 @@ body {
 .filters_global {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 12px 10px 67px;
-  width: auto;
 }
 
 .global:hover {
