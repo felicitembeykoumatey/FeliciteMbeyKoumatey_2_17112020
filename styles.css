@@ -429,8 +429,8 @@ img #logo {
 }
 
 .pop_detail {
- margin-left:15px;
- margin-bottom: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 .detail_title {
@@ -453,28 +453,32 @@ img #logo {
   line-height: 2em;
 }
 
-.h2 {
-  font-size: large;
-  font-weight: bold;
-  margin: 10px 12px 10px 20px;
+.hotel_global {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 60%;
+  width: 403px;
+  
 }
 
 .hotel_flex img {
   display: flex;
   height: 85px;
-  width: 295px;
+  width: 330px;
   margin: 0 3px -1px 3px;
   border-radius: 25px 25px 0 0;
   object-fit: cover;
 }
 
 .hotel_flex {
-  height: 190px;
+  height: 185px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   border: 5px solid var(--white);
   border-radius: 25px;
   transition: 0.3s;
-  width: 300px;
+  width: 342px;
 }
 
 .detail {
@@ -486,6 +490,7 @@ img #logo {
   width: 219px;
   text-align: start;
   color: var(--black);
+  height: 5px;
 }
 
 
@@ -509,10 +514,10 @@ img #logo {
 
 .most_view {
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
   height: 100%;
   padding: 0 5px 0 12px;
-  margin: 0 0 15px 37px;
+  margin: 0 0 15px 53px;
 }
 
 /*Activités*/
@@ -521,13 +526,6 @@ img #logo {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.h2 {
-  font-size: medium;
-  font-weight: bold;
-  justify-content: start;
-  margin: 10px 12px 10px 12px;
 }
 
 .container_activities {
@@ -681,6 +679,11 @@ h3.filters_search {
 }
 
 .h1 {
+  font-size: large;
+}
+
+h2 {
+  margin: 2px 31px 24px 31px;
   font-size: large;
 }
 
