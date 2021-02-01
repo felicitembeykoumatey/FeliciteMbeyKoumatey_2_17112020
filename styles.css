@@ -882,20 +882,32 @@ h2 {
       width: 282px;
     }
 
-    .activities_small_card_1_1,
-    .activities_small_card_1_2,
-    .activities_small_card_2_1,
-    .activities_small_card_2_2 {
-      flex-direction: column;
-      height: 174px;
-      margin: 36px 5px 5px -4px;
-      width: 100%;
-    }
-
+   
     .activities_card img {
       height: 334px;
     }
+ .activities_card {
+    height: 382px;
+    margin: 48px 15px 5px 28px;
+    width: auto;
+}
+.activities_small_card_1, 
+.activities_small_card_2 {
+    width: 309px;
+    height: auto;
+    margin: 0;
+}
 
+
+.activities_small_card_1_1, 
+.activities_small_card_1_2, 
+.activities_small_card_2_1, 
+.activities_small_card_2_2 {
+    flex-direction: column;
+    height: 174px;
+    margin: 39px 0 42px 11px;
+    width: 100%;
+}
     .activities_small_card_1_1 img,
     .activities_small_card_1_2 img,
     .activities_small_card_2_1 img,
@@ -918,6 +930,30 @@ h2 {
     main {
       width: auto;
     }
+
+   .activities_card {
+    height: 382px;
+    margin: 48px 15px 5px 28px;
+    width: auto;
+}
+.activities_small_card_1, 
+.activities_small_card_2 {
+    width: 309px;
+    height: auto;
+    margin: 0;
+}
+
+
+.activities_small_card_1_1, 
+.activities_small_card_1_2, 
+.activities_small_card_2_1, 
+.activities_small_card_2_2 {
+    flex-direction: column;
+    height: 174px;
+    margin: 39px 0 42px 11px;
+    width: 100%;
+}
+  }
 
 
     /*Fin Desktop*/
