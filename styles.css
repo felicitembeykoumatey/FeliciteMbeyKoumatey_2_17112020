@@ -27,7 +27,7 @@ body {
   display: flex;
 }
 
-.header {
+header {
   width: 375px;
   display: flex;
 
@@ -36,6 +36,7 @@ body {
 .header_nav {
   width: 100%;
 }
+
 
 .header_nav ul {
   display: flex;
@@ -101,7 +102,7 @@ body {
 
 /* section recherche */
 
-.section .all_hotels {
+section .all_hotels {
   display: none;
 }
 
@@ -225,7 +226,7 @@ body {
 
 /*filtre*/
 
-.h3 .filters_search {
+h3 .filters_search {
   font-size: medium;
   font-weight: bold;
   margin: 10px 10px 12px 12px;
@@ -554,7 +555,7 @@ body {
   padding: 0px;
 }
 
-.footer {
+footer {
   background-color: var(--gray);
 }
 
@@ -565,7 +566,7 @@ body {
   margin: 10px 12px 10px 12px;
 }
 
-.footer li {
+footer li {
   font-size: small;
   font-weight: normal;
   color: var(--black);
@@ -664,7 +665,7 @@ h2 {
     width: 277px;
   }
 
-  .footer {
+  footer {
     width: 375px;
   }
 
@@ -684,7 +685,6 @@ h2 {
   html,
   main {
     margin: auto;
-    min-width: 768px;
   }
 
   h2 {
@@ -693,7 +693,7 @@ h2 {
   }
 
   .location,
-  .h1 {
+  h1 {
     width: auto;
     margin: 6px -97px 10px 7px;
   }
@@ -739,16 +739,15 @@ h2 {
     margin: 10px 10px 12px 5px;
   }
 
-  .city_of_accommodation {
+ .city_of_accommodation {
     display: flex;
-    width: 708px;
+    width: auto;
     flex-wrap: wrap;
     background-color: var(--gray);
-    margin: 0 10px 12px 69px;
+    margin: 0 0px 0px -312px;
     border-radius: 15px 15px 15px 15px;
-  }
-
-  .hotel_global {
+}
+.hotel_global {
     margin: 10px 10px 12px -95px;
     float: right;
     display: flex;
@@ -757,20 +756,14 @@ h2 {
     height: 60%;
     width: 100%;
     justify-content: center;
-  }
-
-  .hotel_global {
-    margin: 10px 10px 12px -95px;
-  }
-
+}
   .header_nav li {
     border-bottom: none;
     width: auto;
   }
-
-  header {
-    margin: 0 15px 0 15px;
-  }
+header{
+  width: 40%;
+}
 
   .header_nav li:nth-child(2) a {
     padding: 10px 12px 10px 12px;
@@ -878,19 +871,19 @@ h2 {
 }
 
 
-.footer .section {
+footer section {
   flex: 33%;
   margin: 10px 12px 10px 12px;
   padding: 0 12px 12px 0;
 }
 
-.footer li {
+footer li {
   font-size: small;
   font-weight: normal;
   color: var(--black);
 }
 
-.footer {
+footer {
   justify-content: space-around;
   width: 300px;
   flex-direction: row;
@@ -926,8 +919,6 @@ h2 {
 .info {
   margin: 40px;
 }
-
-
 
 /*Fin tablette landscape*/
 
