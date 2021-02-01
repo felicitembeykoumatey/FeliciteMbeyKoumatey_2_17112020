@@ -23,10 +23,8 @@ body {
 
 /* header */
 .logo {
-  justify-content: flex-start;
   display: flex;
-  margin: 10px 5px 5px 10px;
-  padding: 10px 12px 10px 12px;
+  padding: 0;
 }
 
 .header {
@@ -311,7 +309,7 @@ body {
   padding: 6px 15px 12px 15px;
   background-color: var(--white);
   width: auto;
-  margin: 7px 0 10px 15px;
+  margin: 10px 10px 10px 15px;
 }
 
 
@@ -609,7 +607,7 @@ h2 {
   color: var(--blue);
 }
 
-.star_icon[data-active="false"] {
+.fa-star[data-active="false"] {
   color: var(--gray);
 }
 
@@ -681,17 +679,29 @@ h2 {
 
 /*Tablette landscape*/
 @media screen and (min-width: 768px) {
-  body {
-    margin: auto;
-    min-width: 1440px;
-  }
 
-  html {
-    min-width: 768px;
-  }
-
+  body,
+  html,
   main {
-    min-width: 2000px;
+    width: auto;
+  }
+
+  header {
+    width: 40%;
+  }
+
+  h1 {
+    margin: 93px 0 17px 3px;
+    font-size: medium;
+  }
+
+  p.location {
+    width: auto;
+    margin: 6px -97px 10px 7px;
+  }
+
+  .filters_search {
+    margin: 9px 15px 0 60px;
   }
 
   h2 {
@@ -699,22 +709,21 @@ h2 {
     font-size: x-large;
   }
 
-  .container_hotels {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 786px;
-    margin: 30px 1px 0px 402px;
-    padding: 0 1px 0 6px;
+  .header_nav ul {
+    justify-content: end;
+    align-items: center;
+    margin: -36px 0px 0px 340px;
   }
 
-  .hotel_global {
-    margin: 10px 12px 10px 12px;
-    width: 10%;
+  .header_nav {
+    justify-content: right;
+    text-align: right;
+    width: auto;
   }
 
-  .hotel_flex {
-    background-color: var(--white);
-    margin: 10px 0 0 12px;
+  .header_nav li {
+    border-bottom: none;
+    width: auto;
   }
 
   .most_view {
@@ -723,51 +732,6 @@ h2 {
     margin: 20px 0 15px 12px;
   }
 
-  .city_hotel {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .hotel_global {
-    margin: 10px 10px 12px 5px;
-  }
-
-  .city_of_accommodation {
-    display: flex;
-    width: 708px;
-    flex-wrap: wrap;
-    background-color: var(--gray);
-    margin: 0 10px 12px 69px;
-    border-radius: 15px 15px 15px 15px;
-  }
-
-  .hotel_global {
-    margin: 10px 10px 12px -95px;
-    float: right;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    height: 60%;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .hotel_global {
-    margin: 10px 10px 12px -95px;
-  }
-
-  .header_nav li {
-    border-bottom: none;
-    width: auto;
-  }
-
-  .header {
-    margin-left: 25px;
-    align-content: center;
-    margin-bottom: 25px;
-  }
 
   .header_nav li:nth-child(2) a {
     padding: 10px 12px 10px 12px;
@@ -793,9 +757,6 @@ h2 {
     border-bottom: none;
   }
 
-  .logo {
-    padding: 5px 12px 10px 35px;
-  }
 
   .search_form_btn {
     display: flex;
@@ -808,76 +769,77 @@ h2 {
     text-align: justify;
   }
 
-  .header_nav {
-    justify-content: right;
-    text-align: right;
-    padding: 10px 12px 10px 12px;
-    margin: 10px 12px 10px 12px;
-  }
 
   .search_wrapper {
     margin: -83px 0 0 63px;
     width: 70%;
   }
 
-  .header_nav ul {
-    justify-content: end;
-    align-items: center;
-    padding: 10px 0 0 710px;
+  .hotel_pop img {
+    width: 191px;
+    height: 183px;
+  }
+
+  .hotel_pop {
+    width: 485px;
   }
 
   .hotel_popular {
-    float: right;
-    width: 70%;
-    padding: 12px 24px 60px 0px;
-  }
-
-  .activities_small_card_1,
-  .activities_small_card_2 {
-    display: flex;
-    height: 546px;
-    width: 280px;
-    flex-direction: column;
-    background-color: var(--white);
-    margin: 30px 12px 10px 12px;
-    border-radius: 30px 30px 30px 30px;
-    transition: 0.3s;
-    opacity: 1;
-  }
-
-  .activities {
-    display: flex;
-    flex-direction: column;
-    margin: 1px 15px 25px 166px;
-    width: 55%;
-  }
-
-  .activities_card {
-    margin: -38px 0px 15px 7px;
-    height: auto;
-    border-top: 86px solid var(--white);
     width: auto;
+    padding: 2px 10px 10px 70px;
+  }
+
+  .pop_detail {
+    margin-left: 40px;
+    margin-bottom: 55px;
+  }
+
+  .city_of_accommodation {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .city_hotel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -380px 0px 0px;
+    padding: 10px 10px 10px 0px;
   }
 
   .container_activities {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: -30px 0 0 -212px;
-    width: auto;
   }
 
   .activities_card img {
-    height: 332px;
-    object-fit: inherit;
+    display: flex;
+    height: 154px;
+    object-fit: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 278px;
-    margin: -82px 0px 0px 2px;
-    padding: 0px 0px 7px 0px;
+    margin: -6px -5px -1px 0px;
   }
 
+  .activities {
+    width: 768px;
+  }
+
+  .activities_card {
+    height: 150px;
+    margin: 35px 5px 5px 0;
+    width: auto;
+  }
+
+  .activities_small_card_1_1,
+  .activities_small_card_1_2,
+  .activities_small_card_2_1,
+  .activities_small_card_2_2 {
+
+    height: 150px;
+    margin: 35px 5px 5px -3px;
+    width: auto;
+  }
 
   .footer .section {
     flex: 33%;
@@ -911,69 +873,54 @@ h2 {
     margin: 39px -59px 17px 3px;
   }
 
-  .main {
-    min-width: 768px;
+
+
+  /*Fin tablette landscape*/
+
+
+
+  @media screen and (min-width: 1024px) {
+
+    .activities_card img {
+      height: 115px;
+      object-fit: cover;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      width: 290px;
+    }
+
+    .activities_card img {
+      height: 315px;
+      width: 282px;
+    }
+
+    .activities_small_card_1_1,
+    .activities_small_card_1_2,
+    .activities_small_card_2_1,
+    .activities_small_card_2_2 {
+      flex-direction: column;
+      height: 174px;
+      margin: 36px 5px 5px -4px;
+      width: 100%;
+    }
+
+    .activities_card img {
+      height: 334px;
+    }
+
+    .activities_small_card_1_1 img,
+    .activities_small_card_1_2 img,
+    .activities_small_card_2_1 img,
+    .activities_small_card_2_2 img {
+      height: 125px;
+      margin: -3px -3px -1px -3px;
+    }
+
+    h2 {
+      margin: 20px 31px 24px 17px;
+    }
   }
 
-  .header {
-    margin: 10px 12px 10px 12px;
-  }
-
-  .filters_search {
-    margin: 9px 15px 0 60px;
-  }
-
-  .info {
-    margin: 40px;
-  }
-}
-
-
-/*Fin tablette landscape*/
-
-
-
-@media screen and (min-width: 1024px) {
-
-  .activities_card img {
-    height: 115px;
-    object-fit: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    width: 290px;
-  }
-
-  .activities_card img {
-    height: 315px;
-    width: 282px;
-  }
-
-  .activities_small_card_1_1,
-  .activities_small_card_1_2,
-  .activities_small_card_2_1,
-  .activities_small_card_2_2 {
-    flex-direction: column;
-    height: 174px;
-    margin: 36px 5px 5px -4px;
-    width: 100%;
-  }
-
-  .activities_card img {
-    height: 334px;
-  }
-
-  .activities_small_card_1_1 img,
-  .activities_small_card_1_2 img,
-  .activities_small_card_2_1 img,
-  .activities_small_card_2_2 img {
-    height: 125px;
-    margin: -3px -3px -1px -3px;
-  }
-
-  h2 {
-    margin: 20px 31px 24px 17px;
-  }
-}
   /* Desktop*/
 
   @media screen and (min-width: 1440px) {
@@ -995,4 +942,4 @@ h2 {
     }
   }
 
-  /*Fin Desktop*/ 
+  /*Fin Desktop*/
