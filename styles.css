@@ -810,6 +810,7 @@ h2 {
   .container_activities {
     display: flex;
     flex-direction: row;
+    width: auto;
   }
 
   .activities_card img {
@@ -822,7 +823,7 @@ h2 {
   }
 
   .activities {
-    width: 768px;
+    width: auto;
   }
 
   .activities_card {
@@ -831,40 +832,27 @@ h2 {
     width: auto;
   }
 
-  .activities_small_card_1_1,
-  .activities_small_card_1_2,
-  .activities_small_card_2_1,
-  .activities_small_card_2_2 {
+  .activities_small_card_1,
+  .activities_small_card_2 {
+    width: 300px;
+    height: auto;
+    margin: 0;
 
-    height: 150px;
-    margin: 35px 5px 5px -3px;
+
+
+  }
+
+  .activities_small_card_1_1,
+  .activities_small_card_1_2 {
+    margin-bottom: 20px;
+  }
+
+
+  .footer {
+    flex-direction: row;
     width: auto;
   }
 
-  .footer .section {
-    flex: 33%;
-    margin: 10px 12px 10px 12px;
-    padding: 0 12px 12px 0;
-  }
-
-  .footer li {
-    font-size: small;
-    font-weight: normal;
-    color: var(--black);
-  }
-
-  .footer {
-    justify-content: space-around;
-    width: 300px;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .about,
-  .lodging,
-  .assistance {
-    flex-direction: row;
-  }
 
   .most_view {
     font-weight: bold;
@@ -924,22 +912,12 @@ h2 {
   /* Desktop*/
 
   @media screen and (min-width: 1440px) {
-    body {
-      display: flex;
-      min-width: 1440px;
-    }
 
+    html,
+    body,
     main {
-      min-width: 1400px;
+      width: auto;
     }
 
-    .popular_title {
-      margin: -17px 19px 5px 5px;
-    }
 
-    .city_hotel {
-      width: 88%;
-    }
-  }
-
-  /*Fin Desktop*/
+    /*Fin Desktop*/
