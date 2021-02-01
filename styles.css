@@ -25,8 +25,6 @@ body {
 .logo {
   justify-content: flex-start;
   display: flex;
-  margin: 10px 5px 5px 10px;
-  padding: 10px 12px 10px 12px;
 }
 
 .header {
@@ -81,7 +79,7 @@ body {
 
 .header_nav li:first-child a {
   color: var(--blue);
-  margin: 15px 10px 15px 43px;
+  margin: 0px 6px 0px 13px;
   font-weight: bold;
 }
 
@@ -681,22 +679,29 @@ h2 {
 
 /*Tablette landscape*/
 @media screen and (min-width: 768px) {
-  body {
-    margin: auto;
-    min-width: 1440px;
-  }
 
-  html {
-    min-width: 768px;
-  }
-
+  body,
+  html,
   main {
-    min-width: 2000px;
+    margin: auto;
+    min-width: 768px;
   }
 
   h2 {
     margin: 20px 31px 24px 17px;
     font-size: x-large;
+  }
+
+  .location,
+  .h1 {
+    width: auto;
+    margin: 6px -97px 10px 7px;
+  }
+
+  header h1 {
+    font-size: medium;
+    margin: 93px 0px 17px 3px;
+    padding: 6px 0 0 0;
   }
 
   .container_hotels {
@@ -763,10 +768,8 @@ h2 {
     width: auto;
   }
 
-  .header {
-    margin-left: 25px;
-    align-content: center;
-    margin-bottom: 25px;
+  header {
+    margin: 0 15px 0 15px;
   }
 
   .header_nav li:nth-child(2) a {
@@ -776,7 +779,7 @@ h2 {
   .header_nav li:nth-child(3) a {
     position: inherit;
     text-align: end;
-    padding: 10px 12px 10px 12px;
+    margin: 0px 0px 0px 60px;
   }
 
   .header_nav li:first-child {
@@ -793,10 +796,6 @@ h2 {
     border-bottom: none;
   }
 
-  .logo {
-    padding: 5px 12px 10px 35px;
-  }
-
   .search_form_btn {
     display: flex;
     border-bottom-right-radius: 16px;
@@ -811,8 +810,7 @@ h2 {
   .header_nav {
     justify-content: right;
     text-align: right;
-    padding: 10px 12px 10px 12px;
-    margin: 10px 12px 10px 12px;
+    width: auto;
   }
 
   .search_wrapper {
@@ -823,110 +821,112 @@ h2 {
   .header_nav ul {
     justify-content: end;
     align-items: center;
-    padding: 10px 0 0 710px;
-  }
-
-  .hotel_popular {
-    float: right;
-    width: 70%;
-    padding: 12px 24px 60px 0px;
-  }
-
-  .activities_small_card_1,
-  .activities_small_card_2 {
-    display: flex;
-    height: 546px;
-    width: 280px;
-    flex-direction: column;
-    background-color: var(--white);
-    margin: 30px 12px 10px 12px;
-    border-radius: 30px 30px 30px 30px;
-    transition: 0.3s;
-    opacity: 1;
-  }
-
-  .activities {
-    display: flex;
-    flex-direction: column;
-    margin: 1px 15px 25px 166px;
-    width: 55%;
-  }
-
-  .activities_card {
-    margin: -38px 0px 15px 7px;
-    height: auto;
-    border-top: 86px solid var(--white);
-    width: auto;
-  }
-
-  .container_activities {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: -30px 0 0 -212px;
-    width: auto;
-  }
-
-  .activities_card img {
-    height: 332px;
-    object-fit: inherit;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    width: 278px;
-    margin: -82px 0px 0px 2px;
-    padding: 0px 0px 7px 0px;
-  }
-
-
-  .footer .section {
-    flex: 33%;
-    margin: 10px 12px 10px 12px;
-    padding: 0 12px 12px 0;
-  }
-
-  .footer li {
-    font-size: small;
-    font-weight: normal;
-    color: var(--black);
-  }
-
-  .footer {
-    justify-content: space-around;
-    width: 300px;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .about,
-  .lodging,
-  .assistance {
-    flex-direction: row;
-  }
-
-  .most_view {
-    font-weight: bold;
-    font-size: large;
-    height: 100%;
-    margin: 39px -59px 17px 3px;
-  }
-
-  .main {
-    min-width: 768px;
-  }
-
-  .header {
-    margin: 10px 12px 10px 12px;
-  }
-
-  .filters_search {
-    margin: 9px 15px 0 60px;
-  }
-
-  .info {
-    margin: 40px;
+    margin: -36px 0px 0px 340px;
   }
 }
+
+.hotel_popular {
+  float: right;
+  width: 70%;
+  padding: 12px 24px 60px 0px;
+}
+
+.activities_small_card_1,
+.activities_small_card_2 {
+  display: flex;
+  height: 546px;
+  width: 280px;
+  flex-direction: column;
+  background-color: var(--white);
+  margin: 30px 12px 10px 12px;
+  border-radius: 30px 30px 30px 30px;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 15px 25px 166px;
+  width: 55%;
+}
+
+.activities_card {
+  margin: -38px 0px 15px 7px;
+  height: auto;
+  border-top: 86px solid var(--white);
+  width: auto;
+}
+
+.container_activities {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: -30px 0 0 -212px;
+  width: auto;
+}
+
+.activities_card img {
+  height: 332px;
+  object-fit: inherit;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 278px;
+  margin: -82px 0px 0px 2px;
+  padding: 0px 0px 7px 0px;
+}
+
+
+.footer .section {
+  flex: 33%;
+  margin: 10px 12px 10px 12px;
+  padding: 0 12px 12px 0;
+}
+
+.footer li {
+  font-size: small;
+  font-weight: normal;
+  color: var(--black);
+}
+
+.footer {
+  justify-content: space-around;
+  width: 300px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about,
+.lodging,
+.assistance {
+  flex-direction: row;
+}
+
+.most_view {
+  font-weight: bold;
+  font-size: large;
+  height: 100%;
+  margin: 39px -59px 17px 3px;
+}
+
+.main {
+  min-width: 768px;
+}
+
+.header {
+  margin: 10px 12px 10px 12px;
+}
+
+.filters_search {
+  margin: 9px 15px 0 60px;
+}
+
+
+.info {
+  margin: 40px;
+}
+
 
 
 /*Fin tablette landscape*/
@@ -934,6 +934,9 @@ h2 {
 
 
 @media screen and (min-width: 1024px) {
+  html {
+    min-width: 1024px;
+  }
 
   .activities_card img {
     height: 115px;
@@ -974,25 +977,30 @@ h2 {
     margin: 20px 31px 24px 17px;
   }
 }
-  /* Desktop*/
 
-  @media screen and (min-width: 1440px) {
-    body {
-      display: flex;
-      min-width: 1440px;
-    }
+/* Desktop*/
 
-    main {
-      min-width: 1400px;
-    }
-
-    .popular_title {
-      margin: -17px 19px 5px 5px;
-    }
-
-    .city_hotel {
-      width: 88%;
-    }
+@media screen and (min-width: 1440px) {
+  html {
+    min-width: 1440px;
   }
 
-  /*Fin Desktop*/ 
+  body {
+    display: flex;
+    min-width: 1440px;
+  }
+
+  main {
+    min-width: 1400px;
+  }
+
+  .popular_title {
+    margin: -17px 19px 5px 5px;
+  }
+
+  .city_hotel {
+    width: 88%;
+  }
+}
+
+/*Fin Desktop*/
