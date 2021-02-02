@@ -837,20 +837,11 @@ h2 {
     width: 300px;
     height: auto;
     margin: 0;
-
-
-
   }
 
   .activities_small_card_1_1,
   .activities_small_card_1_2 {
     margin-bottom: 20px;
-  }
-
-
-  .footer {
-    flex-direction: row;
-    width: auto;
   }
 
 
@@ -860,6 +851,23 @@ h2 {
     height: 100%;
     margin: 39px -59px 17px 3px;
   }
+   .footer li {
+    font-size: small;
+    font-weight: normal;
+    color: var(--black);
+    text-align: 1.2em;
+  }
+
+  .footer {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: row;
+    
+  }
+
+}
 
 
 
@@ -868,7 +876,9 @@ h2 {
 
 
   @media screen and (min-width: 1024px) {
-
+    .logo {
+    padding: 5px;
+}
     .activities_card img {
       height: 115px;
       object-fit: cover;
@@ -919,6 +929,7 @@ h2 {
     h2 {
       margin: 20px 31px 24px 17px;
     }
+   
   }
 
   /* Desktop*/
@@ -953,6 +964,7 @@ h2 {
     margin: 39px 0 42px 11px;
     width: 100%;
 }
+
   }
 
 
