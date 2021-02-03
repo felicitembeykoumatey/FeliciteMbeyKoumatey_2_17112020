@@ -1069,7 +1069,7 @@ h2 {
     height: auto;
     margin: 0;
   }
-  
+
   .activities_small_card_1_1,
   .activities_small_card_1_2,
   .activities_small_card_2_1,
@@ -1083,3 +1083,19 @@ h2 {
 }
 
 /*Fin Desktop*/
+/*Desktop screen 1600px*/
+@media screen and (min-width: 1600px) {
+.city_of_accommodation {
+    width: 93%;
+}
+.hotel_flex {
+    width: 291px;
+}
+.hotel_flex img {
+    width: 288px;
+}
+ .city_of_accommodation a {
+    margin: 0;
+  }
+
+}
